@@ -38,9 +38,10 @@ xiangshan_firrtl_reference_sv/
   on firtool's repetitive text) instead. CI decompresses on submodule
   init via `xz -dk`. Allows wrappergen's typed-bundle mode to work
   in CI without LFS or release-asset complexity.
-* **`scripts/regenerate.sh`** — moved to
-  [`bianco/scripts/regenerate_firrtl_artifacts.sh`](https://github.com/davideschiavone/bianco/blob/main/scripts/regenerate_firrtl_artifacts.sh)
-  so it stays in sync with bianco's emit pipeline.
+* **`scripts/regenerate.sh`** — folded into bianco's Makefile as
+  `make regen-artifacts` (depends on `make reference`, then
+  xz-compresses the .fir into this repo). Keeps the regen pipeline
+  in sync with bianco's source.
 
 Keeping the artifact repo this thin means it only needs a new commit
 when **XiangShan moves** (the firtool input changes) — bianco-side
@@ -69,17 +70,25 @@ The artifact repo's content becomes stale only when XiangShan moves.
 Regenerate from a roomy machine (~12 GB free RAM, ~10 min wall time):
 
 ```bash
-# In your bianco checkout:
+# In your bianco checkout (firrtl_artifacts submodule already inited):
 cd /path/to/bianco
 source ~/.bianco_env
-make reference               # ~10 min: firtool emit, writes reference_sv/
+make regen-artifacts         # ~10 min: firtool emit + xz the .fir
 
-# Sync into the artifact repo + commit + push:
-bash scripts/regenerate_firrtl_artifacts.sh /path/to/this/clone
+# That target:
+#  1. runs `make reference` (writes reference_sv/ through the symlink
+#     into firrtl_artifacts/reference_sv/, produces build/firrtl/XSTop.fir)
+#  2. xz-compresses XSTop.fir → firrtl_artifacts/build/firrtl/XSTop.fir.xz
+#
+# Inspect, commit, push the artifact repo:
+cd firrtl_artifacts
+git status
+git add -A
+git commit -m "regenerate at bianco $(cd .. && git rev-parse --short HEAD)"
+git push
 ```
 
-That script handles the rsync + pinning the bianco SHA in
-`.bianco-source-sha`. Then you bump bianco's submodule pointer:
+Then bump bianco's submodule pointer:
 
 ```bash
 cd /path/to/bianco
