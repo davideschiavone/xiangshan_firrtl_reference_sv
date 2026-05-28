@@ -1,101 +1,84 @@
 # xiangshan_firrtl_reference_sv
 
-Pre-emitted FIRRTL / SystemVerilog artifacts for the **bianco**
-XiangShan Chisel → readable-SV translation project.
+Pre-emitted FIRRTL → SystemVerilog reference, used as a git submodule
+by the [`bianco`](https://github.com/davideschiavone/bianco) XiangShan
+Chisel → readable-SV translation project.
 
-This repository is intentionally **not** the design source. It is a
-cache of artifacts that any developer can regenerate from
-[`bianco`](https://github.com/davideschiavone/bianco) on a machine
-with enough RAM (~12 GB free). Carrying them in a separate repo
-keeps `bianco` itself lean and lets its CI run on memory-constrained
-hosted runners (GitHub Actions standard runners have only 7 GB RAM,
-which is not enough for the XiangShan elaboration + firtool pipeline
-to run simultaneously).
+## What's here
 
-## Layout
+Only the **raw firtool output** — the artifacts whose content depends
+purely on the XiangShan source and firtool version, NOT on bianco's
+scripts:
 
 ```
 xiangshan_firrtl_reference_sv/
-├── README.md                       # this file
-├── scripts/
-│   └── regenerate.sh               # one-shot regen + populate from bianco
-├── reference_sv/                   # firtool-emitted SV (one file per FIRRTL module)
-│   ├── *.sv                        # 1875 main modules
-│   ├── verification/               # difftest probe binds (BIANCO_DIFFTEST-gated)
-│   └── filelist.f
-├── build/wrappers/
-│   └── *_wrapper.sv                # 553 wrappergen.py-emitted pack/unpack wrappers
-└── docs/
-    └── sibling_groups.json         # group_siblings.py inferred parameter table
+├── README.md
+└── reference_sv/             # 1875 firtool-emitted SV files (~230 MB)
+    ├── *.sv                  # main modules
+    ├── verification/         # BIANCO_DIFFTEST-gated probe binds
+    └── filelist.f
 ```
 
-## What's NOT included
+## What's NOT here (and why)
 
-* `build/firrtl/XSTop.fir` — single 865 MB file, over GitHub's
-  100 MB per-file git limit. It's an intermediate that `wrappergen.py`
-  needs only for **typed-bundle** mode and only during regeneration.
-  CI doesn't need it because the wrappers themselves are committed
-  here. Developers regenerate it locally on demand via `make reference`.
+* **`build/wrappers/`** — output of bianco's `scripts/wrappergen.py`,
+  which evolves frequently as new translation features land.
+  Regenerated in bianco's CI on every run from `reference_sv/` +
+  the bianco-side registry.
+* **`docs/sibling_groups.json`** — output of bianco's
+  `scripts/group_siblings.py`. Same reasoning: regenerated in CI.
+* **`build/firrtl/XSTop.fir`** — 865 MB intermediate, over GitHub's
+  100 MB per-file git limit. Only needed for typed-bundle wrappergen
+  (currently 2 classes in bianco's registry, with their wrappers
+  committed in bianco directly). Regenerated locally on demand.
+* **`scripts/regenerate.sh`** — moved to
+  [`bianco/scripts/regenerate_firrtl_artifacts.sh`](https://github.com/davideschiavone/bianco/blob/main/scripts/regenerate_firrtl_artifacts.sh)
+  so it stays in sync with bianco's emit pipeline.
+
+Keeping the artifact repo this thin means it only needs a new commit
+when **XiangShan moves** (the firtool input changes) — bianco-side
+script churn no longer requires bumping this repo.
 
 ## Consumed by
 
-[`bianco`](https://github.com/davideschiavone/bianco) at `add_ci`+
-adds this repo as a git submodule under `firrtl_artifacts/` and
-symlinks the three top-level paths into the expected bianco locations:
+bianco adds this repo as a git submodule at `firrtl_artifacts/` and
+symlinks the reference path into the expected bianco location:
 
 ```
-bianco/reference_sv             → firrtl_artifacts/reference_sv
-bianco/build/wrappers           → firrtl_artifacts/build/wrappers
-bianco/docs/sibling_groups.json → firrtl_artifacts/docs/sibling_groups.json
+bianco/reference_sv → firrtl_artifacts/reference_sv
 ```
 
-After cloning bianco, run:
+After cloning bianco:
 
 ```bash
 git submodule update --init --recursive
 ```
 
-and the symlinks resolve.
+and the symlink resolves.
 
 ## Regeneration
 
-Whenever any of these change:
-
-* `bianco/XiangShan` submodule pointer moves (new XiangShan commit)
-* `bianco/scripts/wrappergen.py` changes
-* `bianco/scripts/group_siblings.py` changes
-* `bianco/docs/translation_registry.json` adds variants / renames classes
-* `bianco/readable_sv/*.sv` adds new files that need new wrappers
-* `bianco/scripts/emit_firrtl_reference.sh` changes
-
-the contents of this repo are stale. Regenerate with:
+The artifact repo's content becomes stale only when XiangShan moves.
+Regenerate from a roomy machine (~12 GB free RAM, ~10 min wall time):
 
 ```bash
-# In a checkout of bianco where you've run setup.sh and have at
-# least 12 GB free RAM:
+# In your bianco checkout:
 cd /path/to/bianco
 source ~/.bianco_env
-make reference           # ~10 min: firtool emit → reference_sv/ + build/firrtl/XSTop.fir
-make wrappers            # ~30 s: wrappergen.py → build/wrappers/
+make reference               # ~10 min: firtool emit, writes reference_sv/
 
-# Then in a checkout of THIS repo (one level up from bianco, e.g.):
-cd /path/to/xiangshan_firrtl_reference_sv
-bash scripts/regenerate.sh /path/to/bianco
-# The script rsyncs reference_sv/, build/wrappers/, docs/sibling_groups.json
-# from the given bianco path, then `git add -A`.
+# Sync into the artifact repo + commit + push:
+bash scripts/regenerate_firrtl_artifacts.sh /path/to/this/clone
+```
 
-# Inspect the diff, commit, push:
-git status
-git diff --stat
-git add -A
-git commit -m "regenerate artifacts at <bianco-sha>"
-git push
+That script handles the rsync + pinning the bianco SHA in
+`.bianco-source-sha`. Then you bump bianco's submodule pointer:
 
-# Finally, bump bianco's submodule pointer:
+```bash
 cd /path/to/bianco
 git submodule update --remote firrtl_artifacts
 git add firrtl_artifacts
-git commit -m "bump firrtl_artifacts submodule"
+git commit -m "bump firrtl_artifacts: <reason>"
 git push
 ```
 
