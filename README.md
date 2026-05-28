@@ -13,10 +13,16 @@ scripts:
 ```
 xiangshan_firrtl_reference_sv/
 ├── README.md
-└── reference_sv/             # 1875 firtool-emitted SV files (~230 MB)
-    ├── *.sv                  # main modules
-    ├── verification/         # BIANCO_DIFFTEST-gated probe binds
-    └── filelist.f
+├── reference_sv/             # 1875 firtool-emitted SV files (~230 MB)
+│   ├── *.sv                  # main modules
+│   ├── verification/         # BIANCO_DIFFTEST-gated probe binds
+│   └── filelist.f
+└── build/firrtl/
+    └── XSTop.fir.xz          # FIRRTL intermediate, xz-compressed (~15 MB)
+                              # decompresses to ~865 MB; CI runs `xz -d`
+                              # on submodule init. Needed by wrappergen's
+                              # typed-bundle mode to parse Chisel Bundle
+                              # definitions.
 ```
 
 ## What's NOT here (and why)
@@ -27,10 +33,11 @@ xiangshan_firrtl_reference_sv/
   the bianco-side registry.
 * **`docs/sibling_groups.json`** — output of bianco's
   `scripts/group_siblings.py`. Same reasoning: regenerated in CI.
-* **`build/firrtl/XSTop.fir`** — 865 MB intermediate, over GitHub's
-  100 MB per-file git limit. Only needed for typed-bundle wrappergen
-  (currently 2 classes in bianco's registry, with their wrappers
-  committed in bianco directly). Regenerated locally on demand.
+* **`build/firrtl/XSTop.fir` (raw, uncompressed)** — 865 MB
+  uncompressed; we ship `XSTop.fir.xz` (~15 MB, ~57× xz compression
+  on firtool's repetitive text) instead. CI decompresses on submodule
+  init via `xz -dk`. Allows wrappergen's typed-bundle mode to work
+  in CI without LFS or release-asset complexity.
 * **`scripts/regenerate.sh`** — moved to
   [`bianco/scripts/regenerate_firrtl_artifacts.sh`](https://github.com/davideschiavone/bianco/blob/main/scripts/regenerate_firrtl_artifacts.sh)
   so it stays in sync with bianco's emit pipeline.
