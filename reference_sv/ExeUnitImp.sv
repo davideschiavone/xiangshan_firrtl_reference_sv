@@ -591,7 +591,7 @@ module ExeUnitImp_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/sr
     Alu_io_instrAddrTransType_REG_sv39 <= io_instrAddrTransType_sv39;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:450:122
     Alu_io_instrAddrTransType_REG_sv48 <= io_instrAddrTransType_sv48;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:450:122
   end // always @(posedge)
-  Alu Alu (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:329:53
+  Alu_reference Alu (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:329:53
     .io_in_ready                                      (_Alu_io_in_ready),
     .io_in_valid                                      (_in1ToN_io_out_0_valid),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:150:22
     .io_in_bits_ctrl_fuOpType                         (_in1ToN_io_out_0_bits_ctrl_fuOpType),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:150:22
@@ -1065,7 +1065,7 @@ module ExeUnitImp_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/sr
     .gatewayIn_packed_35_bore                                          (gatewayIn_packed_35_bore),
     .gatewayIn_packed_36_bore                                          (gatewayIn_packed_36_bore)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:315:53
-  Fence Fence (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:366:53
+  Fence_reference Fence (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:366:53
     .clock                                            (_ClockGate_1_Q),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .reset                                            (reset),
     .io_in_ready                                      (_Fence_io_in_ready),
@@ -1121,13 +1121,13 @@ module ExeUnitImp_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/sr
     .io_fenceio_sbuffer_sbIsEmpty                     (io_fenceio_sbuffer_sbIsEmpty)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:366:53
   assign fuOutValidOH_2 = _Fence_io_out_valid;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:265:34, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:366:53
-  ClockGate ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (csr_clock_te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (1'h1),
     .CK (clock),
     .Q  (_ClockGate_Q)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
-  ClockGate ClockGate_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (Fence_clock_te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (1'h1),
     .CK (clock),

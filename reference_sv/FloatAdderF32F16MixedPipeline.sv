@@ -179,7 +179,7 @@ module FloatAdderF32F16MixedPipeline_reference(	// home/davide/gitdir/bianco_ci/
          4'h0};	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:196:32, :214:30, :230:29, :231:29, :232:29, :233:29, :234:29, :239:32, :240:32, :241:32, :242:32, :366:{37,47,80}, :367:{18,51}, :368:{16,27,58}, :369:{18,30,63}, :370:{17,28}, :371:28, :373:84
     end
   end // always @(posedge)
-  FarPathF32WidenF16MixedPipeline U_far_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:145:26
+  FarPathF32WidenF16MixedPipeline_reference U_far_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:145:26
     .clock             (clock),
     .io_fire           (io_fire),
     .io_fp_a           (fp_a_to32),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:140:22
@@ -192,7 +192,7 @@ module FloatAdderF32F16MixedPipeline_reference(	// home/davide/gitdir/bianco_ci/
     .io_res_is_f32     (io_fp_format[0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:136:32
     .io_isEfp_bGreater (_U_far_path_io_isEfp_bGreater)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:145:26
-  ClosePathF32WidenF16MixedPipeline U_close_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:152:28
+  ClosePathF32WidenF16MixedPipeline_reference U_close_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:152:28
     .clock         (clock),
     .io_fire       (io_fire),
     .io_fp_a       (fp_a_to32),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:140:22

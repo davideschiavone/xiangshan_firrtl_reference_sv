@@ -165,7 +165,7 @@ module ExeUnitImp_2_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  Alu Alu (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:329:53
+  Alu_reference Alu (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:329:53
     .io_in_ready                                      (_Alu_io_in_ready),
     .io_in_valid                                      (_in1ToN_io_out_0_valid),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:150:22
     .io_in_bits_ctrl_fuOpType                         (_in1ToN_io_out_0_bits_ctrl_fuOpType),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:150:22
@@ -211,7 +211,7 @@ module ExeUnitImp_2_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_instrAddrTransType_sv48                       (Alu_io_instrAddrTransType_REG_sv48)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:450:122
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:329:53
   assign fuOutValidOH_0 = _Alu_io_out_valid;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:265:34, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:329:53
-  DivUnit Div (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:353:53
+  DivUnit_reference Div (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:353:53
     .clock                                     (_ClockGate_Q),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .reset                                     (reset),
     .io_flush_valid                            (io_flush_valid),
@@ -247,7 +247,7 @@ module ExeUnitImp_2_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_bits_perfDebugInfo_tlbRespTime     (_Div_io_out_bits_perfDebugInfo_tlbRespTime),
     .io_outValidAhead3Cycle                    (io_uncertainWakeupOut_valid)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:353:53
-  ClockGate ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (Div_clock_te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (_GEN_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:112:51
     .CK (clock),

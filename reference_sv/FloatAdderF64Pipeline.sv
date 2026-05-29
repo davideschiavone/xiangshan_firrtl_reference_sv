@@ -145,7 +145,7 @@ module FloatAdderF64Pipeline_reference(	// home/davide/gitdir/bianco_ci/bianco/X
          4'h0};	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:439:32, :447:30, :463:29, :464:29, :465:29, :466:29, :467:29, :472:31, :473:31, :474:30, :475:30, :590:{37,47,80}, :591:{16,49}, :592:{16,27,58}, :593:{18,30,63}, :594:{17,28}, :595:28, :597:85
     end
   end // always @(posedge)
-  FarPathFloatAdderF64WidenPipeline U_far_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:400:26
+  FarPathFloatAdderF64WidenPipeline_reference U_far_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:400:26
     .clock             (clock),
     .io_fire           (io_fire),
     .io_fp_a           (io_fp_a),
@@ -157,7 +157,7 @@ module FloatAdderF64Pipeline_reference(	// home/davide/gitdir/bianco_ci/bianco/X
     .io_absEaSubEb     (_U_far_path_io_absEaSubEb),
     .io_isEfp_bGreater (_U_far_path_io_isEfp_bGreater)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:400:26
-  ClosePathFloatAdderF64WidenPipeline U_close_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:406:28
+  ClosePathFloatAdderF64WidenPipeline_reference U_close_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:406:28
     .clock         (clock),
     .io_fire       (io_fire),
     .io_fp_a       (io_fp_a),

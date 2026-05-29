@@ -710,7 +710,7 @@ module BitmapCache_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/s
     .toSRAM_3_selectedOH (childBd_3_selectedOH),
     .toSRAM_3_array      (childBd_3_array)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/MbistPipeline.scala:112:23
-  ClockGate ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (bitmapcache_io_r_req_valid | ~flush & io_refill_valid | bd_req),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/BitmapCheck.scala:412:{28,48,69,90}, :458:{58,61,68,88}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/Mbist.scala:105:18, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
     .CK (clock),

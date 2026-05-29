@@ -533,32 +533,32 @@ module ClosePathFloatAdderF64WidenPipeline_reference(	// home/davide/gitdir/bian
         | sel_CS4 & (Efp_b_is_greater ^ io_fp_a[63]);	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1522:31, :1526:27, :1541:48, :1566:21, :1572:21, :1599:12, :1604:{30,53}, :1605:30, :1606:{31,51}, :1607:{31,51}, :1608:31, :1665:{33,39}, :1667:{15,31,65,87}, :1668:{30,33,65,67}, :1680:10
     end
   end // always @(posedge)
-  ClosePathAdder U_CS0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1566:21
+  ClosePathAdder_reference U_CS0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1566:21
     .io_adder_op0 (significand_fp_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1544:29
     .io_adder_op1 (significand_fp_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1545:29
     .io_result    (_U_CS0_io_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1566:21
-  ClosePathAdder U_CS1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1572:21
+  ClosePathAdder_reference U_CS1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1572:21
     .io_adder_op0 (significand_fp_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1545:29
     .io_adder_op1 (significand_fp_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1544:29
     .io_result    (_U_CS1_io_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1572:21
-  ClosePathAdder_2 U_CS2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1578:21
+  ClosePathAdder_2_reference U_CS2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1578:21
     .io_adder_op0 (U_CS3_io_adder_op1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1579:28
     .io_adder_op1 (U_CS3_io_adder_op0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1580:28
     .io_result    (_U_CS2_io_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1578:21
-  ClosePathAdder_2 U_CS3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1584:21
+  ClosePathAdder_2_reference U_CS3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1584:21
     .io_adder_op0 (U_CS3_io_adder_op0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1580:28
     .io_adder_op1 (U_CS3_io_adder_op1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1579:28
     .io_result    (_U_CS3_io_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1584:21
-  ClosePathAdder U_CS4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1590:21
+  ClosePathAdder_reference U_CS4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1590:21
     .io_adder_op0 (U_CS4_io_adder_op0_r),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1591:34
     .io_adder_op1 (U_CS4_io_adder_op1_r),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1592:34
     .io_result    (_U_CS4_io_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1590:21
-  CloseShiftLeftWithMux U_Lshift (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1643:24
+  CloseShiftLeftWithMux_reference U_Lshift (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1643:24
     .io_src        (U_Lshift_io_src_r),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1644:31
     .io_shiftValue (lzd_0123_reg),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1642:31
     .io_result     (_U_Lshift_io_result)

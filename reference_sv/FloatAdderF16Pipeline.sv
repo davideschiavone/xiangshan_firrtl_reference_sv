@@ -143,7 +143,7 @@ module FloatAdderF16Pipeline_reference(	// home/davide/gitdir/bianco_ci/bianco/X
          4'h0};	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:2454:{72,99}, :2456:{72,99}, :2461:32, :2468:30, :2481:29, :2482:29, :2483:29, :2484:29, :2485:29, :2486:29, :2487:29, :2488:29, :2496:33, :2497:33, :2581:67, :2651:{37,47,80}, :2652:{16,26,59}, :2653:{16,25,34,44,75}, :2654:{20,34,61,77,99,103}, :2655:28, :2657:133
     end
   end // always @(posedge)
-  FarPathF16Pipeline U_far_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:2427:26
+  FarPathF16Pipeline_reference U_far_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:2427:26
     .clock             (clock),
     .io_fire           (io_fire),
     .io_fp_a           (io_fp_a),
@@ -155,7 +155,7 @@ module FloatAdderF16Pipeline_reference(	// home/davide/gitdir/bianco_ci/bianco/X
     .io_absEaSubEb     (_U_far_path_io_absEaSubEb),
     .io_isEfp_bGreater (_U_far_path_io_isEfp_bGreater)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:2427:26
-  ClosePathF16Pipeline U_close_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:2433:28
+  ClosePathF16Pipeline_reference U_close_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:2433:28
     .clock         (clock),
     .io_fire       (io_fire),
     .io_fp_a       (io_fp_a),

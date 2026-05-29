@@ -1813,7 +1813,7 @@ module MicroTage_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/utage/MicroTage.scala:40:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  MicroTageTable MicroTageTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/utage/MicroTage.scala:72:21
+  MicroTageTable_reference MicroTageTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/utage/MicroTage.scala:72:21
     .clock                                          (clock),
     .reset                                          (reset),
     .io_req_bits_readIndex                          (a0_readIndex_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/utage/Helpers.scala:102:44
@@ -1936,7 +1936,7 @@ module MicroTage_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src
     .sigFromSrams_bore_3_ram_mcp_hold               (sigFromSrams_bore_3_ram_mcp_hold),
     .sigFromSrams_bore_3_cgen                       (sigFromSrams_bore_3_cgen)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/utage/MicroTage.scala:72:21
-  MicroTageTable_1 MicroTageTable_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/utage/MicroTage.scala:72:21
+  MicroTageTable_1_reference MicroTageTable_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/utage/MicroTage.scala:72:21
     .clock                                          (clock),
     .reset                                          (reset),
     .io_req_bits_readIndex                          (a0_readIndex_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/utage/Helpers.scala:102:36

@@ -9,7 +9,7 @@ module MbistClockGateCell_reference(	// home/davide/gitdir/bianco_ci/bianco/Xian
   output out_clock	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/MbistClockGateCell.scala:43:21
 );
 
-  ClockGate CG (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/MbistClockGateCell.scala:45:26
+  ClockGate_reference CG (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/MbistClockGateCell.scala:45:26
     .TE (dft_cgen),
     .E  (mbist_req ? mbist_readen | mbist_writeen : E),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/MbistClockGateCell.scala:57:{19,44}
     .CK (clock),

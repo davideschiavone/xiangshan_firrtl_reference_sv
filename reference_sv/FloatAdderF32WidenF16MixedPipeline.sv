@@ -196,7 +196,7 @@ module FloatAdderF32WidenF16MixedPipeline_reference(	// home/davide/gitdir/bianc
          4'h0};	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:470:{72,99}, :472:{72,99}, :483:32, :497:30, :513:29, :514:29, :515:29, :516:29, :517:29, :518:29, :519:29, :520:29, :528:33, :529:33, :628:67, :697:{37,47,80}, :698:{16,26,59}, :699:{16,25,34,44,75}, :700:{20,34,61,77,99,103}, :701:28, :703:131
     end
   end // always @(posedge)
-  FarPathF32WidenF16MixedPipeline U_far_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:434:26
+  FarPathF32WidenF16MixedPipeline_reference U_far_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:434:26
     .clock             (clock),
     .io_fire           (io_fire),
     .io_fp_a           (fp_a_to32),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:416:22
@@ -209,7 +209,7 @@ module FloatAdderF32WidenF16MixedPipeline_reference(	// home/davide/gitdir/bianc
     .io_res_is_f32     (io_fp_format[0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:399:32
     .io_isEfp_bGreater (_U_far_path_io_isEfp_bGreater)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:434:26
-  ClosePathF32WidenF16MixedPipeline U_close_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:441:28
+  ClosePathF32WidenF16MixedPipeline_reference U_close_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:441:28
     .clock         (clock),
     .io_fire       (io_fire),
     .io_fp_a       (fp_a_to32),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:416:22

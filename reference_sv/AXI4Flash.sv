@@ -156,7 +156,7 @@ module AXI4Flash_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src
     if (_nodeIn_b_bits_user_T)	// src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
       nodeIn_b_bits_id_r <= nodeIn_aw_bits_id;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/diplomacy/Nodes.scala:1214:17, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/device/AXI4SlaveModule.scala:176:28
   end // always @(posedge)
-  DifftestFlash DifftestFlash (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/common/Flash.scala:145:11
+  DifftestFlash_reference DifftestFlash (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/common/Flash.scala:145:11
     .clock   (clock),
     .io_en   (DifftestFlash_io_en),	// src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
     .io_addr ({16'h0, DifftestFlash_io_en ? nodeIn_ar_bits_addr[15:3] : raddr_hold_data[15:3], 3'h0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/diplomacy/Nodes.scala:1214:17, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/device/AXI4Flash.scala:34:36, :38:22, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/Hold.scala:24:82, :25:8, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35

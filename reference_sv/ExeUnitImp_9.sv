@@ -458,7 +458,7 @@ module ExeUnitImp_9_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  FAlu Falu (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:744:53
+  FAlu_reference Falu (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:744:53
     .clock                                     (_ClockGate_Q),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .reset                                     (reset),
     .io_in_ready                               (_Falu_io_in_ready),
@@ -497,7 +497,7 @@ module ExeUnitImp_9_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_bits_perfDebugInfo_tlbRespTime     (_Falu_io_out_bits_perfDebugInfo_tlbRespTime),
     .io_frm                                    (io_frm)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:744:53
-  FMA Fmac (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:759:53
+  FMA_reference Fmac (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:759:53
     .clock                                     (_ClockGate_1_Q),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .reset                                     (reset),
     .io_in_ready                               (_Fmac_io_in_ready),
@@ -537,7 +537,7 @@ module ExeUnitImp_9_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_bits_perfDebugInfo_tlbRespTime     (_Fmac_io_out_bits_perfDebugInfo_tlbRespTime),
     .io_frm                                    (io_frm)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:759:53
-  FCVT Fcvt (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:789:53
+  FCVT_reference Fcvt (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:789:53
     .clock                                     (_ClockGate_2_Q),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .reset                                     (reset),
     .io_in_ready                               (_Fcvt_io_in_ready),
@@ -652,31 +652,31 @@ module ExeUnitImp_9_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_bits_perfDebugInfo_tlbFirstReqTime (_f2v_io_out_bits_perfDebugInfo_tlbFirstReqTime),
     .io_out_bits_perfDebugInfo_tlbRespTime     (_f2v_io_out_bits_perfDebugInfo_tlbRespTime)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:298:53
-  ClockGate ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (Falu_clock_te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (_GEN),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:110:35
     .CK (clock),
     .Q  (_ClockGate_Q)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
-  ClockGate ClockGate_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (Fmac_clock_te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (_GEN_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:110:35
     .CK (clock),
     .Q  (_ClockGate_1_Q)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
-  ClockGate ClockGate_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (Fcvt_clock_te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (_GEN_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:110:35
     .CK (clock),
     .Q  (_ClockGate_2_Q)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
-  ClockGate ClockGate_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (fcmp_clock_te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (_GEN_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:110:35
     .CK (clock),
     .Q  (_ClockGate_3_Q)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
-  ClockGate ClockGate_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (f2v_clock_te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (_GEN_3),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:110:35
     .CK (clock),

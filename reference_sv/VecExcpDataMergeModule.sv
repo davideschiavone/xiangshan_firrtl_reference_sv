@@ -1285,12 +1285,12 @@ module VecExcpDataMergeModule_reference(	// home/davide/gitdir/bianco_ci/bianco/
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/VecExcpDataMergeModule.scala:10:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  GetE8OffsetInVreg GetE8OffsetInVreg (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/VecExcpDataMergeModule.scala:89:39
+  GetE8OffsetInVreg_reference GetE8OffsetInVreg (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/VecExcpDataMergeModule.scala:89:39
     .in_eewOH   (sNoExcp_deewOH),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/VecExcpDataMergeModule.scala:84:35
     .in_idx     (i_fromExceptionGen_bits_vstart),
     .out_offset (_GetE8OffsetInVreg_out_offset)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/VecExcpDataMergeModule.scala:89:39
-  NfMappedElemIdx NfMappedElemIdx (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/VecExcpDataMergeModule.scala:91:11
+  NfMappedElemIdx_reference NfMappedElemIdx (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/VecExcpDataMergeModule.scala:91:11
     .in_nf                   (i_fromExceptionGen_bits_isWhole ? 3'h0 : i_fromExceptionGen_bits_nf),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/VecExcpDataMergeModule.scala:92:10
     .in_eewOH                (sNoExcp_deewOH),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/VecExcpDataMergeModule.scala:84:35
     .out_idxRangeVec_0_from  (_NfMappedElemIdx_out_idxRangeVec_0_from),

@@ -130,15 +130,15 @@ module IntFPToVec_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/sr
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:30:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  FliHTable FliHTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:41:33
+  FliHTable_reference FliHTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:41:33
     .src (io_in_bits_ctrl_fuOpType[4:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:45:36
     .out (_FliHTable_out)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:41:33
-  FliSTable FliSTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:42:33
+  FliSTable_reference FliSTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:42:33
     .src (io_in_bits_ctrl_fuOpType[4:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:45:36
     .out (_FliSTable_out)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:42:33
-  FliDTable FliDTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:43:33
+  FliDTable_reference FliDTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:43:33
     .src (io_in_bits_ctrl_fuOpType[4:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:45:36
     .out (_FliDTable_out)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/fpu/IntFPToVec.scala:43:33

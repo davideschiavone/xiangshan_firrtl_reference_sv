@@ -995,7 +995,7 @@ module RegCache_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:28:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  RegCacheDataModule IntRegCache (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:45:27
+  RegCacheDataModule_reference IntRegCache (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:45:27
     .clock                (clock),
     .reset                (reset),
     .io_readPorts_0_ren   (int_ren_last_REG),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -1116,7 +1116,7 @@ module RegCache_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/
     .io_validInfo_22      (_IntRegCache_io_validInfo_22),
     .io_validInfo_23      (_IntRegCache_io_validInfo_23)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:45:27
-  RegCacheDataModule_1 MemRegCache (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:48:27
+  RegCacheDataModule_1_reference MemRegCache (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:48:27
     .clock                (clock),
     .reset                (reset),
     .io_readPorts_0_ren   (mem_ren_last_REG),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -1216,7 +1216,7 @@ module RegCache_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/
     .io_validInfo_10      (_MemRegCache_io_validInfo_10),
     .io_validInfo_11      (_MemRegCache_io_validInfo_11)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:48:27
-  RegCacheAgeTimer IntRegCacheAgeTimer (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:51:35
+  RegCacheAgeTimer_reference IntRegCacheAgeTimer (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:51:35
     .clock                (clock),
     .reset                (reset),
     .io_readPorts_0_ren   (int_ren_last_REG),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -1582,7 +1582,7 @@ module RegCache_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/
     .io_ageInfo_21_23     (_IntRegCacheAgeTimer_io_ageInfo_21_23),
     .io_ageInfo_22_23     (_IntRegCacheAgeTimer_io_ageInfo_22_23)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:51:35
-  RegCacheAgeTimer_1 MemRegCacheAgeTimer (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:53:35
+  RegCacheAgeTimer_1_reference MemRegCacheAgeTimer (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:53:35
     .clock                (clock),
     .reset                (reset),
     .io_readPorts_0_ren   (mem_ren_last_REG),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20

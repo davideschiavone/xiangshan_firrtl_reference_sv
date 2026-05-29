@@ -87,140 +87,140 @@ module CSA_Nto2With3to2MainPipeline_reference(	// home/davide/gitdir/bianco_ci/b
       U_CSA4to2_io_in_d_r <= _U_CSA4to2_1_io_out_car;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1040:29, :1044:52, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1907:29, :1911:52
     end
   end // always @(posedge)
-  CSA3to2 U_CSA3to2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (io_in_0),
     .io_in_b    (io_in_1),
     .io_in_c    (io_in_2),
     .io_out_sum (_U_CSA3to2_io_out_sum),
     .io_out_car (_U_CSA3to2_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (io_in_3),
     .io_in_b    (io_in_4),
     .io_in_c    (io_in_5),
     .io_out_sum (_U_CSA3to2_1_io_out_sum),
     .io_out_car (_U_CSA3to2_1_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (io_in_6),
     .io_in_b    (io_in_7),
     .io_in_c    (io_in_8),
     .io_out_sum (_U_CSA3to2_2_io_out_sum),
     .io_out_car (_U_CSA3to2_2_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (io_in_9),
     .io_in_b    (io_in_10),
     .io_in_c    (io_in_11),
     .io_out_sum (_U_CSA3to2_3_io_out_sum),
     .io_out_car (_U_CSA3to2_3_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (io_in_12),
     .io_in_b    (io_in_13),
     .io_in_c    (io_in_14),
     .io_out_sum (_U_CSA3to2_4_io_out_sum),
     .io_out_car (_U_CSA3to2_4_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_5 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_5 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (io_in_15),
     .io_in_b    (io_in_16),
     .io_in_c    (io_in_17),
     .io_out_sum (_U_CSA3to2_5_io_out_sum),
     .io_out_car (_U_CSA3to2_5_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_6 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_6 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (io_in_18),
     .io_in_b    (io_in_19),
     .io_in_c    (io_in_20),
     .io_out_sum (_U_CSA3to2_6_io_out_sum),
     .io_out_car (_U_CSA3to2_6_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_7 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_7 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (io_in_21),
     .io_in_b    (io_in_22),
     .io_in_c    (io_in_23),
     .io_out_sum (_U_CSA3to2_7_io_out_sum),
     .io_out_car (_U_CSA3to2_7_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_8 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_8 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (io_in_24),
     .io_in_b    (io_in_25),
     .io_in_c    (io_in_26),
     .io_out_sum (_U_CSA3to2_8_io_out_sum),
     .io_out_car (_U_CSA3to2_8_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_9 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_9 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (_U_CSA3to2_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_1_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_out_sum (_U_CSA3to2_9_io_out_sum),
     .io_out_car (_U_CSA3to2_9_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_10 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_10 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (_U_CSA3to2_1_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_2_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_2_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_out_sum (_U_CSA3to2_10_io_out_sum),
     .io_out_car (_U_CSA3to2_10_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_11 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_11 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (_U_CSA3to2_3_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_3_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_4_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_out_sum (_U_CSA3to2_11_io_out_sum),
     .io_out_car (_U_CSA3to2_11_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_12 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_12 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (_U_CSA3to2_4_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_5_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_5_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_out_sum (_U_CSA3to2_12_io_out_sum),
     .io_out_car (_U_CSA3to2_12_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_13 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_13 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (_U_CSA3to2_6_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_6_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_7_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_out_sum (_U_CSA3to2_13_io_out_sum),
     .io_out_car (_U_CSA3to2_13_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_14 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_14 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (_U_CSA3to2_7_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_8_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_8_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_out_sum (_U_CSA3to2_14_io_out_sum),
     .io_out_car (_U_CSA3to2_14_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_15 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_15 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (_U_CSA3to2_9_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_9_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_10_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_out_sum (_U_CSA3to2_15_io_out_sum),
     .io_out_car (_U_CSA3to2_15_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (_U_CSA3to2_10_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_11_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_11_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_out_sum (_U_CSA3to2_16_io_out_sum),
     .io_out_car (_U_CSA3to2_16_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_17 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_17 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (_U_CSA3to2_12_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_12_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_13_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_out_sum (_U_CSA3to2_17_io_out_sum),
     .io_out_car (_U_CSA3to2_17_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA3to2 U_CSA3to2_18 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
+  CSA3to2_reference U_CSA3to2_18 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_a    (_U_CSA3to2_13_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_14_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_14_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_out_sum (_U_CSA3to2_18_io_out_sum),
     .io_out_car (_U_CSA3to2_18_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
-  CSA4to2_6 U_CSA4to2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1040:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1907:29
+  CSA4to2_6_reference U_CSA4to2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1040:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1907:29
     .io_in_a    (_U_CSA3to2_15_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_15_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_16_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
@@ -228,7 +228,7 @@ module CSA_Nto2With3to2MainPipeline_reference(	// home/davide/gitdir/bianco_ci/b
     .io_out_sum (_U_CSA4to2_io_out_sum),
     .io_out_car (_U_CSA4to2_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1040:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1907:29
-  CSA4to2_6 U_CSA4to2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1040:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1907:29
+  CSA4to2_6_reference U_CSA4to2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1040:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1907:29
     .io_in_a    (_U_CSA3to2_17_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_b    (_U_CSA3to2_17_io_out_car),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
     .io_in_c    (_U_CSA3to2_18_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1049:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1916:29
@@ -236,7 +236,7 @@ module CSA_Nto2With3to2MainPipeline_reference(	// home/davide/gitdir/bianco_ci/b
     .io_out_sum (_U_CSA4to2_1_io_out_sum),
     .io_out_car (_U_CSA4to2_1_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1040:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1907:29
-  CSA4to2_6 U_CSA4to2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1040:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1907:29
+  CSA4to2_6_reference U_CSA4to2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1040:29, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1907:29
     .io_in_a    (U_CSA4to2_io_in_a_r),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1041:52, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1908:52
     .io_in_b    (U_CSA4to2_io_in_b_r),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1042:52, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1909:52
     .io_in_c    (U_CSA4to2_io_in_c_r),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:1043:52, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:1910:52

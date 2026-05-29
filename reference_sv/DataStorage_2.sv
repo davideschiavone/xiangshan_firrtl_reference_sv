@@ -1001,7 +1001,7 @@ module DataStorage_2_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan
     .io_w_req_bits_setIdx (bankedData_7_io_w_req_bits_setIdx),	// src/main/scala/chisel3/util/Mux.scala:58:84
     .io_w_req_bits_data_0 (sel_req_7_data_7)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:158:21
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:65:11
-  DataSel DataSel (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
+  DataSel_reference DataSel (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
     .clock    (clock),
     .reset    (reset),
     .io_in_0  (_bankedData_0_io_r_resp_data_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:65:11
@@ -1013,7 +1013,7 @@ module DataStorage_2_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan
     .io_out_0 (_DataSel_io_out_0),
     .io_out_1 (_DataSel_io_out_1)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
-  DataSel DataSel_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
+  DataSel_reference DataSel_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
     .clock    (clock),
     .reset    (reset),
     .io_in_0  (_bankedData_1_io_r_resp_data_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:65:11
@@ -1025,7 +1025,7 @@ module DataStorage_2_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan
     .io_out_0 (_DataSel_1_io_out_0),
     .io_out_1 (_DataSel_1_io_out_1)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
-  DataSel DataSel_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
+  DataSel_reference DataSel_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
     .clock    (clock),
     .reset    (reset),
     .io_in_0  (_bankedData_2_io_r_resp_data_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:65:11
@@ -1037,7 +1037,7 @@ module DataStorage_2_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan
     .io_out_0 (_DataSel_2_io_out_0),
     .io_out_1 (_DataSel_2_io_out_1)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
-  DataSel DataSel_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
+  DataSel_reference DataSel_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:233:11
     .clock    (clock),
     .reset    (reset),
     .io_in_0  (_bankedData_3_io_r_resp_data_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/DataStorage.scala:65:11

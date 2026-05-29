@@ -2715,7 +2715,7 @@ module VSMergeBufferImp_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .io_out_bits_elemIdx            (_selectModule_0_io_out_bits_elemIdx),
     .io_out_bits_mask               (_selectModule_0_io_out_bits_mask)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VMergeBuffer.scala:253:37
-  NewPipelineConnectPipe_17 VMergebufferPipelineConnect0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
+  NewPipelineConnectPipe_17_reference VMergebufferPipelineConnect0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
     .clock                                            (clock),
     .reset                                            (reset),
     .io_in_ready                                      (_VMergebufferPipelineConnect0_io_in_ready),

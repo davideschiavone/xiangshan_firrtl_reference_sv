@@ -324,7 +324,7 @@ module StoreUnitS0_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/s
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewStoreUnit.scala:36:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  Arbiter4_StoreStageIO RequestSources_arb (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:94:21
+  Arbiter4_StoreStageIO_reference RequestSources_arb (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:94:21
     .io_in_0_valid                                         (io_unalignTail_valid),
     .io_in_0_bits_accessType_instrType                     (io_unalignTail_bits_accessType_instrType),
     .io_in_0_bits_accessType_isCbo                         (io_unalignTail_bits_accessType_isCbo),

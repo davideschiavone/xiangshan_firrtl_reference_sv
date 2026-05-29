@@ -1569,7 +1569,7 @@ module TLPMA_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
     .io_deq_bits_extra_tlrr_extra_source (auto_in_d_bits_source),
     .io_deq_bits_extra_tlrr_extra_size   (auto_in_d_bits_size)
   );	// src/main/scala/chisel3/util/Queue.scala:200:21
-  PMPChecker PMPChecker (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/device/TLPMA/TLPMA.scala:47:13
+  PMPChecker_reference PMPChecker (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/device/TLPMA/TLPMA.scala:47:13
     .io_check_env_mode              (2'h3),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMP.scala:86:8
     .io_check_env_pmp_0_cfg_l       (pmaCfgMerged_0[7]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMA.scala:67:31, :70:46
     .io_check_env_pmp_0_cfg_a       (pmaCfgMerged_0[4:3]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMA.scala:67:31, :70:46
@@ -2059,7 +2059,7 @@ module TLPMA_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
     .io_resp_mmio                   (io_resp_0_mmio),
     .io_resp_atomic                 (io_resp_0_atomic)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/device/TLPMA/TLPMA.scala:47:13
-  PMPChecker PMPChecker_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/device/TLPMA/TLPMA.scala:47:13
+  PMPChecker_reference PMPChecker_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/device/TLPMA/TLPMA.scala:47:13
     .io_check_env_mode              (2'h3),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMP.scala:86:8
     .io_check_env_pmp_0_cfg_l       (pmaCfgMerged_0[7]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMA.scala:67:31, :70:46
     .io_check_env_pmp_0_cfg_a       (pmaCfgMerged_0[4:3]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMA.scala:67:31, :70:46

@@ -86,7 +86,7 @@ module SelBlock_v4_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/y
     .io_out_0 (io_nxt_sel_3_0),
     .io_out_1 (_csa_sel_3_io_out_1)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:619:25
-  SignDec SD_sel (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:628:22
+  SignDec_reference SD_sel (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:628:22
     .io_sign_0 (_sign_0_T[7]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:625:{34,53}
     .io_sign_1 (_sign_1_T[7]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:625:{34,53}
     .io_sign_2 (_sign_2_T[7]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:625:{34,53}

@@ -240,7 +240,7 @@ module SpecBlock_v4_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_0 (io_nxt_spec_0_3_0),
     .io_out_1 (_csa_sel_spec_3_io_out_1)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:679:27
-  SignDec SD_sel (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:688:24
+  SignDec_reference SD_sel (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:688:24
     .io_sign_0 (_sign_0_T[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
     .io_sign_1 (_sign_1_T[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
     .io_sign_2 (_sign_2_T[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
@@ -275,7 +275,7 @@ module SpecBlock_v4_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_0 (io_nxt_spec_1_3_0),
     .io_out_1 (_csa_sel_spec_3_1_io_out_1)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:679:27
-  SignDec SD_sel_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:688:24
+  SignDec_reference SD_sel_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:688:24
     .io_sign_0 (_sign_0_T_3[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
     .io_sign_1 (_sign_1_T_3[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
     .io_sign_2 (_sign_2_T_3[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
@@ -310,7 +310,7 @@ module SpecBlock_v4_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_0 (io_nxt_spec_2_3_0),
     .io_out_1 (_csa_sel_spec_3_2_io_out_1)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:679:27
-  SignDec SD_sel_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:688:24
+  SignDec_reference SD_sel_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:688:24
     .io_sign_0 (_sign_0_T_6[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
     .io_sign_1 (_sign_1_T_6[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
     .io_sign_2 (_sign_2_T_6[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
@@ -345,7 +345,7 @@ module SpecBlock_v4_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_0 (io_nxt_spec_3_3_0),
     .io_out_1 (_csa_sel_spec_3_3_io_out_1)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:679:27
-  SignDec SD_sel_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:688:24
+  SignDec_reference SD_sel_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:688:24
     .io_sign_0 (_sign_0_T_9[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
     .io_sign_1 (_sign_1_T_9[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
     .io_sign_2 (_sign_2_T_9[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
@@ -380,7 +380,7 @@ module SpecBlock_v4_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_0 (io_nxt_spec_4_3_0),
     .io_out_1 (_csa_sel_spec_3_4_io_out_1)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:679:27
-  SignDec SD_sel_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:688:24
+  SignDec_reference SD_sel_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:688:24
     .io_sign_0 (_sign_0_T_12[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
     .io_sign_1 (_sign_1_T_12[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}
     .io_sign_2 (_sign_2_T_12[8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:686:{40,63}

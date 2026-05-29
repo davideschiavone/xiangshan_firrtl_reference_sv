@@ -123,28 +123,28 @@ module fpdiv_r64_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSh
     _adder_8b_for_nxt_cycle_s1_qds_spec_f64_0_0_T + _GEN[54:47];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1056:34, :1386:{64,72}, :1397:75, :1400:102
   wire [7:0]   _adder_8b_for_nxt_cycle_s1_qds_spec_f64_0_0_T_2 =
     _adder_8b_for_nxt_cycle_s1_qds_spec_f64_0_0_T + _GEN[53:46];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1056:34, :1387:{64,72}, :1397:75, :1401:102
-  CSA3to2_40 U_CSA_0_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1108:25
+  CSA3to2_40_reference U_CSA_0_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1108:25
     .io_in_a    (U_CSA_0_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1109:25
     .io_in_b    (U_CSA_0_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1114:25
     .io_in_c    ({1'h0, io_divisor_i[59:3], 4'h0, io_divisor_i[59:32], 36'h0, io_divisor_i[59:45], 59'h0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1054:40, :1056:56, :1062:40, :1071:35, :1121:27
     .io_out_sum (_U_CSA_0_4_io_out_sum),
     .io_out_car (_U_CSA_0_4_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1108:25
-  CSA3to2_40 U_CSA_0_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1126:25
+  CSA3to2_40_reference U_CSA_0_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1126:25
     .io_in_a    (U_CSA_0_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1109:25
     .io_in_b    (U_CSA_0_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1114:25
     .io_in_c    ({2'h0, io_divisor_i[59:3], 4'h0, io_divisor_i[59:32], 36'h0, io_divisor_i[59:45], 58'h0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1054:40, :1062:40, :1071:35, :1129:27
     .io_out_sum (_U_CSA_0_3_io_out_sum),
     .io_out_car (_U_CSA_0_3_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1126:25
-  CSA3to2_40 U_CSA_0_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1134:25
+  CSA3to2_40_reference U_CSA_0_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1134:25
     .io_in_a    (U_CSA_0_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1109:25
     .io_in_b    (U_CSA_0_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1114:25
     .io_in_c    ({2'h3, _GEN, 4'hB, ~(io_divisor_i[59:32]), 36'h800000003, _GEN_0, 58'h200000000000000}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1056:34, :1057:34, :1062:40, :1064:34, :1073:34, :1137:27
     .io_out_sum (_U_CSA_0_1_io_out_sum),
     .io_out_car (_U_CSA_0_1_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1134:25
-  CSA3to2_40 U_CSA_0_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1142:25
+  CSA3to2_40_reference U_CSA_0_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1142:25
     .io_in_a    (U_CSA_0_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1109:25
     .io_in_b    (U_CSA_0_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1114:25
     .io_in_c    ({1'h1, _GEN, 4'hD, ~(io_divisor_i[59:32]), 36'hC00000001, _GEN_0, 59'h600000000000000}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1056:34, :1062:40, :1064:34, :1073:34, :1145:27
@@ -155,28 +155,28 @@ module fpdiv_r64_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSh
     .io_rem_i     (io_nr_f_r_6b_for_nxt_cycle_s0_qds_i),
     .io_quo_dig_o (_u_r4_qds_s0_0_io_quo_dig_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1188:29
-  CSA3to2_44 U_CSA_1_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1262:25
+  CSA3to2_44_reference U_CSA_1_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1262:25
     .io_in_a    (U_CSA_1_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1260:25
     .io_in_b    (U_CSA_1_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1261:25
     .io_in_c    (divisor_mul_pos_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1085:30
     .io_out_sum (_U_CSA_1_4_io_out_sum),
     .io_out_car (_U_CSA_1_4_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1262:25
-  CSA3to2_44 U_CSA_1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1266:25
+  CSA3to2_44_reference U_CSA_1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1266:25
     .io_in_a    (U_CSA_1_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1260:25
     .io_in_b    (U_CSA_1_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1261:25
     .io_in_c    (divisor_mul_pos_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1083:29
     .io_out_sum (_U_CSA_1_3_io_out_sum),
     .io_out_car (_U_CSA_1_3_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1266:25
-  CSA3to2_44 U_CSA_1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1270:25
+  CSA3to2_44_reference U_CSA_1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1270:25
     .io_in_a    (U_CSA_1_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1260:25
     .io_in_b    (U_CSA_1_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1261:25
     .io_in_c    (divisor_mul_neg_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1081:30
     .io_out_sum (_U_CSA_1_1_io_out_sum),
     .io_out_car (_U_CSA_1_1_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1270:25
-  CSA3to2_44 U_CSA_1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1274:25
+  CSA3to2_44_reference U_CSA_1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1274:25
     .io_in_a    (U_CSA_1_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1260:25
     .io_in_b    (U_CSA_1_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1261:25
     .io_in_c    (divisor_mul_neg_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1079:30
@@ -192,28 +192,28 @@ module fpdiv_r64_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSh
     .io_prev_quo_dig_i      (_u_r4_qds_s0_0_io_quo_dig_o),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1188:29
     .io_quo_dig_o           (_u_r4_qds_s1_6_io_quo_dig_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1296:31
-  CSA3to2_44 U_CSA_2_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1354:25
+  CSA3to2_44_reference U_CSA_2_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1354:25
     .io_in_a    (U_CSA_2_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1351:25
     .io_in_b    (U_CSA_2_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1352:25
     .io_in_c    (divisor_mul_pos_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1085:30
     .io_out_sum (_U_CSA_2_4_io_out_sum),
     .io_out_car (_U_CSA_2_4_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1354:25
-  CSA3to2_44 U_CSA_2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1358:25
+  CSA3to2_44_reference U_CSA_2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1358:25
     .io_in_a    (U_CSA_2_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1351:25
     .io_in_b    (U_CSA_2_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1352:25
     .io_in_c    (divisor_mul_pos_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1083:29
     .io_out_sum (_U_CSA_2_3_io_out_sum),
     .io_out_car (_U_CSA_2_3_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1358:25
-  CSA3to2_44 U_CSA_2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1362:25
+  CSA3to2_44_reference U_CSA_2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1362:25
     .io_in_a    (U_CSA_2_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1351:25
     .io_in_b    (U_CSA_2_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1352:25
     .io_in_c    (divisor_mul_neg_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1081:30
     .io_out_sum (_U_CSA_2_1_io_out_sum),
     .io_out_car (_U_CSA_2_1_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1362:25
-  CSA3to2_44 U_CSA_2_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1366:25
+  CSA3to2_44_reference U_CSA_2_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1366:25
     .io_in_a    (U_CSA_2_in_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1351:25
     .io_in_b    (U_CSA_2_in_b),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1352:25
     .io_in_c    (divisor_mul_neg_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:1079:30

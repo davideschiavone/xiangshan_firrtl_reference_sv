@@ -230,7 +230,7 @@ module AXI4DummySD_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/s
       nodeIn_b_bits_id_r <= nodeIn_aw_bits_id;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/diplomacy/Nodes.scala:1214:17, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/device/AXI4SlaveModule.scala:176:28
     end
   end // always @(posedge)
-  DifftestSDCard DifftestSDCard (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/common/SDCard.scala:88:11
+  DifftestSDCard_reference DifftestSDCard (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/common/SDCard.scala:88:11
     .clock      (clock),
     .io_setAddr (_GEN_2 & ~(_regs_0_T_4 | _regs_0_T_5 | _regs_0_T_6 | _regs_0_T_7) & _regs_0_T_3[5:0] == 6'h12),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/device/AXI4DummySD.scala:59:27, :62:22, :63:19, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/BitUtils.scala:89:26, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/RegMap.scala:30:{32,48}
     .io_addr    (regs_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/device/AXI4DummySD.scala:50:45

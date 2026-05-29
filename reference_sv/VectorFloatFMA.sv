@@ -4348,7 +4348,7 @@ module VectorFloatFMA_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:9:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  BoothEncoderF64F32F16_4 U_BoothEncoder (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:446:30
+  BoothEncoderF64F32F16_4_reference U_BoothEncoder (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:446:30
     .io_in_a
       ((&io_fp_format)
          ? fp_a_significand_f64
@@ -4411,7 +4411,7 @@ module VectorFloatFMA_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
     .io_out_pp_25 (_U_BoothEncoder_io_out_pp_25),
     .io_out_pp_26 (_U_BoothEncoder_io_out_pp_26)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:446:30
-  CSA_Nto2With3to2MainPipeline U_CSAnto2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:452:25
+  CSA_Nto2With3to2MainPipeline_reference U_CSAnto2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:452:25
     .clock      (clock),
     .io_fire    (io_fire),
     .io_in_0    (_U_BoothEncoder_io_out_pp_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:446:30
@@ -4444,7 +4444,7 @@ module VectorFloatFMA_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
     .io_out_sum (_U_CSAnto2_io_out_sum),
     .io_out_car (_U_CSAnto2_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:452:25
-  CSA3to2 U_CSA3to2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:489:25
+  CSA3to2_reference U_CSA3to2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:489:25
     .io_in_a    (_U_CSAnto2_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatFMA.scala:452:25
     .io_in_b
       (is_fp64_reg0

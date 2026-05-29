@@ -440,13 +440,13 @@ module FloatDividerR64_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSh
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:69:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  ShiftLeftPriorityWithLZDResult U_Left_Shift_opa_f64_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:399:38
+  ShiftLeftPriorityWithLZDResult_reference U_Left_Shift_opa_f64_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:399:38
     .io_src                 (opa_frac_pre_shifted_f64_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:397:39
     .io_priority_shiftValue (opa_frac_pre_shifted_f64_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:397:39
     .io_lshift_result       (_U_Left_Shift_opa_f64_0_io_lshift_result),
     .io_lzd_result          (_U_Left_Shift_opa_f64_0_io_lzd_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:399:38
-  ShiftLeftPriorityWithLZDResult U_Left_Shift_opb_f64_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:405:38
+  ShiftLeftPriorityWithLZDResult_reference U_Left_Shift_opb_f64_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:405:38
     .io_src                 (opb_frac_pre_shifted_f64_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:398:39
     .io_priority_shiftValue (opb_frac_pre_shifted_f64_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:398:39
     .io_lshift_result       (_U_Left_Shift_opb_f64_0_io_lshift_result),

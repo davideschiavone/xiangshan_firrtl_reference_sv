@@ -1169,49 +1169,49 @@ module VectorFloatDividerR64_reference(	// home/davide/gitdir/bianco_ci/bianco/X
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:74:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  ShiftLeftPriorityWithLZDResult U_Left_Shift_opa_f64_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:586:38
+  ShiftLeftPriorityWithLZDResult_reference U_Left_Shift_opa_f64_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:586:38
     .io_src                 (opa_frac_pre_shifted_f64_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:584:39
     .io_priority_shiftValue (opa_frac_pre_shifted_f64_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:584:39
     .io_lshift_result       (_U_Left_Shift_opa_f64_0_io_lshift_result),
     .io_lzd_result          (_U_Left_Shift_opa_f64_0_io_lzd_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:586:38
-  ShiftLeftPriorityWithLZDResult U_Left_Shift_opb_f64_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:592:38
+  ShiftLeftPriorityWithLZDResult_reference U_Left_Shift_opb_f64_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:592:38
     .io_src                 (opb_frac_pre_shifted_f64_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:585:39
     .io_priority_shiftValue (opb_frac_pre_shifted_f64_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:585:39
     .io_lshift_result       (_U_Left_Shift_opb_f64_0_io_lshift_result),
     .io_lzd_result          (_U_Left_Shift_opb_f64_0_io_lzd_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:592:38
-  ShiftLeftPriorityWithLZDResult_6 U_Left_Shift_opa_f32_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:600:38
+  ShiftLeftPriorityWithLZDResult_6_reference U_Left_Shift_opa_f32_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:600:38
     .io_src                 (opa_frac_pre_shifted_f32_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:598:39
     .io_priority_shiftValue (opa_frac_pre_shifted_f32_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:598:39
     .io_lshift_result       (_U_Left_Shift_opa_f32_1_io_lshift_result),
     .io_lzd_result          (_U_Left_Shift_opa_f32_1_io_lzd_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:600:38
-  ShiftLeftPriorityWithLZDResult_6 U_Left_Shift_opb_f32_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:605:38
+  ShiftLeftPriorityWithLZDResult_6_reference U_Left_Shift_opb_f32_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:605:38
     .io_src                 (opb_frac_pre_shifted_f32_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:599:39
     .io_priority_shiftValue (opb_frac_pre_shifted_f32_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:599:39
     .io_lshift_result       (_U_Left_Shift_opb_f32_1_io_lshift_result),
     .io_lzd_result          (_U_Left_Shift_opb_f32_1_io_lzd_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:605:38
-  ShiftLeftPriorityWithLZDResult_8 U_Left_Shift_opa_f16_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:613:38
+  ShiftLeftPriorityWithLZDResult_8_reference U_Left_Shift_opa_f16_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:613:38
     .io_src                 (opa_frac_pre_shifted_f16_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:611:39
     .io_priority_shiftValue (opa_frac_pre_shifted_f16_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:611:39
     .io_lshift_result       (_U_Left_Shift_opa_f16_2_io_lshift_result),
     .io_lzd_result          (_U_Left_Shift_opa_f16_2_io_lzd_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:613:38
-  ShiftLeftPriorityWithLZDResult_8 U_Left_Shift_opb_f16_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:618:38
+  ShiftLeftPriorityWithLZDResult_8_reference U_Left_Shift_opb_f16_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:618:38
     .io_src                 (opb_frac_pre_shifted_f16_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:612:39
     .io_priority_shiftValue (opb_frac_pre_shifted_f16_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:612:39
     .io_lshift_result       (_U_Left_Shift_opb_f16_2_io_lshift_result),
     .io_lzd_result          (_U_Left_Shift_opb_f16_2_io_lzd_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:618:38
-  ShiftLeftPriorityWithLZDResult_8 U_Left_Shift_opa_f16_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:626:38
+  ShiftLeftPriorityWithLZDResult_8_reference U_Left_Shift_opa_f16_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:626:38
     .io_src                 (opa_frac_pre_shifted_f16_3),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:624:39
     .io_priority_shiftValue (opa_frac_pre_shifted_f16_3),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:624:39
     .io_lshift_result       (_U_Left_Shift_opa_f16_3_io_lshift_result),
     .io_lzd_result          (_U_Left_Shift_opa_f16_3_io_lzd_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:626:38
-  ShiftLeftPriorityWithLZDResult_8 U_Left_Shift_opb_f16_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:631:38
+  ShiftLeftPriorityWithLZDResult_8_reference U_Left_Shift_opb_f16_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:631:38
     .io_src                 (opb_frac_pre_shifted_f16_3),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:625:39
     .io_priority_shiftValue (opb_frac_pre_shifted_f16_3),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:625:39
     .io_lshift_result       (_U_Left_Shift_opb_f16_3_io_lshift_result),

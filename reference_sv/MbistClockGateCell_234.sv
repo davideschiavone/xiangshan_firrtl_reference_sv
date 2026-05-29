@@ -13,7 +13,7 @@ module MbistClockGateCell_234_reference(	// home/davide/gitdir/bianco_ci/bianco/
 );
 
   wire _CG_Q;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/MbistClockGateCell.scala:45:26
-  ClockGate CG (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/MbistClockGateCell.scala:45:26
+  ClockGate_reference CG (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/MbistClockGateCell.scala:45:26
     .TE (dft_cgen),
     .E  ((mbist_req ? mbist_readen | mbist_writeen : E) & ~dft_ram_mcp_hold),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/MbistClockGateCell.scala:50:{19,44,64,67}
     .CK (clock),

@@ -29,7 +29,7 @@ module FloatAdder_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yu
         | io_op_code == 5'h7 | io_op_code == 5'h8 | io_op_code == 5'h1E | io_op_code == 5'h13;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:75:30, :76:30, :77:30, :78:30, :79:30, :80:30, :81:30, :86:30, :87:30, :88:{32,40,50,60,70,82,95,108,120}
     end
   end // always @(posedge)
-  FloatAdderF64Pipeline F64Adder (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:42:24
+  FloatAdderF64Pipeline_reference F64Adder (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:42:24
     .clock                   (clock),
     .io_fire                 (io_fire),
     .io_fp_a                 (io_fp_a),
@@ -42,7 +42,7 @@ module FloatAdder_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yu
     .io_fp_aIsFpCanonicalNAN (io_fp_aIsFpCanonicalNAN),
     .io_fp_bIsFpCanonicalNAN (io_fp_bIsFpCanonicalNAN)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:42:24
-  FloatAdderF32F16MixedPipeline F32Adder (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:55:24
+  FloatAdderF32F16MixedPipeline_reference F32Adder (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:55:24
     .clock                   (clock),
     .io_fire                 (io_fire),
     .io_fp_a                 (io_fp_a[31:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatAdder.scala:35:22

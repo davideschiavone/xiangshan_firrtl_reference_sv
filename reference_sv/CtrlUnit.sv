@@ -170,7 +170,7 @@ module CtrlUnit_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/CtrlUnit.scala:77:9
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  NewPipelineConnectPipe_15 CtrlUnitPseudoErrorPipelineConnect0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
+  NewPipelineConnectPipe_15_reference CtrlUnitPseudoErrorPipelineConnect0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
     .clock               (clock),
     .reset               (reset),
     .io_in_ready         (_CtrlUnitPseudoErrorPipelineConnect0_io_in_ready),
@@ -211,7 +211,7 @@ module CtrlUnit_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/
     .io_out_bits_7_mask  (/* unused */),
     .io_rightOutFire     (io_pseudoError_0_ready & _CtrlUnitPseudoErrorPipelineConnect0_io_out_valid)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
-  NewPipelineConnectPipe_15 CtrlUnitPseudoErrorPipelineConnect1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
+  NewPipelineConnectPipe_15_reference CtrlUnitPseudoErrorPipelineConnect1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
     .clock               (clock),
     .reset               (reset),
     .io_in_ready         (_CtrlUnitPseudoErrorPipelineConnect1_io_in_ready),

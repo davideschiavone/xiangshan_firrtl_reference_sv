@@ -191,7 +191,7 @@ module ExeUnitImp_6_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  Alu_3 Alu (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:329:53
+  Alu_3_reference Alu (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:329:53
     .io_in_ready                               (_Alu_io_in_ready),
     .io_in_valid                               (_in1ToN_io_out_0_valid),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:150:22
     .io_in_bits_ctrl_fuOpType                  (_in1ToN_io_out_0_bits_ctrl_fuOpType),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:150:22
@@ -221,7 +221,7 @@ module ExeUnitImp_6_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_bits_perfDebugInfo_tlbFirstReqTime (_Alu_io_out_bits_perfDebugInfo_tlbFirstReqTime),
     .io_out_bits_perfDebugInfo_tlbRespTime     (_Alu_io_out_bits_perfDebugInfo_tlbRespTime)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:329:53
-  Bku Bku (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:380:53
+  Bku_reference Bku (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:380:53
     .clock                                     (_ClockGate_Q),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .reset                                     (reset),
     .io_in_ready                               (_Bku_io_in_ready),
@@ -256,7 +256,7 @@ module ExeUnitImp_6_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_out_bits_perfDebugInfo_tlbFirstReqTime (_Bku_io_out_bits_perfDebugInfo_tlbFirstReqTime),
     .io_out_bits_perfDebugInfo_tlbRespTime     (_Bku_io_out_bits_perfDebugInfo_tlbRespTime)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuConfig.scala:380:53
-  ClockGate ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (Bku_clock_te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (_GEN_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:110:35
     .CK (clock),

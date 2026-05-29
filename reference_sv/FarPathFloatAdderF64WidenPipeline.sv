@@ -105,36 +105,36 @@ module FarPathFloatAdderF64WidenPipeline_reference(	// home/davide/gitdir/bianco
       OF_r <= &_EA_add1_T;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1378:31, :1463:{18,27}
     end
   end // always @(posedge)
-  Adder U_Efp_aSubEfp_b (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1360:31
+  Adder_reference U_Efp_aSubEfp_b (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1360:31
     .io_a ({io_fp_a[62:53], _GEN}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1352:22, :1361:33
     .io_b ({io_fp_b[62:53], _GEN_0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1353:22, :1362:33
     .io_c (_U_Efp_aSubEfp_b_io_c)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1360:31
-  Adder U_Efp_bSubEfp_a (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1364:31
+  Adder_reference U_Efp_bSubEfp_a (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1364:31
     .io_a ({io_fp_b[62:53], _GEN_0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1353:22, :1362:33, :1365:33
     .io_b ({io_fp_a[62:53], _GEN}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1352:22, :1361:33, :1366:33
     .io_c (_U_Efp_bSubEfp_a_io_c)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1364:31
-  FarShiftRightWithMuxInvFirst U_far_rshift_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1386:30
+  FarShiftRightWithMuxInvFirst_reference U_far_rshift_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1386:30
     .io_src        (EOP ? {~significand_fp_b, 57'h1FFFFFFFFFFFFFF} : {1'h0, |(io_fp_b[62:52]), io_fp_b[51:0], 56'h0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1335:25, :1337:41, :1349:46, :1353:22, :1355:34, :1375:31, :1385:{32,40,41,67,88}
     .io_shiftValue (_U_Efp_aSubEfp_b_io_c[5:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1360:31, :1388:57
     .io_result     (_U_far_rshift_1_io_result),
     .io_EOP        (EOP)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1335:25
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1386:30
-  FarShiftRightWithMuxInvFirst U_far_rshift_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1392:30
+  FarShiftRightWithMuxInvFirst_reference U_far_rshift_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1392:30
     .io_src        (EOP ? {~significand_fp_a, 57'h1FFFFFFFFFFFFFF} : {1'h0, |(io_fp_a[62:52]), io_fp_a[51:0], 56'h0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1335:25, :1337:41, :1348:46, :1352:22, :1354:34, :1374:31, :1385:67, :1391:{32,40,41,88}
     .io_shiftValue (_U_Efp_bSubEfp_a_io_c[5:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1364:31, :1394:57
     .io_result     (_U_far_rshift_2_io_result),
     .io_EOP        (EOP)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1335:25
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1392:30
-  FarPathAdderF64WidenPipeline U_FS0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1425:21
+  FarPathAdderF64WidenPipeline_reference U_FS0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1425:21
     .clock     (clock),
     .io_fire   (io_fire),
     .io_A      (A_wire),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1382:32
     .io_B      (B_wire),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1400:19
     .io_result (_U_FS0_io_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1425:21
-  FarPathAdderF64WidenPipeline U_FS1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1430:21
+  FarPathAdderF64WidenPipeline_reference U_FS1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1430:21
     .clock     (clock),
     .io_fire   (io_fire),
     .io_A      ((EOP ? _A_wire_FS1_T : _A_wire_FS1_T_1) + 54'h2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1335:25, :1382:{40,68}, :1383:{23,85}

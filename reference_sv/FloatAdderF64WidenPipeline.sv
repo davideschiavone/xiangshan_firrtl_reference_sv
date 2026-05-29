@@ -166,7 +166,7 @@ module FloatAdderF64WidenPipeline_reference(	// home/davide/gitdir/bianco_ci/bia
          4'h0};	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1772:{72,99}, :1774:{72,99}, :1786:32, :1794:30, :1810:29, :1811:29, :1812:29, :1813:29, :1814:29, :1815:29, :1816:29, :1817:29, :1825:33, :1826:33, :1910:67, :1980:{37,47,80}, :1981:{16,26,59}, :1982:{16,25,34,44,75}, :1983:{20,34,61,77,99,103}, :1984:28, :1986:133
     end
   end // always @(posedge)
-  FarPathFloatAdderF64WidenPipeline U_far_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1746:26
+  FarPathFloatAdderF64WidenPipeline_reference U_far_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1746:26
     .clock             (clock),
     .io_fire           (io_fire),
     .io_fp_a           (fp_a_to64),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1729:22
@@ -178,7 +178,7 @@ module FloatAdderF64WidenPipeline_reference(	// home/davide/gitdir/bianco_ci/bia
     .io_absEaSubEb     (_U_far_path_io_absEaSubEb),
     .io_isEfp_bGreater (_U_far_path_io_isEfp_bGreater)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1746:26
-  ClosePathFloatAdderF64WidenPipeline U_close_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1752:28
+  ClosePathFloatAdderF64WidenPipeline_reference U_close_path (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1752:28
     .clock         (clock),
     .io_fire       (io_fire),
     .io_fp_a       (fp_a_to64),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatAdder.scala:1729:22

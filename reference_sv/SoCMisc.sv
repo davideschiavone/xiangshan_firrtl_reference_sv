@@ -3009,7 +3009,7 @@ module SoCMisc_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/m
     .auto_out_d_bits_data    (_xbar_3_auto_in_1_d_bits_data),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Xbar.scala:343:26
     .auto_out_d_bits_corrupt (_xbar_3_auto_in_1_d_bits_corrupt)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Xbar.scala:343:26
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/WidthWidget.scala:220:28
-  TLBuffer_2 PeripheralXbar_to_MemXbar_buffer_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
+  TLBuffer_2_reference PeripheralXbar_to_MemXbar_buffer_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
     .clock                   (clock),
     .reset                   (reset),
     .auto_in_a_ready         (_PeripheralXbar_to_MemXbar_buffer_0_auto_in_a_ready),
@@ -3053,7 +3053,7 @@ module SoCMisc_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/m
     .auto_out_d_bits_data    (_widget_auto_in_d_bits_data),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/WidthWidget.scala:220:28
     .auto_out_d_bits_corrupt (_widget_auto_in_d_bits_corrupt)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/WidthWidget.scala:220:28
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
-  TLBuffer_2 PeripheralXbar_to_MemXbar_buffer_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
+  TLBuffer_2_reference PeripheralXbar_to_MemXbar_buffer_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
     .clock                   (clock),
     .reset                   (reset),
     .auto_in_a_ready         (_PeripheralXbar_to_MemXbar_buffer_1_auto_in_a_ready),
@@ -3097,7 +3097,7 @@ module SoCMisc_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/m
     .auto_out_d_bits_data    (_PeripheralXbar_to_MemXbar_buffer_0_auto_in_d_bits_data),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
     .auto_out_d_bits_corrupt (_PeripheralXbar_to_MemXbar_buffer_0_auto_in_d_bits_corrupt)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
-  TLBuffer_2 PeripheralXbar_to_MemXbar_buffer_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
+  TLBuffer_2_reference PeripheralXbar_to_MemXbar_buffer_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
     .clock                   (clock),
     .reset                   (reset),
     .auto_in_a_ready         (_PeripheralXbar_to_MemXbar_buffer_2_auto_in_a_ready),
@@ -4711,7 +4711,7 @@ module SoCMisc_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/m
     .auto_out_e_valid        (_logger_auto_out_e_valid),
     .auto_out_e_bits_sink    (_logger_auto_out_e_bits_sink)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/TLUtils/TLLogger.scala:183:30
-  TLBuffer_2 L2_to_L3_peripheral_buffer_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
+  TLBuffer_2_reference L2_to_L3_peripheral_buffer_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
     .clock                   (clock),
     .reset                   (reset),
     .auto_in_a_ready         (_L2_to_L3_peripheral_buffer_0_auto_in_a_ready),
@@ -4755,7 +4755,7 @@ module SoCMisc_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/m
     .auto_out_d_bits_data    (_xbar_auto_in_d_bits_data),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Xbar.scala:343:26
     .auto_out_d_bits_corrupt (_xbar_auto_in_d_bits_corrupt)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Xbar.scala:343:26
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
-  TLBuffer_2 L2_to_L3_peripheral_buffer_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
+  TLBuffer_2_reference L2_to_L3_peripheral_buffer_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Buffer.scala:74:47
     .clock                   (clock),
     .reset                   (reset),
     .auto_in_a_ready         (auto_L2_to_L3_peripheral_buffer_1_in_a_ready),

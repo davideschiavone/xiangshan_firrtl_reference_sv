@@ -430,7 +430,7 @@ module RegCacheTagTable_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
   wire       MemRCTagTable_io_writePorts_0_wen = io_wakeupFromIQ_6_valid & io_wakeupFromIQ_6_bits_rfWen;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheTagTable.scala:81:28
   wire       MemRCTagTable_io_writePorts_1_wen = io_wakeupFromIQ_7_valid & io_wakeupFromIQ_7_bits_rfWen;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheTagTable.scala:81:28
   wire       MemRCTagTable_io_writePorts_2_wen = io_wakeupFromIQ_8_valid & io_wakeupFromIQ_8_bits_rfWen;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheTagTable.scala:81:28
-  RegCacheTagModule IntRCTagTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheTagTable.scala:44:29
+  RegCacheTagModule_reference IntRCTagTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheTagTable.scala:44:29
     .clock                            (clock),
     .reset                            (reset),
     .io_readPorts_0_ren               (io_readPorts_0_ren),
@@ -1086,7 +1086,7 @@ module RegCacheTagTable_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .io_loadDependencyVec_23_1        (_IntRCTagTable_io_loadDependencyVec_23_1),
     .io_loadDependencyVec_23_2        (_IntRCTagTable_io_loadDependencyVec_23_2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheTagTable.scala:44:29
-  RegCacheTagModule_1 MemRCTagTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheTagTable.scala:47:29
+  RegCacheTagModule_1_reference MemRCTagTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheTagTable.scala:47:29
     .clock                     (clock),
     .reset                     (reset),
     .io_readPorts_0_ren        (io_readPorts_0_ren),

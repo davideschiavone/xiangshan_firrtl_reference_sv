@@ -2252,7 +2252,7 @@ module FloatFMA_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yuns
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:10:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  BoothEncoderF64F32F16 U_BoothEncoder (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:259:30
+  BoothEncoderF64F32F16_reference U_BoothEncoder (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:259:30
     .io_in_a
       ((&io_fp_format)
          ? {|(io_fp_a[62:52]), io_fp_a[51:0]}
@@ -2291,7 +2291,7 @@ module FloatFMA_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yuns
     .io_out_pp_25 (_U_BoothEncoder_io_out_pp_25),
     .io_out_pp_26 (_U_BoothEncoder_io_out_pp_26)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:259:30
-  CSA_Nto2With3to2MainPipeline U_CSAnto2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:264:25
+  CSA_Nto2With3to2MainPipeline_reference U_CSAnto2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:264:25
     .clock      (clock),
     .io_fire    (io_fire),
     .io_in_0    (_U_BoothEncoder_io_out_pp_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:259:30
@@ -2324,7 +2324,7 @@ module FloatFMA_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yuns
     .io_out_sum (_U_CSAnto2_io_out_sum),
     .io_out_car (_U_CSAnto2_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:264:25
-  CSA3to2 U_CSA3to2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:302:25
+  CSA3to2_reference U_CSA3to2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:302:25
     .io_in_a    (_U_CSAnto2_io_out_sum),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatFMA.scala:264:25
     .io_in_b
       (is_fp64_reg0

@@ -130,7 +130,7 @@ module AXI4UserYanker_3_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
   wire [1:0]  _bsel_T_1 = 2'h1 << auto_out_b_bits_id;	// src/main/scala/chisel3/util/OneHot.scala:65:12
   wire        _GEN_3 = auto_out_b_valid & auto_in_b_ready;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:104:37
   wire        _GEN_4 = auto_in_aw_valid & auto_out_aw_ready;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:107:37
-  Queue1_BundleMap_132 Queue1_BundleMap (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
+  Queue1_BundleMap_132_reference Queue1_BundleMap (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
     .clock                 (clock),
     .reset                 (reset),
     .io_enq_ready          (_Queue1_BundleMap_io_enq_ready),
@@ -142,7 +142,7 @@ module AXI4UserYanker_3_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .io_deq_bits_extra_id  (_Queue1_BundleMap_io_deq_bits_extra_id),
     .io_deq_bits_real_last (_Queue1_BundleMap_io_deq_bits_real_last)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
-  Queue1_BundleMap_132 Queue1_BundleMap_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
+  Queue1_BundleMap_132_reference Queue1_BundleMap_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
     .clock                 (clock),
     .reset                 (reset),
     .io_enq_ready          (_Queue1_BundleMap_1_io_enq_ready),
@@ -154,7 +154,7 @@ module AXI4UserYanker_3_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .io_deq_bits_extra_id  (_Queue1_BundleMap_1_io_deq_bits_extra_id),
     .io_deq_bits_real_last (_Queue1_BundleMap_1_io_deq_bits_real_last)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
-  Queue1_BundleMap_132 Queue1_BundleMap_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
+  Queue1_BundleMap_132_reference Queue1_BundleMap_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
     .clock                 (clock),
     .reset                 (reset),
     .io_enq_ready          (_Queue1_BundleMap_2_io_enq_ready),
@@ -166,7 +166,7 @@ module AXI4UserYanker_3_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .io_deq_bits_extra_id  (_Queue1_BundleMap_2_io_deq_bits_extra_id),
     .io_deq_bits_real_last (_Queue1_BundleMap_2_io_deq_bits_real_last)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
-  Queue1_BundleMap_132 Queue1_BundleMap_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
+  Queue1_BundleMap_132_reference Queue1_BundleMap_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:48:17
     .clock                 (clock),
     .reset                 (reset),
     .io_enq_ready          (_Queue1_BundleMap_3_io_enq_ready),

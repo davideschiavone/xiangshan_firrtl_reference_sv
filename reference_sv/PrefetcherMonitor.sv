@@ -56,7 +56,7 @@ module PrefetcherMonitor_reference(	// home/davide/gitdir/bianco_ci/bianco/Xiang
     {1'h0, io_loadinfo_0_demand_miss} + {1'h0, io_loadinfo_1_demand_miss} + {1'h0, io_loadinfo_2_demand_miss};	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/PrefetcherMonitor.scala:102:36
   wire [1:0] pollution_probe /* #hw<innerSym@sym_8> */ =
     {1'h0, io_loadinfo_0_pollution} + {1'h0, io_loadinfo_1_pollution} + {1'h0, io_loadinfo_2_pollution};	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/PrefetcherMonitor.scala:103:27
-  L1PrefetchMonitor StreamMonitor (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/PrefetcherMonitor.scala:78:29
+  L1PrefetchMonitor_reference StreamMonitor (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/PrefetcherMonitor.scala:78:29
     .clock                                            (clock),
     .reset                                            (reset),
     .io_prefetch_info_loadinfo_0_total_prefetch       (io_loadinfo_0_total_prefetch),
@@ -87,7 +87,7 @@ module PrefetcherMonitor_reference(	// home/davide/gitdir/bianco_ci/bianco/Xiang
     .io_prefetch_info_maininfo_hit_pf_in_cache        (io_maininfo_hit_pf_in_cache),
     .io_prefetch_info_maininfo_hit_pf_source_in_cache (io_maininfo_hit_pf_source_in_cache)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/PrefetcherMonitor.scala:78:29
-  L1PrefetchMonitor_1 StrideMonitor (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/PrefetcherMonitor.scala:79:29
+  L1PrefetchMonitor_1_reference StrideMonitor (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/PrefetcherMonitor.scala:79:29
     .clock                                            (clock),
     .reset                                            (reset),
     .io_prefetch_info_loadinfo_0_total_prefetch       (io_loadinfo_0_total_prefetch),

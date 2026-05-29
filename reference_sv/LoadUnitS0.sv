@@ -856,7 +856,7 @@ module LoadUnitS0_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/sr
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewLoadUnit.scala:39:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  Arbiter8_LoadStageIO RequestSources_arb (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:94:21
+  Arbiter8_LoadStageIO_reference RequestSources_arb (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:94:21
     .io_in_0_ready                                         (_RequestSources_arb_io_in_0_ready),
     .io_in_0_valid                                         (io_unalignTail_valid),
     .io_in_0_bits_accessType_instrType                     (io_unalignTail_bits_accessType_instrType),

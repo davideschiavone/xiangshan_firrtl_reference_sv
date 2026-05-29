@@ -9898,7 +9898,7 @@ module VLMergeBufferImp_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .io_out_bits_elemIdx            (_selectModule_2_io_out_bits_elemIdx),
     .io_out_bits_mask               (_selectModule_2_io_out_bits_mask)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VMergeBuffer.scala:253:37
-  NewPipelineConnectPipe_17 VMergebufferPipelineConnect0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
+  NewPipelineConnectPipe_17_reference VMergebufferPipelineConnect0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
     .clock                                            (clock),
     .reset                                            (reset),
     .io_in_ready                                      (_VMergebufferPipelineConnect0_io_in_ready),
@@ -10080,7 +10080,7 @@ module VLMergeBufferImp_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
               | _VMergebufferPipelineConnect0_io_out_bits_robIdx_flag ^ io_redirect_bits_robIdx_flag
               ^ _VMergebufferPipelineConnect0_io_out_bits_robIdx_value > io_redirect_bits_robIdx_value))	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/RobBundles.scala:220:51, :221:{20,36}, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VMergeBuffer.scala:357:{45,72}, :381:10, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/CircularQueuePtr.scala:61:{40,47,56}, :66:35, :67:30, :68:19
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
-  NewPipelineConnectPipe_17 VMergebufferPipelineConnect1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
+  NewPipelineConnectPipe_17_reference VMergebufferPipelineConnect1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
     .clock                                            (clock),
     .reset                                            (reset),
     .io_in_ready                                      (_VMergebufferPipelineConnect1_io_in_ready),

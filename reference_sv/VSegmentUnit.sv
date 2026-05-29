@@ -2353,7 +2353,7 @@ module VSegmentUnit_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .tdataVec_io_toLoadStore_triggerAction           (_segmentTrigger_tdataVec_io_toLoadStore_triggerAction),
     .tdataVec_io_memType                             (instMicroOp_isVSegLoad)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VSegmentUnit.scala:168:30
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VSegmentUnit.scala:474:30
-  NewPipelineConnectPipe_21 VSegmentUnitPipelineConnect (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
+  NewPipelineConnectPipe_21_reference VSegmentUnitPipelineConnect (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/NewPipelineConnect.scala:66:28
     .clock                (clock),
     .reset                (reset),
     .io_in_ready          (_VSegmentUnitPipelineConnect_io_in_ready),

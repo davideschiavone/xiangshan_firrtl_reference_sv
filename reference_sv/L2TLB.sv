@@ -9005,7 +9005,7 @@ module L2TLB_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
     .io_pma_31_addr                (_pmp_io_pma_31_addr),
     .io_pma_31_mask                (_pmp_io_pma_31_mask)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
-  PMPChecker PMPChecker (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
+  PMPChecker_reference PMPChecker (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
     .io_check_env_mode              (2'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMP.scala:478:15
     .io_check_env_pmp_0_cfg_l       (_pmp_io_pmp_0_cfg_l),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
     .io_check_env_pmp_0_cfg_a       (_pmp_io_pmp_0_cfg_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
@@ -9495,7 +9495,7 @@ module L2TLB_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
     .io_resp_mmio                   (_PMPChecker_io_resp_mmio),
     .io_resp_atomic                 (/* unused */)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
-  PMPChecker PMPChecker_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
+  PMPChecker_reference PMPChecker_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
     .io_check_env_mode              (2'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMP.scala:478:15
     .io_check_env_pmp_0_cfg_l       (_pmp_io_pmp_0_cfg_l),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
     .io_check_env_pmp_0_cfg_a       (_pmp_io_pmp_0_cfg_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
@@ -9985,7 +9985,7 @@ module L2TLB_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
     .io_resp_mmio                   (_PMPChecker_1_io_resp_mmio),
     .io_resp_atomic                 (/* unused */)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
-  PMPChecker PMPChecker_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
+  PMPChecker_reference PMPChecker_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
     .io_check_env_mode              (2'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMP.scala:478:15
     .io_check_env_pmp_0_cfg_l       (_pmp_io_pmp_0_cfg_l),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
     .io_check_env_pmp_0_cfg_a       (_pmp_io_pmp_0_cfg_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
@@ -10475,7 +10475,7 @@ module L2TLB_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
     .io_resp_mmio                   (_PMPChecker_2_io_resp_mmio),
     .io_resp_atomic                 (/* unused */)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
-  PMPChecker PMPChecker_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
+  PMPChecker_reference PMPChecker_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
     .io_check_env_mode              (2'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMP.scala:478:15
     .io_check_env_pmp_0_cfg_l       (_pmp_io_pmp_0_cfg_l),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
     .io_check_env_pmp_0_cfg_a       (_pmp_io_pmp_0_cfg_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
@@ -10965,7 +10965,7 @@ module L2TLB_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
     .io_resp_mmio                   (_PMPChecker_3_io_resp_mmio),
     .io_resp_atomic                 (/* unused */)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
-  PMPChecker PMPChecker_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
+  PMPChecker_reference PMPChecker_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:94:72
     .io_check_env_mode              (2'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/PMP.scala:478:15
     .io_check_env_pmp_0_cfg_l       (_pmp_io_pmp_0_cfg_l),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
     .io_check_env_pmp_0_cfg_a       (_pmp_io_pmp_0_cfg_a),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:93:19
@@ -12885,7 +12885,7 @@ module L2TLB_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
     .io_out_bits_resp_gaf           (_hptw_resp_arb_io_out_bits_resp_gaf),
     .io_out_bits_id                 (_hptw_resp_arb_io_out_bits_id)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:138:29
-  Arbiter1_L2TLBImp_Anon Arbiter1_L2TLBImp_Anon (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:142:50
+  Arbiter1_L2TLBImp_Anon_reference Arbiter1_L2TLBImp_Anon (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:142:50
     .io_in_0_ready                (_Arbiter1_L2TLBImp_Anon_io_in_0_ready),
     .io_in_0_valid                (_Arbiter3_L2TLBImp_Anon_io_out_valid),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:147:52
     .io_in_0_bits_s2xlate         (_Arbiter3_L2TLBImp_Anon_io_out_bits_s2xlate),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:147:52
@@ -14654,7 +14654,7 @@ module L2TLB_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
   assign difftest_l2tlb_pteidx_7 = _Arbiter1_L2TLBImp_Anon_io_out_bits_s1_pteidx_7;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/Gateway.scala:177:26, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:142:50
   assign difftest_l2tlb_gpf = _Arbiter1_L2TLBImp_Anon_io_out_bits_s2_gpf;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/Gateway.scala:177:26, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:142:50
   assign difftest_l2tlb_s2xlate = _Arbiter1_L2TLBImp_Anon_io_out_bits_s2xlate;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/Gateway.scala:177:26, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:142:50
-  Arbiter1_L2TLBImp_Anon Arbiter1_L2TLBImp_Anon_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:142:50
+  Arbiter1_L2TLBImp_Anon_reference Arbiter1_L2TLBImp_Anon_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:142:50
     .io_in_0_ready                (_Arbiter1_L2TLBImp_Anon_1_io_in_0_ready),
     .io_in_0_valid                (_Arbiter3_L2TLBImp_Anon_1_io_out_valid),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:147:52
     .io_in_0_bits_s2xlate         (_Arbiter3_L2TLBImp_Anon_1_io_out_bits_s2xlate),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:147:52
@@ -16486,7 +16486,7 @@ module L2TLB_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
   assign difftest_l2tlb_1_pteidx_7 = _Arbiter1_L2TLBImp_Anon_1_io_out_bits_s1_pteidx_7;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/Gateway.scala:177:26, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:142:50
   assign difftest_l2tlb_1_gpf = _Arbiter1_L2TLBImp_Anon_1_io_out_bits_s2_gpf;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/Gateway.scala:177:26, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:142:50
   assign difftest_l2tlb_1_s2xlate = _Arbiter1_L2TLBImp_Anon_1_io_out_bits_s2xlate;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/Gateway.scala:177:26, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:142:50
-  Arbiter3_L2TLBImp_Anon Arbiter3_L2TLBImp_Anon (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:147:52
+  Arbiter3_L2TLBImp_Anon_reference Arbiter3_L2TLBImp_Anon (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:147:52
     .io_in_0_ready                   (_Arbiter3_L2TLBImp_Anon_io_in_0_ready),
     .io_in_0_valid
       (_hptw_resp_arb_io_in_0_valid_T & _cache_io_resp_ready_T_4 & ~_cache_io_resp_bits_isHptwReq),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:126:21, :260:54, :611:74, :630:{92,136}, :842:30
@@ -17199,7 +17199,7 @@ module L2TLB_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/mai
     .io_out_bits_s2_gpf              (_Arbiter3_L2TLBImp_Anon_io_out_bits_s2_gpf),
     .io_out_bits_s2_gaf              (_Arbiter3_L2TLBImp_Anon_io_out_bits_s2_gaf)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:147:52
-  Arbiter3_L2TLBImp_Anon Arbiter3_L2TLBImp_Anon_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:147:52
+  Arbiter3_L2TLBImp_Anon_reference Arbiter3_L2TLBImp_Anon_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:147:52
     .io_in_0_ready                   (_Arbiter3_L2TLBImp_Anon_1_io_in_0_ready),
     .io_in_0_valid
       (_hptw_resp_arb_io_in_0_valid_T & _cache_io_resp_ready_T_6 & ~_cache_io_resp_bits_isHptwReq),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:126:21, :260:54, :611:74, :630:{92,136}, :842:30

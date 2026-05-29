@@ -566,7 +566,7 @@ module SRT16Divint_4_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan
     .io_m_pos_1   (_qds_cons_io_m_pos_1),
     .io_m_pos_2   (_qds_cons_io_m_pos_2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:326:24
-  IterBlock_v4_4 IterBlock (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:421:25
+  IterBlock_v4_4_reference IterBlock (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:421:25
     .io_Sel_cons_0_0   (sel_cons_reg_0_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:348:31
     .io_Sel_cons_0_1   (sel_cons_reg_0_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:348:31
     .io_Sel_cons_0_2   (sel_cons_reg_0_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/SRT16Divint.scala:348:31

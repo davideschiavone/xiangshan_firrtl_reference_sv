@@ -7143,7 +7143,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .toScntinhibit_IR          (_mcountinhibit_toScntinhibit_IR),
     .toScntinhibit_HPM3        (_mcountinhibit_toScntinhibit_HPM3)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:187:29
-  MhpmeventModule Mhpmevent3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_135),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7167,7 +7167,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_2_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent3_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_137),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7191,7 +7191,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_3_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent4_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent5 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent5 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_139),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7215,7 +7215,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_4_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent5_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent6 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent6 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_141),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7239,7 +7239,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_5_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent6_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent7 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent7 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_143),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7263,7 +7263,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_6_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent7_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent8 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent8 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_145),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7287,7 +7287,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_7_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent8_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent9 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent9 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_147),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7311,7 +7311,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_8_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent9_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent10 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent10 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_149),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7335,7 +7335,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_9_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent10_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent11 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent11 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_151),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7359,7 +7359,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_10_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent11_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent12 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent12 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_153),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7383,7 +7383,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_11_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent12_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent13 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent13 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_155),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7407,7 +7407,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_12_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent13_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent14 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent14 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_157),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7431,7 +7431,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_13_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent14_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent15 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent15 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_159),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7455,7 +7455,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_14_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent15_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_161),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7479,7 +7479,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_15_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent16_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent17 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent17 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_163),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7503,7 +7503,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_16_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent17_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent18 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent18 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_165),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7527,7 +7527,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_17_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent18_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent19 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent19 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_167),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7551,7 +7551,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_18_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent19_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent20 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent20 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_169),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7575,7 +7575,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_19_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent20_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent21 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent21 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_171),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7599,7 +7599,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_20_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent21_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent22 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent22 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_173),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7623,7 +7623,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_21_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent22_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent23 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent23 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_175),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7647,7 +7647,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_22_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent23_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent24 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent24 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_177),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7671,7 +7671,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_23_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent24_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent25 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent25 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_179),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7695,7 +7695,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_24_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent25_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent26 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent26 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_181),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7719,7 +7719,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_25_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent26_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent27 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent27 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_183),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7743,7 +7743,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_26_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent27_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent28 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent28 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_185),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7767,7 +7767,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_27_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent28_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent29 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent29 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_187),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7791,7 +7791,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_28_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent29_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent30 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent30 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_189),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20
@@ -7815,7 +7815,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .fromSireg2_bits  (_sireg2_toMcfg_29_bits),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRIND.scala:78:22
     .toSireg2         (_Mhpmevent30_toSireg2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
-  MhpmeventModule Mhpmevent31 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
+  MhpmeventModule_reference Mhpmevent31 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:200:11
     .clock            (clock),
     .reset            (reset),
     .w_wen            (wenLegalReg_last_REG & _noCSRIllegal_T_191),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:465:{34,42}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGatedReg.scala:30:20

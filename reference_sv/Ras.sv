@@ -106,7 +106,7 @@ module Ras_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ras/Ras.scala:42:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  RasStack RasStack (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ras/Ras.scala:62:29
+  RasStack_reference RasStack (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ras/Ras.scala:62:29
     .clock                       (clock),
     .reset                       (reset),
     .io_spec_fire                (io_specIn_valid),

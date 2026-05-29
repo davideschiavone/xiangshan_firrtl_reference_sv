@@ -15849,13 +15849,13 @@ module PtwCache_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/
     .toSRAM_15_selectedOH (childBd_16_selectedOH),
     .toSRAM_15_array      (childBd_16_array)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/MbistPipeline.scala:112:23
-  ClockGate ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (wakeupHarzad | l1_io_r_req_valid | ~flush_dup_0 & io_refill_bits_levelOH_l0 | bd_1_req),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/PageTableCache.scala:221:{66,87,109,131}, :517:{50,66,69,83,105}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/Mbist.scala:105:18, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
     .CK (clock),
     .Q  (_ClockGate_Q)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
-  ClockGate ClockGate_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
+  ClockGate_reference ClockGate_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:58:28
     .TE (te_cgen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/ClockGate.scala:66:18
     .E  (l1_io_r_req_valid | ~flush_dup_1 & io_refill_bits_levelOH_l1 | bd_req),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/PageTableCache.scala:221:{66,87,109,131}, :521:{58,61,75,97}, home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/mbist/Mbist.scala:105:18, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
     .CK (clock),
