@@ -62,7 +62,8 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
   input  [47:0] io_in_0_bits_paddr,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [1:0]  io_in_0_bits_mshrId,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [4:0]  io_in_0_bits_replayQueueIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
-  input         io_in_0_bits_uncacheReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input         io_in_0_bits_forwardDChannel,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+                io_in_0_bits_uncacheReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
                 io_in_0_bits_ncReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [7:0]  io_in_0_bits_elemIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [3:0]  io_in_0_bits_mbIndex,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -70,6 +71,7 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
   input  [7:0]  io_in_0_bits_elemIdxInsideVd,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [49:0] io_in_0_bits_vecBaseVaddr,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input         io_in_0_bits_hasROBEntry,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input  [7:0]  io_in_0_bits_occupySource,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output        io_in_1_ready,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input         io_in_1_valid,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [2:0]  io_in_1_bits_accessType_instrType,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -132,12 +134,14 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
   input         io_in_1_bits_noQuery,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [1:0]  io_in_1_bits_mshrId,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [4:0]  io_in_1_bits_replayQueueIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
-  input         io_in_1_bits_uncacheReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input         io_in_1_bits_forwardDChannel,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+                io_in_1_bits_uncacheReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
                 io_in_1_bits_ncReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [7:0]  io_in_1_bits_elemIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [3:0]  io_in_1_bits_mbIndex,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
                 io_in_1_bits_regOffset,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [7:0]  io_in_1_bits_elemIdxInsideVd,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+                io_in_1_bits_occupySource,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output        io_in_2_ready,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input         io_in_2_valid,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [7:0]  io_in_2_bits_entrance,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -202,7 +206,8 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
   input  [47:0] io_in_2_bits_paddr,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [1:0]  io_in_2_bits_mshrId,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [4:0]  io_in_2_bits_replayQueueIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
-  input         io_in_2_bits_uncacheReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input         io_in_2_bits_forwardDChannel,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+                io_in_2_bits_uncacheReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
                 io_in_2_bits_ncReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [7:0]  io_in_2_bits_elemIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [3:0]  io_in_2_bits_mbIndex,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -210,6 +215,7 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
   input  [7:0]  io_in_2_bits_elemIdxInsideVd,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [49:0] io_in_2_bits_vecBaseVaddr,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input         io_in_2_bits_hasROBEntry,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input  [7:0]  io_in_2_bits_occupySource,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output        io_in_3_ready,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input         io_in_3_valid,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [2:0]  io_in_3_bits_accessType_instrType,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -272,12 +278,14 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
   input         io_in_3_bits_noQuery,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [1:0]  io_in_3_bits_mshrId,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [4:0]  io_in_3_bits_replayQueueIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
-  input         io_in_3_bits_uncacheReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input         io_in_3_bits_forwardDChannel,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+                io_in_3_bits_uncacheReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
                 io_in_3_bits_ncReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [7:0]  io_in_3_bits_elemIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [3:0]  io_in_3_bits_mbIndex,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
                 io_in_3_bits_regOffset,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [7:0]  io_in_3_bits_elemIdxInsideVd,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+                io_in_3_bits_occupySource,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output        io_in_5_ready,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input         io_in_5_valid,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
                 io_in_5_bits_uop_exceptionVec_19,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -323,6 +331,7 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
                 io_in_5_bits_regOffset,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [7:0]  io_in_5_bits_elemIdxInsideVd,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input         io_in_5_bits_hasROBEntry,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input  [7:0]  io_in_5_bits_occupySource,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output        io_in_6_ready,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input         io_in_6_valid,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [2:0]  io_in_6_bits_accessType_instrType,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -362,7 +371,9 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
   input  [2:0]  io_in_6_bits_size,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [15:0] io_in_6_bits_mask,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input         io_in_6_bits_noQuery,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
-                io_out_ready,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input  [7:0]  io_in_6_bits_occupySource,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+                io_in_7_bits_occupySource,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input         io_out_ready,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output        io_out_valid,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [7:0]  io_out_bits_entrance,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [2:0]  io_out_bits_accessType_instrType,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -427,14 +438,16 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
   output        io_out_bits_noQuery,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [1:0]  io_out_bits_mshrId,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [4:0]  io_out_bits_replayQueueIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
-  output        io_out_bits_uncacheReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  output        io_out_bits_forwardDChannel,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+                io_out_bits_uncacheReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
                 io_out_bits_ncReplay,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [7:0]  io_out_bits_elemIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [3:0]  io_out_bits_mbIndex,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
                 io_out_bits_regOffset,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [7:0]  io_out_bits_elemIdxInsideVd,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [49:0] io_out_bits_vecBaseVaddr,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
-  output        io_out_bits_hasROBEntry	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  output        io_out_bits_hasROBEntry,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  output [7:0]  io_out_bits_occupySource	// src/main/scala/chisel3/util/Arbiter.scala:156:14
 );
 
   wire _GEN = io_in_1_valid | ~io_in_2_valid;	// src/main/scala/chisel3/util/Arbiter.scala:161:26, :163:19
@@ -1004,6 +1017,12 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
       : io_in_1_valid
           ? io_in_1_bits_replayQueueIdx
           : io_in_2_valid ? io_in_2_bits_replayQueueIdx : io_in_3_valid ? io_in_3_bits_replayQueueIdx : 5'h0;	// src/main/scala/chisel3/util/Arbiter.scala:149:7, :156:14, :159:15, :161:26, :163:19
+  assign io_out_bits_forwardDChannel =
+    io_in_0_valid
+      ? io_in_0_bits_forwardDChannel
+      : io_in_1_valid
+          ? io_in_1_bits_forwardDChannel
+          : io_in_2_valid ? io_in_2_bits_forwardDChannel : io_in_3_valid & io_in_3_bits_forwardDChannel;	// src/main/scala/chisel3/util/Arbiter.scala:149:7, :161:26, :163:19
   assign io_out_bits_uncacheReplay =
     io_in_0_valid
       ? io_in_0_bits_uncacheReplay
@@ -1057,5 +1076,17 @@ module Arbiter8_LoadStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.sc
         | (io_in_2_valid
              ? io_in_2_bits_hasROBEntry
              : io_in_3_valid | (io_in_5_valid ? io_in_5_bits_hasROBEntry : io_in_6_valid));	// src/main/scala/chisel3/util/Arbiter.scala:149:7, :161:26, :163:19
+  assign io_out_bits_occupySource =
+    io_in_0_valid
+      ? io_in_0_bits_occupySource
+      : io_in_1_valid
+          ? io_in_1_bits_occupySource
+          : io_in_2_valid
+              ? io_in_2_bits_occupySource
+              : io_in_3_valid
+                  ? io_in_3_bits_occupySource
+                  : io_in_5_valid
+                      ? io_in_5_bits_occupySource
+                      : io_in_6_valid ? io_in_6_bits_occupySource : io_in_7_bits_occupySource;	// src/main/scala/chisel3/util/Arbiter.scala:149:7, :159:15, :161:26, :163:19
 endmodule
 

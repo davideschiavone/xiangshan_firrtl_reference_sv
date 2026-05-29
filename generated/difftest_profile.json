@@ -19,6 +19,8 @@
     "--firtool-opt",
     "--disable-all-randomization",
     "--firtool-opt",
+    "--default-layer-specialization=enable",
+    "--firtool-opt",
     "--lowering-options=emittedLineLength=120,locationInfoStyle=plain,disallowLocalVariables,printDebugInfo"
   ],
   "bundles":[

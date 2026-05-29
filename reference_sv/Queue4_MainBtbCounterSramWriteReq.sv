@@ -2,7 +2,8 @@
 module Queue4_MainBtbCounterSramWriteReq_reference(	// src/main/scala/chisel3/util/Queue.scala:60:7
   input        clock,	// src/main/scala/chisel3/util/Queue.scala:60:7
                reset,	// src/main/scala/chisel3/util/Queue.scala:60:7
-               io_enq_valid,	// src/main/scala/chisel3/util/Queue.scala:72:14
+  output       io_enq_ready,	// src/main/scala/chisel3/util/Queue.scala:72:14
+  input        io_enq_valid,	// src/main/scala/chisel3/util/Queue.scala:72:14
   input  [7:0] io_enq_bits_setIdx,	// src/main/scala/chisel3/util/Queue.scala:72:14
   input  [3:0] io_enq_bits_wayMask,	// src/main/scala/chisel3/util/Queue.scala:72:14
   input  [1:0] io_enq_bits_counters_0_value,	// src/main/scala/chisel3/util/Queue.scala:72:14
@@ -19,7 +20,7 @@ module Queue4_MainBtbCounterSramWriteReq_reference(	// src/main/scala/chisel3/ut
                io_deq_bits_counters_3_value	// src/main/scala/chisel3/util/Queue.scala:72:14
 );
 
-  wire        io_enq_ready;	// src/main/scala/chisel3/util/Queue.scala:103:16, :123:{24,39}
+  wire        io_enq_ready_0;	// src/main/scala/chisel3/util/Queue.scala:103:16, :123:{24,39}
   wire [19:0] _ram_ext_R0_data;	// src/main/scala/chisel3/util/Queue.scala:73:91
   reg  [1:0]  enq_ptr_value;	// src/main/scala/chisel3/util/Counter.scala:61:40
   reg  [1:0]  deq_ptr_value;	// src/main/scala/chisel3/util/Counter.scala:61:40
@@ -27,8 +28,8 @@ module Queue4_MainBtbCounterSramWriteReq_reference(	// src/main/scala/chisel3/ut
   wire        ptr_match = enq_ptr_value == deq_ptr_value;	// src/main/scala/chisel3/util/Counter.scala:61:40, src/main/scala/chisel3/util/Queue.scala:77:33
   wire        empty = ptr_match & ~maybe_full;	// src/main/scala/chisel3/util/Queue.scala:76:27, :77:33, :78:{25,28}
   wire        io_deq_valid_0 = io_enq_valid | ~empty;	// src/main/scala/chisel3/util/Queue.scala:78:25, :102:{16,19}, :114:{24,39}
-  wire        do_enq = ~(empty & io_deq_ready) & io_enq_ready & io_enq_valid;	// src/main/scala/chisel3/util/Queue.scala:78:25, :80:27, :103:16, :115:17, :118:{26,35}, :123:{24,39}, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
-  assign io_enq_ready = io_deq_ready | ~(ptr_match & maybe_full);	// src/main/scala/chisel3/util/Queue.scala:76:27, :77:33, :79:24, :103:{16,19}, :123:{24,39}
+  wire        do_enq = ~(empty & io_deq_ready) & io_enq_ready_0 & io_enq_valid;	// src/main/scala/chisel3/util/Queue.scala:78:25, :80:27, :103:16, :115:17, :118:{26,35}, :123:{24,39}, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
+  assign io_enq_ready_0 = io_deq_ready | ~(ptr_match & maybe_full);	// src/main/scala/chisel3/util/Queue.scala:76:27, :77:33, :79:24, :103:{16,19}, :123:{24,39}
   wire        do_deq = ~empty & io_deq_ready & io_deq_valid_0;	// src/main/scala/chisel3/util/Queue.scala:78:25, :81:27, :102:16, :114:{24,39}, :115:17, :117:14, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
   always @(posedge clock or posedge reset) begin	// src/main/scala/chisel3/util/Queue.scala:60:7
     if (reset) begin	// src/main/scala/chisel3/util/Queue.scala:60:7
@@ -76,6 +77,7 @@ module Queue4_MainBtbCounterSramWriteReq_reference(	// src/main/scala/chisel3/ut
         io_enq_bits_counters_1_value,
         io_enq_bits_counters_0_value})	// src/main/scala/chisel3/util/Queue.scala:73:91
   );	// src/main/scala/chisel3/util/Queue.scala:73:91
+  assign io_enq_ready = io_enq_ready_0;	// src/main/scala/chisel3/util/Queue.scala:60:7, :103:16, :123:{24,39}
   assign io_deq_valid = io_deq_valid_0;	// src/main/scala/chisel3/util/Queue.scala:60:7, :102:16, :114:{24,39}
   assign io_deq_bits_setIdx = empty ? io_enq_bits_setIdx : _ram_ext_R0_data[19:12];	// src/main/scala/chisel3/util/Queue.scala:60:7, :73:91, :78:25, :110:17, :115:17, :116:19
   assign io_deq_bits_wayMask = empty ? io_enq_bits_wayMask : _ram_ext_R0_data[11:8];	// src/main/scala/chisel3/util/Queue.scala:60:7, :73:91, :78:25, :110:17, :115:17, :116:19

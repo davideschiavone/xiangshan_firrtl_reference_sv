@@ -28,6 +28,7 @@ module Arbiter4_StoreStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.s
   input  [63:0] io_in_0_bits_fullva,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [2:0]  io_in_0_bits_size,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [15:0] io_in_0_bits_mask,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input         io_in_0_bits_isFirstIssue,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [7:0]  io_in_0_bits_elemIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [3:0]  io_in_0_bits_mbIndex,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output        io_in_1_ready,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -85,6 +86,7 @@ module Arbiter4_StoreStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.s
   input  [63:0] io_in_2_bits_fullva,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [2:0]  io_in_2_bits_size,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [15:0] io_in_2_bits_mask,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  input         io_in_2_bits_isFirstIssue,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input  [4:0]  io_in_2_bits_ssid,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   input         io_in_2_bits_storeSetHit,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output        io_out_valid,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -116,6 +118,7 @@ module Arbiter4_StoreStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.s
   output [63:0] io_out_bits_fullva,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [2:0]  io_out_bits_size,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [15:0] io_out_bits_mask,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
+  output        io_out_bits_isFirstIssue,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [4:0]  io_out_bits_ssid,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output        io_out_bits_storeSetHit,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
   output [7:0]  io_out_bits_elemIdx,	// src/main/scala/chisel3/util/Arbiter.scala:156:14
@@ -250,6 +253,8 @@ module Arbiter4_StoreStageIO_reference(	// src/main/scala/chisel3/util/Arbiter.s
     io_in_0_valid
       ? io_in_0_bits_mask
       : io_in_1_valid ? io_in_1_bits_mask : io_in_2_valid ? io_in_2_bits_mask : 16'hFFFF;	// src/main/scala/chisel3/util/Arbiter.scala:149:7, :156:14, :159:15, :161:26, :163:19
+  assign io_out_bits_isFirstIssue =
+    io_in_0_valid ? io_in_0_bits_isFirstIssue : io_in_1_valid | ~io_in_2_valid | io_in_2_bits_isFirstIssue;	// src/main/scala/chisel3/util/Arbiter.scala:149:7, :159:15, :161:26, :163:19
   assign io_out_bits_ssid = _GEN | ~io_in_2_valid ? 5'h0 : io_in_2_bits_ssid;	// src/main/scala/chisel3/util/Arbiter.scala:149:7, :156:14, :159:15, :161:26, :163:19
   assign io_out_bits_storeSetHit = ~_GEN & io_in_2_valid & io_in_2_bits_storeSetHit;	// src/main/scala/chisel3/util/Arbiter.scala:149:7, :159:15, :161:26, :163:19
   assign io_out_bits_elemIdx = io_in_0_valid ? io_in_0_bits_elemIdx : io_in_1_valid ? io_in_1_bits_elemIdx : 8'h0;	// src/main/scala/chisel3/util/Arbiter.scala:149:7, :156:14, :159:15, :161:26, :163:19
