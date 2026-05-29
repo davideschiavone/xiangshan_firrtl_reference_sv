@@ -715,7 +715,7 @@ module XiangShanSim_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
     .io_axi4_0_r_bits_resp   (_memory_io_axi4_0_r_bits_resp),
     .io_axi4_0_r_bits_last   (_memory_io_axi4_0_r_bits_last)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/test/scala/top/SimTop.scala:117:25
-  SimJTAG_reference #(
+  SimJTAG #(
     .TICK_DELAY(3)
   ) jtag (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/test/scala/top/SimTop.scala:146:20
     .clock           (clock),
