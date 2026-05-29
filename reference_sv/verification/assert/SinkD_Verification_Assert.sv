@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module SinkD_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkD.scala:55:9
+module SinkD_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkD.scala:55:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkD.scala:55:9
     always @(posedge SinkD.clock) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkD.scala:27:7, :55:9
       if (~SinkD.reset & ~(SinkD._io_bs_waddr_bits_noop_T | SinkD._io_d_ready_T | SinkD.io_d_bits_size == 3'h6)) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkD.scala:27:7, :28:14, :55:{9,10,22,25,35,53}

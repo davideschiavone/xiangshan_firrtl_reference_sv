@@ -5,6 +5,6 @@
   `include "layers-MSHRCtl-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/MSHRCtl.scala:40:7
   `include "layers-MSHR-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/MSHRCtl.scala:40:7
   `include "layers-SourceB-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/MSHRCtl.scala:40:7
-  bind MSHRCtl MSHRCtl_Verification_Assert verification_assert ();
+  bind MSHRCtl_reference MSHRCtl_Verification_Assert verification_assert ();
 `endif // not def layers_MSHRCtl_Verification_Assert
 `endif // BIANCO_DIFFTEST

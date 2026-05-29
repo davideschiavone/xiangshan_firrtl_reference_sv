@@ -4,6 +4,6 @@
   `define layers_TLCacheCork_Verification_Assert
   `include "layers-TLCacheCork-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/CacheCork.scala:34:9
   `include "layers-IDPool-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/CacheCork.scala:34:9
-  bind TLCacheCork TLCacheCork_Verification_Assert verification_assert ();
+  bind TLCacheCork_reference TLCacheCork_Verification_Assert verification_assert ();
 `endif // not def layers_TLCacheCork_Verification_Assert
 `endif // BIANCO_DIFFTEST

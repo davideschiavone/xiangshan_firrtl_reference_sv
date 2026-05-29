@@ -3,6 +3,6 @@
 `ifndef layers_StoreUnitS1_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewStoreUnit.scala:262:7
   `define layers_StoreUnitS1_Verification_Assert
   `include "layers-StoreUnitS1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewStoreUnit.scala:262:7
-  bind StoreUnitS1 StoreUnitS1_Verification_Assert verification_assert ();
+  bind StoreUnitS1_reference StoreUnitS1_Verification_Assert verification_assert ();
 `endif // not def layers_StoreUnitS1_Verification_Assert
 `endif // BIANCO_DIFFTEST

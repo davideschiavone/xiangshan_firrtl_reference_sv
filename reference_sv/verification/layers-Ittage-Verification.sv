@@ -6,6 +6,6 @@
   `include "layers-IttageTable_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ittage/Ittage.scala:44:7
   `include "layers-IttageTable_2-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ittage/Ittage.scala:44:7
   `include "layers-RegionWays-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ittage/Ittage.scala:44:7
-  bind Ittage Ittage_Verification verification ();
+  bind Ittage_reference Ittage_Verification verification ();
 `endif // not def layers_Ittage_Verification
 `endif // BIANCO_DIFFTEST

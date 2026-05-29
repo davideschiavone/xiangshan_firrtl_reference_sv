@@ -11,6 +11,6 @@
   `include "layers-Sc-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/Bpu.scala:47:7
   `include "layers-Phr-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/Bpu.scala:47:7
   `include "layers-CommonHR-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/Bpu.scala:47:7
-  bind Bpu Bpu_Verification_Assert verification_assert ();
+  bind Bpu_reference Bpu_Verification_Assert verification_assert ();
 `endif // not def layers_Bpu_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -4,6 +4,6 @@
   `define layers_ExeUnitImp_4_Verification
   `include "layers-I2F-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
   `include "layers-Dispatcher_4-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
-  bind ExeUnitImp_4 ExeUnitImp_4_Verification verification ();
+  bind ExeUnitImp_4_reference ExeUnitImp_4_Verification verification ();
 `endif // not def layers_ExeUnitImp_4_Verification
 `endif // BIANCO_DIFFTEST

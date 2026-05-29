@@ -3,6 +3,6 @@
 `ifndef layers_Sc_Anon_7_Verification	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/Sc.scala:88:16
   `define layers_Sc_Anon_7_Verification
   `include "layers-WriteBuffer_48-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/Sc.scala:88:16
-  bind Sc_Anon_7 Sc_Anon_7_Verification verification ();
+  bind Sc_Anon_7_reference Sc_Anon_7_Verification verification ();
 `endif // not def layers_Sc_Anon_7_Verification
 `endif // BIANCO_DIFFTEST

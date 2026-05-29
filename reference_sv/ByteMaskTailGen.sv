@@ -54,23 +54,23 @@ module ByteMaskTailGen_reference(	// home/davide/gitdir/bianco/XiangShan/src/mai
   wire [15:0]  maskAgnosticEn /* #hw<innerSym@sym_9> */ = (io_in_vma ? maskOffEn : 16'h0) & bodyEnInVd;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/ByteMaskTailGen.scala:73:28, :74:{35,63}, home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/util/LookupTree.scala:24:10
   wire [15:0]  tailAgnosticEn /* #hw<innerSym@sym_10> */ = io_in_vta ? tailEnInVd : 16'h0;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/ByteMaskTailGen.scala:76:35, home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/util/LookupTree.scala:24:10
   wire         _agnosticEn_T = io_in_begin >= io_in_end;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/ByteMaskTailGen.scala:78:42
-  UIntToContLow1s prestartEn_uintToContTail1sMod128Bits (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont1s.scala:34:37
+  UIntToContLow1s_reference prestartEn_uintToContTail1sMod128Bits (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont1s.scala:34:37
     .io_dataIn  (startBytes),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/ByteMaskTailGen.scala:61:33
     .io_dataOut (_prestartEn_uintToContTail1sMod128Bits_io_dataOut)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont1s.scala:34:37
-  UIntToContLow0s bodyEn_uintToContTail0sMod128Bits (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont0s.scala:34:37
+  UIntToContLow0s_reference bodyEn_uintToContTail0sMod128Bits (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont0s.scala:34:37
     .io_dataIn  (startBytes),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/ByteMaskTailGen.scala:61:33
     .io_dataOut (_bodyEn_uintToContTail0sMod128Bits_io_dataOut)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont0s.scala:34:37
-  UIntToContLow1s bodyEn_uintToContTail1sMod128Bits (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont1s.scala:34:37
+  UIntToContLow1s_reference bodyEn_uintToContTail1sMod128Bits (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont1s.scala:34:37
     .io_dataIn  (vlBytes),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/ByteMaskTailGen.scala:62:33
     .io_dataOut (_bodyEn_uintToContTail1sMod128Bits_io_dataOut)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont1s.scala:34:37
-  UIntToContLow0s tailEn_uintToContTail0sMod128Bits (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont0s.scala:34:37
+  UIntToContLow0s_reference tailEn_uintToContTail0sMod128Bits (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont0s.scala:34:37
     .io_dataIn  (vlBytes),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/ByteMaskTailGen.scala:62:33
     .io_dataOut (_tailEn_uintToContTail0sMod128Bits_io_dataOut)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/UIntToCont0s.scala:34:37
-  MaskExtractor maskEn_maskExtractor (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/MaskExtrator.scala:40:31
+  MaskExtractor_reference maskEn_maskExtractor (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/utils/MaskExtrator.scala:40:31
     .io_in_mask  (io_in_maskUsed),
     .io_in_vsew  (io_in_vsew),
     .io_out_mask (_maskEn_maskExtractor_io_out_mask)

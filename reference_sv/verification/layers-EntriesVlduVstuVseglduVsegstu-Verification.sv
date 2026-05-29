@@ -5,6 +5,6 @@
   `include "layers-EnqEntryVecMem-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntryVecMem-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntryVecMem_2-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
-  bind EntriesVlduVstuVseglduVsegstu EntriesVlduVstuVseglduVsegstu_Verification verification ();
+  bind EntriesVlduVstuVseglduVsegstu_reference EntriesVlduVstuVseglduVsegstu_Verification verification ();
 `endif // not def layers_EntriesVlduVstuVseglduVsegstu_Verification
 `endif // BIANCO_DIFFTEST

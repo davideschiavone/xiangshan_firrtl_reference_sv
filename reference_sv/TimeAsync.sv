@@ -35,7 +35,7 @@ module TimeAsync_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/scal
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco/XiangShan/src/main/scala/device/TimeAsync.scala:29:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  AsyncResetSynchronizerShiftReg_w1_d3_i0 time_vld_chain (	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/ShiftReg.scala:45:23
+  AsyncResetSynchronizerShiftReg_w1_d3_i0_reference time_vld_chain (	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/ShiftReg.scala:45:23
     .clock (clock),
     .reset (reset),
     .io_d  (io_i_time_valid),

@@ -5,6 +5,6 @@
   `include "layers-VTypeBuffer-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/VTypeBuffer.scala:66:7
   `include "layers-SnapshotGenerator_1-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/VTypeBuffer.scala:66:7
   `include "layers-SnapshotGenerator_2-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/VTypeBuffer.scala:66:7
-  bind VTypeBuffer VTypeBuffer_Verification_Assert verification_assert ();
+  bind VTypeBuffer_reference VTypeBuffer_Verification_Assert verification_assert ();
 `endif // not def layers_VTypeBuffer_Verification_Assert
 `endif // BIANCO_DIFFTEST

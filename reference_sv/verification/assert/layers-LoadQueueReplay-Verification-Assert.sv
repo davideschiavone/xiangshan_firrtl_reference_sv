@@ -4,6 +4,6 @@
   `define layers_LoadQueueReplay_Verification_Assert
   `include "layers-LoadQueueReplay-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueReplay.scala:168:7
   `include "layers-LqVAddrModule-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueReplay.scala:168:7
-  bind LoadQueueReplay LoadQueueReplay_Verification_Assert verification_assert ();
+  bind LoadQueueReplay_reference LoadQueueReplay_Verification_Assert verification_assert ();
 `endif // not def layers_LoadQueueReplay_Verification_Assert
 `endif // BIANCO_DIFFTEST

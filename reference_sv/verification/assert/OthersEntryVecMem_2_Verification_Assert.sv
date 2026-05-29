@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module OthersEntryVecMem_2_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/OthersEntry.scala:51:11
+module OthersEntryVecMem_2_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/OthersEntry.scala:51:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/OthersEntry.scala:51:11
     always @(posedge OthersEntryVecMem_2.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/OthersEntry.scala:51:11, :62:7
       if (OthersEntryVecMem_2.io_commonIn_enq_valid & ~OthersEntryVecMem_2.reset

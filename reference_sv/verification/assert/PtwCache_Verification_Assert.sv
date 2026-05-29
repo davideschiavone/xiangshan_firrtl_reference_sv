@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module PtwCache_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module PtwCache_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
     always @(posedge PtwCache.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/PageTableCache.scala:204:7, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
       if (PtwCache.valid_2_0 & PtwCache.resp_res_l0_hit_0 & PtwCache.resp_res_sp_hit_0 & ~PtwCache.reset) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/PageTableCache.scala:204:7, :693:21, :833:{27,46}, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/PipelineConnect.scala:108:24

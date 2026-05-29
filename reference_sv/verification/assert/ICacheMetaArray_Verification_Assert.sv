@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module ICacheMetaArray_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICacheMetaArray.scala:94:9
+module ICacheMetaArray_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICacheMetaArray.scala:94:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICacheMetaArray.scala:41:9
     always @(posedge ICacheMetaArray.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICacheMetaArray.scala:24:7, :41:9
       if (~ICacheMetaArray.reset & ICacheMetaArray.r0_validVec_rotations_0_1

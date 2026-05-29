@@ -3,6 +3,6 @@
 `ifndef layers_OthersEntryVecMem_2_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/OthersEntry.scala:62:7
   `define layers_OthersEntryVecMem_2_Verification_Assert
   `include "layers-OthersEntryVecMem_2-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/OthersEntry.scala:62:7
-  bind OthersEntryVecMem_2 OthersEntryVecMem_2_Verification_Assert verification_assert ();
+  bind OthersEntryVecMem_2_reference OthersEntryVecMem_2_Verification_Assert verification_assert ();
 `endif // not def layers_OthersEntryVecMem_2_Verification_Assert
 `endif // BIANCO_DIFFTEST

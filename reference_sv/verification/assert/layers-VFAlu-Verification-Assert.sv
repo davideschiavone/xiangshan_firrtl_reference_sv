@@ -3,6 +3,6 @@
 `ifndef layers_VFAlu_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VFALU.scala:16:7
   `define layers_VFAlu_Verification_Assert
   `include "layers-VFAlu-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VFALU.scala:16:7
-  bind VFAlu VFAlu_Verification_Assert verification_assert ();
+  bind VFAlu_reference VFAlu_Verification_Assert verification_assert ();
 `endif // not def layers_VFAlu_Verification_Assert
 `endif // BIANCO_DIFFTEST

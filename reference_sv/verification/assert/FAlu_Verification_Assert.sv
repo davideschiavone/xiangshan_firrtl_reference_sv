@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module FAlu_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module FAlu_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
     always @(posedge FAlu.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FALU.scala:13:7, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
       if (FAlu.io_in_valid & FAlu.io_in_bits_ctrl_fuOpType == 9'hFF & ~FAlu.reset) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuncUnit.scala:148:14, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FALU.scala:13:7, :14:{23,51}, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17

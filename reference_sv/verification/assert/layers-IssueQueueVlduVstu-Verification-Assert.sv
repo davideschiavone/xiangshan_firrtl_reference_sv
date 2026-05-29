@@ -6,6 +6,6 @@
   `include "layers-EntriesVlduVstu-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_18-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_13-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
-  bind IssueQueueVlduVstu IssueQueueVlduVstu_Verification_Assert verification_assert ();
+  bind IssueQueueVlduVstu_reference IssueQueueVlduVstu_Verification_Assert verification_assert ();
 `endif // not def layers_IssueQueueVlduVstu_Verification_Assert
 `endif // BIANCO_DIFFTEST

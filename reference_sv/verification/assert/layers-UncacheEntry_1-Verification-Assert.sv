@@ -3,6 +3,6 @@
 `ifndef layers_UncacheEntry_1_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueUncache.scala:33:7
   `define layers_UncacheEntry_1_Verification_Assert
   `include "layers-UncacheEntry_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueUncache.scala:33:7
-  bind UncacheEntry_1 UncacheEntry_1_Verification_Assert verification_assert ();
+  bind UncacheEntry_1_reference UncacheEntry_1_Verification_Assert verification_assert ();
 `endif // not def layers_UncacheEntry_1_Verification_Assert
 `endif // BIANCO_DIFFTEST

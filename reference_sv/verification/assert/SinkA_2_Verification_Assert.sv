@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module SinkA_2_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkA.scala:82:11
+module SinkA_2_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkA.scala:82:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkA.scala:82:11
     always @(posedge SinkA_2.clock) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkA.scala:28:7, :82:11
       if (SinkA_2.bufferLeakCnt_0 == 12'h320 & ~SinkA_2.reset) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkA.scala:28:7, :73:30, :81:22, :82:11

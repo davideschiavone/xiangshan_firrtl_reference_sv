@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module NewStoreQueue_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module NewStoreQueue_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
     wire [7:0] validVStoreOffset_0 = NewStoreQueue.io_enq_req_0_bits_needAlloc ? NewStoreQueue.vStoreFlow_0 : 8'h0;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:1426:14, :1545:64, :1548:81
     wire [7:0] validVStoreOffset_1 = NewStoreQueue.io_enq_req_1_bits_needAlloc ? NewStoreQueue.vStoreFlow_1 : 8'h0;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:1426:14, :1545:64, :1548:81

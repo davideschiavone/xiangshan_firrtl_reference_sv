@@ -7,6 +7,6 @@
   `include "layers-FMA-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
   `include "layers-FCVT-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
   `include "layers-Dispatcher_9-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
-  bind ExeUnitImp_9 ExeUnitImp_9_Verification_Assert verification_assert ();
+  bind ExeUnitImp_9_reference ExeUnitImp_9_Verification_Assert verification_assert ();
 `endif // not def layers_ExeUnitImp_9_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -3,6 +3,6 @@
 `ifndef layers_FpRegFile_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regfile/Regfile.scala:67:7
   `define layers_FpRegFile_Verification_Assert
   `include "layers-FpRegFile-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regfile/Regfile.scala:67:7
-  bind FpRegFile FpRegFile_Verification_Assert verification_assert ();
+  bind FpRegFile_reference FpRegFile_Verification_Assert verification_assert ();
 `endif // not def layers_FpRegFile_Verification_Assert
 `endif // BIANCO_DIFFTEST

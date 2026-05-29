@@ -3,6 +3,6 @@
 `ifndef layers_RequestBuffer_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestBuffer.scala:71:7
   `define layers_RequestBuffer_Verification_Assert
   `include "layers-RequestBuffer-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestBuffer.scala:71:7
-  bind RequestBuffer RequestBuffer_Verification_Assert verification_assert ();
+  bind RequestBuffer_reference RequestBuffer_Verification_Assert verification_assert ();
 `endif // not def layers_RequestBuffer_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -3,6 +3,6 @@
 `ifndef layers_VirtualLoadQueue_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/VirtualLoadQueue.scala:34:7
   `define layers_VirtualLoadQueue_Verification_Assert
   `include "layers-VirtualLoadQueue-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/VirtualLoadQueue.scala:34:7
-  bind VirtualLoadQueue VirtualLoadQueue_Verification_Assert verification_assert ();
+  bind VirtualLoadQueue_reference VirtualLoadQueue_Verification_Assert verification_assert ();
 `endif // not def layers_VirtualLoadQueue_Verification_Assert
 `endif // BIANCO_DIFFTEST

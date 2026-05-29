@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module MicroBtb_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ubtb/MicroBtb.scala:73:9
+module MicroBtb_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ubtb/MicroBtb.scala:73:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ubtb/MicroBtb.scala:73:9
     wire [5:0] _GEN =
       {1'h0,

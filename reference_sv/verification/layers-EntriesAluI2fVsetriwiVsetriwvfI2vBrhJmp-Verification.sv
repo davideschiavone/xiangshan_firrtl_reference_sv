@@ -5,6 +5,6 @@
   `include "layers-EnqEntry_4-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_32-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_38-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
-  bind EntriesAluI2fVsetriwiVsetriwvfI2vBrhJmp EntriesAluI2fVsetriwiVsetriwvfI2vBrhJmp_Verification verification ();
+  bind EntriesAluI2fVsetriwiVsetriwvfI2vBrhJmp_reference EntriesAluI2fVsetriwiVsetriwvfI2vBrhJmp_Verification verification ();
 `endif // not def layers_EntriesAluI2fVsetriwiVsetriwvfI2vBrhJmp_Verification
 `endif // BIANCO_DIFFTEST

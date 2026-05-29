@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module BloomFilter_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/FDP.scala:200:9
+module BloomFilter_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/FDP.scala:200:9
   reg  [4095:0] data;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/FDP.scala:175:21
   wire [4095:0] _data_T =
     {~(BloomFilter.io_clr_valid & (&BloomFilter.io_clr_bits_addr))

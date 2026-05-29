@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module MStatusModule_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:599:11
+module MStatusModule_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:599:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:594:11
     always @(posedge MStatusModule.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:568:7, :594:11
       if (MStatusModule._layer_probe & ~MStatusModule.reset & MStatusModule.reg_FS_0 == 2'h0) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRModule.scala:24:53, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:568:7, :593:27, :594:{11,19}

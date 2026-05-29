@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module TLPLIC_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Plic.scala:292:19
+module TLPLIC_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Plic.scala:292:19
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Plic.scala:245:11
     wire [1:0] _GEN = {TLPLIC.claimer_1, TLPLIC.claimer_0};	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Plic.scala:244:23, :245:21
     wire [1:0] _GEN_0 = {TLPLIC.completer_1, TLPLIC.completer_0};	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Plic.scala:261:25, :262:23

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module DCache_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/DCacheWrapper.scala:1690:11
+module DCache_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/DCacheWrapper.scala:1690:11
   reg REG;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/DCacheWrapper.scala:1192:18
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/DCacheWrapper.scala:1192:9
     always @(posedge DCache.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/DCacheWrapper.scala:886:7, :1192:9

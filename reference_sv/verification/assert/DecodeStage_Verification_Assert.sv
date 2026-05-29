@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module DecodeStage_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeStage.scala:263:13
+module DecodeStage_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeStage.scala:263:13
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeStage.scala:263:13
     wire [2:0] _GEN =
       {1'h0, {1'h0, DecodeStage.io_out_0_bits_rfWen_0} + {1'h0, DecodeStage.io_out_0_bits_fpWen_0}}

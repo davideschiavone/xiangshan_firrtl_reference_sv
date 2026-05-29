@@ -6,7 +6,7 @@ module AsyncResetSynchronizerShiftReg_w1_d3_i0_reference(	// home/davide/gitdir/
   output io_q	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/ShiftReg.scala:36:14
 );
 
-  AsyncResetSynchronizerPrimitiveShiftReg_d3_i0 output_chain (	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/ShiftReg.scala:45:23
+  AsyncResetSynchronizerPrimitiveShiftReg_d3_i0_reference output_chain (	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/ShiftReg.scala:45:23
     .clock (clock),
     .reset (reset),
     .io_d  (io_d),

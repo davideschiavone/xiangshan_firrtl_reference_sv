@@ -5,6 +5,6 @@
   `include "layers-EnqEntry_26-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_182-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_184-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
-  bind EntriesFaluFmacFcvtFcmpF2v EntriesFaluFmacFcvtFcmpF2v_Verification verification ();
+  bind EntriesFaluFmacFcvtFcmpF2v_reference EntriesFaluFmacFcvtFcmpF2v_Verification verification ();
 `endif // not def layers_EntriesFaluFmacFcvtFcmpF2v_Verification
 `endif // BIANCO_DIFFTEST

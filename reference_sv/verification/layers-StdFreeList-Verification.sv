@@ -3,6 +3,6 @@
 `ifndef layers_StdFreeList_Verification	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/freelist/StdFreeList.scala:28:7
   `define layers_StdFreeList_Verification
   `include "layers-SnapshotGenerator_5-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/freelist/StdFreeList.scala:28:7
-  bind StdFreeList StdFreeList_Verification verification ();
+  bind StdFreeList_reference StdFreeList_Verification verification ();
 `endif // not def layers_StdFreeList_Verification
 `endif // BIANCO_DIFFTEST

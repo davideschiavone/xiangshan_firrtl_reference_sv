@@ -87,7 +87,7 @@ module VldMergeUnit_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/s
       wbReg_bits_toVlRf_bits <= io_writeback_bits_toVlRf_bits;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/VldMergeUnit.scala:18:18
     end
   end // always @(posedge)
-  VldMgu mgu (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/VldMergeUnit.scala:19:19
+  VldMgu_reference mgu (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/VldMergeUnit.scala:19:19
     .io_in_vd           (wbReg_bits_toVecRf_bits),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/VldMergeUnit.scala:18:18
     .io_in_oldVd        (wbReg_bits_toVecRf_bits),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/VldMergeUnit.scala:18:18
     .io_in_mask

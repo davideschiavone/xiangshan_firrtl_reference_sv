@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module MemBlock_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:1393:13
+module MemBlock_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:1393:13
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:1333:9
     always @(posedge MemBlock.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:1333:9, :1639:7
       if (~MemBlock.reset & MemBlock.io_ooo_to_mem_flushSb & MemBlock.inner_atomicsFlush

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module Ifu_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/Bundles.scala:225:11
+module Ifu_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/Bundles.scala:225:11
   reg        s1_fetchBlock_0_doubleline;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/Ifu.scala:176:49
   reg        s2_fetchBlock_0_takenCfiOffset_valid;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/Ifu.scala:298:44
   reg        s3_alignFetchBlock_0_takenCfiOffset_valid;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/Ifu.scala:442:49

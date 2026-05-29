@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module CounterFilter_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/FDP.scala:111:11
+module CounterFilter_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/FDP.scala:111:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/FDP.scala:111:11
     always @(posedge CounterFilter.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/FDP.scala:61:7, :111:11
       if (~CounterFilter.reset & ~(~CounterFilter.io_ld_in_0_valid | CounterFilter.canAlloc_0)) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/FDP.scala:61:7, :62:14, :104:33, :111:{11,12,26}

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module ICachePrefetchPipe_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/Bundles.scala:225:11
+module ICachePrefetchPipe_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/Bundles.scala:225:11
   reg s1_req_0_isCrossLine;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICachePrefetchPipe.scala:116:46
   reg s1_req_1_isCrossLine;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICachePrefetchPipe.scala:116:46
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/Bundles.scala:225:11

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module AXI4ToTL_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
+module AXI4ToTL_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/ToTL.scala:108:14
     wire [29:0] _GEN = 30'h7FFF << AXI4ToTL.r_size;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/package.scala:235:71, src/main/scala/chisel3/util/OneHot.scala:32:10
     wire [29:0] _GEN_0 = 30'h7FFF << AXI4ToTL.w_size;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/package.scala:235:71, src/main/scala/chisel3/util/OneHot.scala:32:10

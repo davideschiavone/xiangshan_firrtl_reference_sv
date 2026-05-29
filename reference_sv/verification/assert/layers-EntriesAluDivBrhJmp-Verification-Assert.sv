@@ -6,6 +6,6 @@
   `include "layers-EnqEntry_2-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_16-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_22-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
-  bind EntriesAluDivBrhJmp EntriesAluDivBrhJmp_Verification_Assert verification_assert ();
+  bind EntriesAluDivBrhJmp_reference EntriesAluDivBrhJmp_Verification_Assert verification_assert ();
 `endif // not def layers_EntriesAluDivBrhJmp_Verification_Assert
 `endif // BIANCO_DIFFTEST

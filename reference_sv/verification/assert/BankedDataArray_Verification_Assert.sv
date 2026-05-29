@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module BankedDataArray_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:720:11
+module BankedDataArray_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:720:11
   reg        REG_8;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:720:21
   reg        REG_9;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:720:21
   reg        REG_10;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:720:21

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module VCVT_8_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module VCVT_8_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
     always @(posedge VCVT_8.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VCVT.scala:17:7, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
       if (VCVT_8.io_in_valid & VCVT_8.io_in_bits_ctrl_fuOpType == 9'hFF & ~VCVT_8.reset) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuncUnit.scala:148:14, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VCVT.scala:17:7, :18:{23,51}, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17

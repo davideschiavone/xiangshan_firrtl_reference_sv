@@ -5,6 +5,6 @@
   `include "layers-ForwardModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:1533:7
   `include "layers-DeqModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:1533:7
   `include "layers-UnalignQueue-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:1533:7
-  bind NewStoreQueue NewStoreQueue_Verification verification ();
+  bind NewStoreQueue_reference NewStoreQueue_Verification verification ();
 `endif // not def layers_NewStoreQueue_Verification
 `endif // BIANCO_DIFFTEST

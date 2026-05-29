@@ -3,6 +3,6 @@
 `ifndef layers_SnapshotGenerator_2_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Snapshot.scala:26:7
   `define layers_SnapshotGenerator_2_Verification_Assert
   `include "layers-SnapshotGenerator_2-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Snapshot.scala:26:7
-  bind SnapshotGenerator_2 SnapshotGenerator_2_Verification_Assert verification_assert ();
+  bind SnapshotGenerator_2_reference SnapshotGenerator_2_Verification_Assert verification_assert ();
 `endif // not def layers_SnapshotGenerator_2_Verification_Assert
 `endif // BIANCO_DIFFTEST

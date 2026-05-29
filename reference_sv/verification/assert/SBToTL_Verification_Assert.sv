@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module SBToTL_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/SBA.scala:370:12
+module SBToTL_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/SBA.scala:370:12
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/SBA.scala:370:12
     always @(posedge SBToTL.clock) begin	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/SBA.scala:270:9, :370:12
       if (~SBToTL.reset

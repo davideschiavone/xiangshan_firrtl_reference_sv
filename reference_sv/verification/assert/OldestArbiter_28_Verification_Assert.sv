@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module OldestArbiter_28_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/RFReadArbiter.scala:85:13
+module OldestArbiter_28_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/RFReadArbiter.scala:85:13
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/RFReadArbiter.scala:84:13
     wire [1:0] _GEN = {1'h0, OldestArbiter_28.priorityVecReg_1_0 == OldestArbiter_28.priorityVecReg_0_0};	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/RFReadArbiter.scala:58:33, :85:{22,49}
     wire [1:0] _GEN_0 = {1'h0, OldestArbiter_28.priorityVecReg_2_0 == OldestArbiter_28.priorityVecReg_0_0};	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/RFReadArbiter.scala:58:33, :85:{22,49}

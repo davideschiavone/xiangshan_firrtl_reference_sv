@@ -3,6 +3,6 @@
 `ifndef layers_ForwardModule_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:227:17
   `define layers_ForwardModule_Verification_Assert
   `include "layers-ForwardModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:227:17
-  bind ForwardModule ForwardModule_Verification_Assert verification_assert ();
+  bind ForwardModule_reference ForwardModule_Verification_Assert verification_assert ();
 `endif // not def layers_ForwardModule_Verification_Assert
 `endif // BIANCO_DIFFTEST

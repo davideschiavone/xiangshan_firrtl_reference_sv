@@ -3,6 +3,6 @@
 `ifndef layers_JtagBypassChain_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagShifter.scala:56:7
   `define layers_JtagBypassChain_Verification_Assert
   `include "layers-JtagBypassChain-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagShifter.scala:56:7
-  bind JtagBypassChain JtagBypassChain_Verification_Assert verification_assert ();
+  bind JtagBypassChain_reference JtagBypassChain_Verification_Assert verification_assert ();
 `endif // not def layers_JtagBypassChain_Verification_Assert
 `endif // BIANCO_DIFFTEST

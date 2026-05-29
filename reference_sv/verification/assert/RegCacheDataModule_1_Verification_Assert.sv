@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module RegCacheDataModule_1_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheDataModule.scala:72:13
+module RegCacheDataModule_1_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheDataModule.scala:72:13
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheDataModule.scala:64:13
     wire [15:0] _GEN =
       {{RegCacheDataModule_1.v_0_0},

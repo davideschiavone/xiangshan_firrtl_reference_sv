@@ -3,6 +3,6 @@
 `ifndef layers_PreDecode_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/PreDecode.scala:26:7
   `define layers_PreDecode_Verification_Assert
   `include "layers-PreDecode-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/PreDecode.scala:26:7
-  bind PreDecode PreDecode_Verification_Assert verification_assert ();
+  bind PreDecode_reference PreDecode_Verification_Assert verification_assert ();
 `endif // not def layers_PreDecode_Verification_Assert
 `endif // BIANCO_DIFFTEST

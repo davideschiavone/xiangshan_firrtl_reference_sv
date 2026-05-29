@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module ResolveQueue_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module ResolveQueue_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   reg REG_2;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/ResolveQueue.scala:61:12
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
     always @(posedge ResolveQueue.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/ResolveQueue.scala:28:7, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17

@@ -4,6 +4,6 @@
   `define layers_DeqModule_Verification_Assert
   `include "layers-DeqModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:774:17
   `include "layers-EnterSbufferQueue-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:774:17
-  bind DeqModule DeqModule_Verification_Assert verification_assert ();
+  bind DeqModule_reference DeqModule_Verification_Assert verification_assert ();
 `endif // not def layers_DeqModule_Verification_Assert
 `endif // BIANCO_DIFFTEST

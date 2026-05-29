@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module CommonHR_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module CommonHR_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   reg [48:0] histQueue_0_predStartPc_addr;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/commonhr/CommonHR.scala:68:35
   reg [48:0] histQueue_1_predStartPc_addr;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/commonhr/CommonHR.scala:68:35
   reg [48:0] histQueue_2_predStartPc_addr;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/commonhr/CommonHR.scala:68:35

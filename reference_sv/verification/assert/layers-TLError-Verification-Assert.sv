@@ -3,6 +3,6 @@
 `ifndef layers_TLError_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Error.scala:18:9
   `define layers_TLError_Verification_Assert
   `include "layers-TLError-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Error.scala:18:9
-  bind TLError TLError_Verification_Assert verification_assert ();
+  bind TLError_reference TLError_Verification_Assert verification_assert ();
 `endif // not def layers_TLError_Verification_Assert
 `endif // BIANCO_DIFFTEST

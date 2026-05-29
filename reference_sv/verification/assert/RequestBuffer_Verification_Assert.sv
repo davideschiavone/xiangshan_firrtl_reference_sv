@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module RequestBuffer_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestBuffer.scala:332:15
+module RequestBuffer_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestBuffer.scala:332:15
   reg [15:0] bufferTimer_0;	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestBuffer.scala:327:30
   reg [15:0] bufferTimer_1;	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestBuffer.scala:327:30
   reg [15:0] bufferTimer_2;	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestBuffer.scala:327:30

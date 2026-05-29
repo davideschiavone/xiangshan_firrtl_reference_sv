@@ -7,6 +7,6 @@
   `include "layers-DataSRAMBank_1-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:660:7
   `include "layers-DataSRAMBank_2-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:660:7
   `include "layers-DataSRAMBank_4-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:660:7
-  bind BankedDataArray BankedDataArray_Verification_Assert verification_assert ();
+  bind BankedDataArray_reference BankedDataArray_Verification_Assert verification_assert ();
 `endif // not def layers_BankedDataArray_Verification_Assert
 `endif // BIANCO_DIFFTEST

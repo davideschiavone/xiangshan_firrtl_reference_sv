@@ -4,6 +4,6 @@
   `define layers_TLDebugModuleInner_Verification_Assert
   `include "layers-TLDebugModuleInner-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/Debug.scala:783:9
   `include "layers-SBToTL-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/Debug.scala:783:9
-  bind TLDebugModuleInner TLDebugModuleInner_Verification_Assert verification_assert ();
+  bind TLDebugModuleInner_reference TLDebugModuleInner_Verification_Assert verification_assert ();
 `endif // not def layers_TLDebugModuleInner_Verification_Assert
 `endif // BIANCO_DIFFTEST

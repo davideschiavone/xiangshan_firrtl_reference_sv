@@ -3,6 +3,6 @@
 `ifndef layers_VSegmentUnit_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VSegmentUnit.scala:72:7
   `define layers_VSegmentUnit_Verification_Assert
   `include "layers-VSegmentUnit-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VSegmentUnit.scala:72:7
-  bind VSegmentUnit VSegmentUnit_Verification_Assert verification_assert ();
+  bind VSegmentUnit_reference VSegmentUnit_Verification_Assert verification_assert ();
 `endif // not def layers_VSegmentUnit_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -3,6 +3,6 @@
 `ifndef layers_DecodeUnitComp_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:108:7
   `define layers_DecodeUnitComp_Verification_Assert
   `include "layers-DecodeUnitComp-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:108:7
-  bind DecodeUnitComp DecodeUnitComp_Verification_Assert verification_assert ();
+  bind DecodeUnitComp_reference DecodeUnitComp_Verification_Assert verification_assert ();
 `endif // not def layers_DecodeUnitComp_Verification_Assert
 `endif // BIANCO_DIFFTEST

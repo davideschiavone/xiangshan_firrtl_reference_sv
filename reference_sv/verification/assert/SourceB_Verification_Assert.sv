@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module SourceB_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SourceB.scala:97:11
+module SourceB_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SourceB.scala:97:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SourceB.scala:97:11
     wire [4:0] _GEN =
       {1'h0,

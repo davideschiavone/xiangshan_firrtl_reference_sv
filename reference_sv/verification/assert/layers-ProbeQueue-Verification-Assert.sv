@@ -3,6 +3,6 @@
 `ifndef layers_ProbeQueue_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/Probe.scala:128:7
   `define layers_ProbeQueue_Verification_Assert
   `include "layers-ProbeQueue-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/Probe.scala:128:7
-  bind ProbeQueue ProbeQueue_Verification_Assert verification_assert ();
+  bind ProbeQueue_reference ProbeQueue_Verification_Assert verification_assert ();
 `endif // not def layers_ProbeQueue_Verification_Assert
 `endif // BIANCO_DIFFTEST

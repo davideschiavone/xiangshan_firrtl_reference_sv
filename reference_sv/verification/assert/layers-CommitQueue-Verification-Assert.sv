@@ -3,6 +3,6 @@
 `ifndef layers_CommitQueue_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/CommitQueue.scala:27:7
   `define layers_CommitQueue_Verification_Assert
   `include "layers-CommitQueue-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/CommitQueue.scala:27:7
-  bind CommitQueue CommitQueue_Verification_Assert verification_assert ();
+  bind CommitQueue_reference CommitQueue_Verification_Assert verification_assert ();
 `endif // not def layers_CommitQueue_Verification_Assert
 `endif // BIANCO_DIFFTEST

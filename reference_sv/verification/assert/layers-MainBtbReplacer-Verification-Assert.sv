@@ -3,6 +3,6 @@
 `ifndef layers_MainBtbReplacer_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/mbtb/MainBtbReplacer.scala:24:7
   `define layers_MainBtbReplacer_Verification_Assert
   `include "layers-MainBtbReplacer-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/mbtb/MainBtbReplacer.scala:24:7
-  bind MainBtbReplacer MainBtbReplacer_Verification_Assert verification_assert ();
+  bind MainBtbReplacer_reference MainBtbReplacer_Verification_Assert verification_assert ();
 `endif // not def layers_MainBtbReplacer_Verification_Assert
 `endif // BIANCO_DIFFTEST

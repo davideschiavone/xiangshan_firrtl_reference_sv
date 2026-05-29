@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module VSstatusModule_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/VirtualSupervisorLevel.scala:37:15
+module VSstatusModule_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/VirtualSupervisorLevel.scala:37:15
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/VirtualSupervisorLevel.scala:32:15
     always @(posedge VSstatusModule.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/VirtualSupervisorLevel.scala:21:9, :32:15
       if (VSstatusModule._layer_probe & ~VSstatusModule.reset & VSstatusModule.reg_FS_0 == 2'h0) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/CSRModule.scala:24:53, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/VirtualSupervisorLevel.scala:21:9, :31:46, :32:{15,23}

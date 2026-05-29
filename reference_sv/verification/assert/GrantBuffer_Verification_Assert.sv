@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module GrantBuffer_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/GrantBuffer.scala:335:15
+module GrantBuffer_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/GrantBuffer.scala:335:15
   reg [63:0] timers_0;	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/GrantBuffer.scala:330:25
   reg [63:0] timers_1;	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/GrantBuffer.scala:330:25
   reg [63:0] timers_2;	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/GrantBuffer.scala:330:25

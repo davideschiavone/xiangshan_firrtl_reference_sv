@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module ProbeQueue_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/Probe.scala:215:12
+module ProbeQueue_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/Probe.scala:215:12
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/Probe.scala:213:12
     wire _GEN = ProbeQueue.io_mem_probe_valid & ~ProbeQueue.reset;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/Probe.scala:128:7, :130:14, :213:12
     always @(posedge ProbeQueue.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/Probe.scala:128:7, :213:12

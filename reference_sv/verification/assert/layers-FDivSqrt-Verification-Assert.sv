@@ -3,6 +3,6 @@
 `ifndef layers_FDivSqrt_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FDivSqrt.scala:14:7
   `define layers_FDivSqrt_Verification_Assert
   `include "layers-FDivSqrt-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FDivSqrt.scala:14:7
-  bind FDivSqrt FDivSqrt_Verification_Assert verification_assert ();
+  bind FDivSqrt_reference FDivSqrt_Verification_Assert verification_assert ();
 `endif // not def layers_FDivSqrt_Verification_Assert
 `endif // BIANCO_DIFFTEST

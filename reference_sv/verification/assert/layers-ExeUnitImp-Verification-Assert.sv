@@ -6,6 +6,6 @@
   `include "layers-CSR-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
   `include "layers-Fence-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
   `include "layers-Dispatcher-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
-  bind ExeUnitImp ExeUnitImp_Verification_Assert verification_assert ();
+  bind ExeUnitImp_reference ExeUnitImp_Verification_Assert verification_assert ();
 `endif // not def layers_ExeUnitImp_Verification_Assert
 `endif // BIANCO_DIFFTEST

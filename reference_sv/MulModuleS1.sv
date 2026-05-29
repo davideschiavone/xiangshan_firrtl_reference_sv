@@ -11,7 +11,7 @@ module MulModuleS1_reference(	// home/davide/gitdir/bianco/XiangShan/yunsuan/src
 
   wire [127:0] _c42_io_ppOut_0;	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/scalar/Mul.scala:685:27
   wire [127:0] _c42_io_ppOut_1;	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/scalar/Mul.scala:685:27
-  CSA4to2 c42 (	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/scalar/Mul.scala:685:27
+  CSA4to2_reference c42 (	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/scalar/Mul.scala:685:27
     .io_ppIn_0  (io_in_ppIn_0),
     .io_ppIn_1  (io_in_ppIn_1),
     .io_ppIn_2  (io_in_ppIn_2),

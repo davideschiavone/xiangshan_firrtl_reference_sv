@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module LoadPipe_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/loadpipe/LoadPipe.scala:516:9
+module LoadPipe_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/loadpipe/LoadPipe.scala:516:9
   reg REG_1;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/loadpipe/LoadPipe.scala:132:17
   reg REG_2;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/loadpipe/LoadPipe.scala:263:17
   reg REG_4;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/loadpipe/LoadPipe.scala:516:17

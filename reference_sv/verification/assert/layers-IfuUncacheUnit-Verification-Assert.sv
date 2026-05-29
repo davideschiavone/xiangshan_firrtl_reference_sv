@@ -3,6 +3,6 @@
 `ifndef layers_IfuUncacheUnit_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/IfuUncacheUnit.scala:30:7
   `define layers_IfuUncacheUnit_Verification_Assert
   `include "layers-IfuUncacheUnit-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/IfuUncacheUnit.scala:30:7
-  bind IfuUncacheUnit IfuUncacheUnit_Verification_Assert verification_assert ();
+  bind IfuUncacheUnit_reference IfuUncacheUnit_Verification_Assert verification_assert ();
 `endif // not def layers_IfuUncacheUnit_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -6,6 +6,6 @@
   `include "layers-EnqEntry_28-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_200-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_202-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
-  bind EntriesFaluFmacFdiv EntriesFaluFmacFdiv_Verification_Assert verification_assert ();
+  bind EntriesFaluFmacFdiv_reference EntriesFaluFmacFdiv_Verification_Assert verification_assert ();
 `endif // not def layers_EntriesFaluFmacFdiv_Verification_Assert
 `endif // BIANCO_DIFFTEST

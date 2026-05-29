@@ -3,6 +3,6 @@
 `ifndef layers_EnqEntry_6_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/EnqEntry.scala:30:7
   `define layers_EnqEntry_6_Verification_Assert
   `include "layers-EnqEntry_6-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/EnqEntry.scala:30:7
-  bind EnqEntry_6 EnqEntry_6_Verification_Assert verification_assert ();
+  bind EnqEntry_6_reference EnqEntry_6_Verification_Assert verification_assert ();
 `endif // not def layers_EnqEntry_6_Verification_Assert
 `endif // BIANCO_DIFFTEST

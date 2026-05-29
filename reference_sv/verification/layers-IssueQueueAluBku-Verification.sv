@@ -6,6 +6,6 @@
   `include "layers-MultiWakeupQueue_3-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_6-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_7-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
-  bind IssueQueueAluBku IssueQueueAluBku_Verification verification ();
+  bind IssueQueueAluBku_reference IssueQueueAluBku_Verification verification ();
 `endif // not def layers_IssueQueueAluBku_Verification
 `endif // BIANCO_DIFFTEST

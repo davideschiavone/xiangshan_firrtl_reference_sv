@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module InstrUncacheEntry_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/instruncache/InstrUncacheEntry.scala:125:15
+module InstrUncacheEntry_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/instruncache/InstrUncacheEntry.scala:125:15
   wire [12:0] _refillDone_r_beats1_decode_T = 13'h3F << InstrUncacheEntry.io_mmioGrant_bits_size;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/package.scala:235:71, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/instruncache/InstrUncacheEntry.scala:45:35
   wire [2:0]  refillDone_r_beats1 =
     InstrUncacheEntry.io_mmioGrant_bits_opcode[0] ? ~(_refillDone_r_beats1_decode_T[5:3]) : 3'h0;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Edges.scala:106:36, :221:14, home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/package.scala:235:{46,71,76}, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/instruncache/InstrUncacheEntry.scala:45:35

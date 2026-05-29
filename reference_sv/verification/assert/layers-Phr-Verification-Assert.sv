@@ -3,6 +3,6 @@
 `ifndef layers_Phr_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/phr/Phr.scala:28:7
   `define layers_Phr_Verification_Assert
   `include "layers-Phr-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/phr/Phr.scala:28:7
-  bind Phr Phr_Verification_Assert verification_assert ();
+  bind Phr_reference Phr_Verification_Assert verification_assert ();
 `endif // not def layers_Phr_Verification_Assert
 `endif // BIANCO_DIFFTEST

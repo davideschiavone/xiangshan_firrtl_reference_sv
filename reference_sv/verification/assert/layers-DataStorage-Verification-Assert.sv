@@ -3,6 +3,6 @@
 `ifndef layers_DataStorage_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/DataStorage.scala:50:7
   `define layers_DataStorage_Verification_Assert
   `include "layers-DataStorage-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/DataStorage.scala:50:7
-  bind DataStorage DataStorage_Verification_Assert verification_assert ();
+  bind DataStorage_reference DataStorage_Verification_Assert verification_assert ();
 `endif // not def layers_DataStorage_Verification_Assert
 `endif // BIANCO_DIFFTEST

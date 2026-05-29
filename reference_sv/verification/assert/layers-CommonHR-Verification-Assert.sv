@@ -3,6 +3,6 @@
 `ifndef layers_CommonHR_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/commonhr/CommonHR.scala:29:7
   `define layers_CommonHR_Verification_Assert
   `include "layers-CommonHR-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/commonhr/CommonHR.scala:29:7
-  bind CommonHR CommonHR_Verification_Assert verification_assert ();
+  bind CommonHR_reference CommonHR_Verification_Assert verification_assert ();
 `endif // not def layers_CommonHR_Verification_Assert
 `endif // BIANCO_DIFFTEST

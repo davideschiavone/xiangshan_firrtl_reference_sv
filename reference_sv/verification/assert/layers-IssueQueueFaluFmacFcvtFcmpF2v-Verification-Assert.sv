@@ -7,6 +7,6 @@
   `include "layers-MultiWakeupQueue_6-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_18-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_27-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
-  bind IssueQueueFaluFmacFcvtFcmpF2v IssueQueueFaluFmacFcvtFcmpF2v_Verification_Assert verification_assert ();
+  bind IssueQueueFaluFmacFcvtFcmpF2v_reference IssueQueueFaluFmacFcvtFcmpF2v_Verification_Assert verification_assert ();
 `endif // not def layers_IssueQueueFaluFmacFcvtFcmpF2v_Verification_Assert
 `endif // BIANCO_DIFFTEST

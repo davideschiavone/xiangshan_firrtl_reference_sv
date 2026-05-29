@@ -189,7 +189,7 @@ module VTypeGen_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/scala
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/VTypeGen.scala:31:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  VsetModule vsetModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/VTypeGen.scala:76:34
+  VsetModule_reference vsetModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/VTypeGen.scala:76:34
     .io_in_avl                    (64'h0),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/VTypeGen.scala:77:24
     .io_in_vtype_illegal          (1'h0),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/VTypeGen.scala:41:22
     .io_in_vtype_reserved

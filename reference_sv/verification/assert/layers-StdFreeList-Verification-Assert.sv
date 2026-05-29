@@ -4,6 +4,6 @@
   `define layers_StdFreeList_Verification_Assert
   `include "layers-StdFreeList-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/freelist/StdFreeList.scala:28:7
   `include "layers-SnapshotGenerator_5-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/freelist/StdFreeList.scala:28:7
-  bind StdFreeList StdFreeList_Verification_Assert verification_assert ();
+  bind StdFreeList_reference StdFreeList_Verification_Assert verification_assert ();
 `endif // not def layers_StdFreeList_Verification_Assert
 `endif // BIANCO_DIFFTEST

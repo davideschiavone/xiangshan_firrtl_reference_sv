@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module Directory_2_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/Directory.scala:267:9
+module Directory_2_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/Directory.scala:267:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/Directory.scala:267:9
     wire [1:0] valids = {Directory_2.clientDir_io_resp_valid, Directory_2.selfDir_io_resp_valid};	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/Directory.scala:180:25, :215:23, :266:19
     always @(posedge Directory_2.clock) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/Directory.scala:120:7, :267:9

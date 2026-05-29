@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module VfRegFile_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regfile/Regfile.scala:118:11
+module VfRegFile_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regfile/Regfile.scala:118:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regfile/Regfile.scala:118:11
     always @(posedge VfRegFile.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regfile/Regfile.scala:67:7, :118:11
       if (~VfRegFile.reset

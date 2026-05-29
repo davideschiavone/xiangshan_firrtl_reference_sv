@@ -3,6 +3,6 @@
 `ifndef layers_VSstatusModule_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/VirtualSupervisorLevel.scala:21:9
   `define layers_VSstatusModule_Verification_Assert
   `include "layers-VSstatusModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/VirtualSupervisorLevel.scala:21:9
-  bind VSstatusModule VSstatusModule_Verification_Assert verification_assert ();
+  bind VSstatusModule_reference VSstatusModule_Verification_Assert verification_assert ();
 `endif // not def layers_VSstatusModule_Verification_Assert
 `endif // BIANCO_DIFFTEST

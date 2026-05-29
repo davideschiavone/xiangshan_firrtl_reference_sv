@@ -3,6 +3,6 @@
 `ifndef layers_VLMergeBufferImp_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VMergeBuffer.scala:393:7
   `define layers_VLMergeBufferImp_Verification_Assert
   `include "layers-VLMergeBufferImp-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VMergeBuffer.scala:393:7
-  bind VLMergeBufferImp VLMergeBufferImp_Verification_Assert verification_assert ();
+  bind VLMergeBufferImp_reference VLMergeBufferImp_Verification_Assert verification_assert ();
 `endif // not def layers_VLMergeBufferImp_Verification_Assert
 `endif // BIANCO_DIFFTEST

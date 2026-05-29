@@ -22,6 +22,6 @@
   `include "layers-TLBNonBlock_1-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:1639:7
   `include "layers-TLBNonBlock_2-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:1639:7
   `include "layers-PTWNewFilter-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/MemBlock.scala:1639:7
-  bind MemBlock MemBlock_Verification_Assert verification_assert ();
+  bind MemBlock_reference MemBlock_Verification_Assert verification_assert ();
 `endif // not def layers_MemBlock_Verification_Assert
 `endif // BIANCO_DIFFTEST

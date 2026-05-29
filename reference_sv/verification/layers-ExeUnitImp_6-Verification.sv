@@ -3,6 +3,6 @@
 `ifndef layers_ExeUnitImp_6_Verification	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
   `define layers_ExeUnitImp_6_Verification
   `include "layers-Dispatcher_6-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
-  bind ExeUnitImp_6 ExeUnitImp_6_Verification verification ();
+  bind ExeUnitImp_6_reference ExeUnitImp_6_Verification verification ();
 `endif // not def layers_ExeUnitImp_6_Verification
 `endif // BIANCO_DIFFTEST

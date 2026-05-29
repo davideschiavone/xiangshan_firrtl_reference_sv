@@ -78,7 +78,7 @@ module NewMgu_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/scala/x
        _GEN[7:4],
        _GEN_0[3:2],
        _GEN_0[1:0] | ((&io_in_info_eew) ? io_in_mask[1:0] : 2'h0)}}};	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/NewMgu.scala:36:30, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/Utils.scala:14:24, :18:{15,39}
-  ByteMaskTailGen maskTailGen (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/NewMgu.scala:25:35
+  ByteMaskTailGen_reference maskTailGen (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/NewMgu.scala:25:35
     .io_in_begin       (8'h0),
     .io_in_end         (io_in_info_vl),
     .io_in_vma         (io_in_info_ma),

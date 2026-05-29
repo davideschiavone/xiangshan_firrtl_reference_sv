@@ -3,6 +3,6 @@
 `ifndef layers_WriteBuffer_28_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/WriteBuffer.scala:45:7
   `define layers_WriteBuffer_28_Verification_Assert
   `include "layers-WriteBuffer_28-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/WriteBuffer.scala:45:7
-  bind WriteBuffer_28 WriteBuffer_28_Verification_Assert verification_assert ();
+  bind WriteBuffer_28_reference WriteBuffer_28_Verification_Assert verification_assert ();
 `endif // not def layers_WriteBuffer_28_Verification_Assert
 `endif // BIANCO_DIFFTEST

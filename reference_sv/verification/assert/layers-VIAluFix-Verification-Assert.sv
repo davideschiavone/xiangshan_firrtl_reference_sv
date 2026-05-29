@@ -3,6 +3,6 @@
 `ifndef layers_VIAluFix_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VIAluFix.scala:18:7
   `define layers_VIAluFix_Verification_Assert
   `include "layers-VIAluFix-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VIAluFix.scala:18:7
-  bind VIAluFix VIAluFix_Verification_Assert verification_assert ();
+  bind VIAluFix_reference VIAluFix_Verification_Assert verification_assert ();
 `endif // not def layers_VIAluFix_Verification_Assert
 `endif // BIANCO_DIFFTEST

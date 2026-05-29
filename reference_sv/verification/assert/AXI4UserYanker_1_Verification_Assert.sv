@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module AXI4UserYanker_1_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:95:14
+module AXI4UserYanker_1_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:95:14
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:66:14
     wire [3:0] _GEN =
       {{AXI4UserYanker_1.Queue4_BundleMap_2_io_deq_valid},

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module SourceD_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
+module SourceD_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SourceD.scala:91:9
     always @(posedge SourceD.clock) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SourceD.scala:30:7, :91:9
       if (~SourceD.reset & ~(~SourceD.s1_queue_io_enq_valid | SourceD.s1_queue_io_enq_ready)) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SourceD.scala:30:7, :88:24, :91:{9,10,33}

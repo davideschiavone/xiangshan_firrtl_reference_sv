@@ -3,6 +3,6 @@
 `ifndef layers_IDPool_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/IDPool.scala:8:7
   `define layers_IDPool_Verification_Assert
   `include "layers-IDPool-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/IDPool.scala:8:7
-  bind IDPool IDPool_Verification_Assert verification_assert ();
+  bind IDPool_reference IDPool_Verification_Assert verification_assert ();
 `endif // not def layers_IDPool_Verification_Assert
 `endif // BIANCO_DIFFTEST

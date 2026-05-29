@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module LqPAddrModule_1_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueData.scala:130:13
+module LqPAddrModule_1_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueData.scala:130:13
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueData.scala:130:13
     always @(posedge LqPAddrModule_1.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueData.scala:130:13, :136:7
       if (~LqPAddrModule_1.reset & LqPAddrModule_1.io_wen_0 & LqPAddrModule_1.io_wen_1

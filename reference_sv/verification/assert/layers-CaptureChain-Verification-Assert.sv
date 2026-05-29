@@ -3,6 +3,6 @@
 `ifndef layers_CaptureChain_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagShifter.scala:89:7
   `define layers_CaptureChain_Verification_Assert
   `include "layers-CaptureChain-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagShifter.scala:89:7
-  bind CaptureChain CaptureChain_Verification_Assert verification_assert ();
+  bind CaptureChain_reference CaptureChain_Verification_Assert verification_assert ();
 `endif // not def layers_CaptureChain_Verification_Assert
 `endif // BIANCO_DIFFTEST

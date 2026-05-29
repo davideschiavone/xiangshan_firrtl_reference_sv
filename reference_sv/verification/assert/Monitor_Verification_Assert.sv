@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module Monitor_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/debug/Monitor.scala:69:9
+module Monitor_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/debug/Monitor.scala:69:9
   reg REG;	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/debug/Monitor.scala:65:17
   reg REG_1;	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/debug/Monitor.scala:69:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/debug/Monitor.scala:65:9

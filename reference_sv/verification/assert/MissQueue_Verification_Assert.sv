@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module MissQueue_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
+module MissQueue_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
   reg REG;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:1234:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:1142:9
     wire       prefixOR_2 = MissQueue.winner_0 | MissQueue.winner_1;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:71:69, :76:48

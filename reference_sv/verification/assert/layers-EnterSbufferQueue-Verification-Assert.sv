@@ -3,6 +3,6 @@
 `ifndef layers_EnterSbufferQueue_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:655:17
   `define layers_EnterSbufferQueue_Verification_Assert
   `include "layers-EnterSbufferQueue-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:655:17
-  bind EnterSbufferQueue EnterSbufferQueue_Verification_Assert verification_assert ();
+  bind EnterSbufferQueue_reference EnterSbufferQueue_Verification_Assert verification_assert ();
 `endif // not def layers_EnterSbufferQueue_Verification_Assert
 `endif // BIANCO_DIFFTEST

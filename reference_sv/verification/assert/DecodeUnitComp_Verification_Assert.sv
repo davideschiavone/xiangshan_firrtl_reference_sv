@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module DecodeUnitComp_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module DecodeUnitComp_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
     always @(posedge DecodeUnitComp.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:108:7, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
       if (DecodeUnitComp.io_in_valid & DecodeUnitComp.io_in_bits_uopInfo_numOfWB == 7'h0 & ~DecodeUnitComp.reset) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:108:7, :109:14, :2047:{19,40}, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17

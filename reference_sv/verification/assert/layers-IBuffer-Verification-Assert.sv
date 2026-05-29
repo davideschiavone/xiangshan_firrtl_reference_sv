@@ -3,6 +3,6 @@
 `ifndef layers_IBuffer_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ibuffer/IBuffer.scala:36:7
   `define layers_IBuffer_Verification_Assert
   `include "layers-IBuffer-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ibuffer/IBuffer.scala:36:7
-  bind IBuffer IBuffer_Verification_Assert verification_assert ();
+  bind IBuffer_reference IBuffer_Verification_Assert verification_assert ();
 `endif // not def layers_IBuffer_Verification_Assert
 `endif // BIANCO_DIFFTEST

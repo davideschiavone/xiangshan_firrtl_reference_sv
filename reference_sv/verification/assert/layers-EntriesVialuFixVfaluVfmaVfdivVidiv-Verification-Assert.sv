@@ -6,6 +6,6 @@
   `include "layers-EnqEntry_36-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_268-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_270-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
-  bind EntriesVialuFixVfaluVfmaVfdivVidiv EntriesVialuFixVfaluVfmaVfdivVidiv_Verification_Assert verification_assert ();
+  bind EntriesVialuFixVfaluVfmaVfdivVidiv_reference EntriesVialuFixVfaluVfmaVfdivVidiv_Verification_Assert verification_assert ();
 `endif // not def layers_EntriesVialuFixVfaluVfmaVfdivVidiv_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -3,6 +3,6 @@
 `ifndef layers_LoadQueueRAR_Verification	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueRAR.scala:29:7
   `define layers_LoadQueueRAR_Verification
   `include "layers-LqPAddrModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueRAR.scala:29:7
-  bind LoadQueueRAR LoadQueueRAR_Verification verification ();
+  bind LoadQueueRAR_reference LoadQueueRAR_Verification verification ();
 `endif // not def layers_LoadQueueRAR_Verification
 `endif // BIANCO_DIFFTEST

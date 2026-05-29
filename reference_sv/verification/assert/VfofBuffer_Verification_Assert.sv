@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module VfofBuffer_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module VfofBuffer_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
     always @(posedge VfofBuffer.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VfofBuffer.scala:39:7, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
       if (VfofBuffer.entries_uop_robIdx_value_0 != VfofBuffer.enqBits_robIdx_value & VfofBuffer.valid_0

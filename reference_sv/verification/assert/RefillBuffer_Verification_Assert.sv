@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module RefillBuffer_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/RefillBuffer.scala:66:11
+module RefillBuffer_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/RefillBuffer.scala:66:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/RefillBuffer.scala:48:11
     wire [7:0] _GEN =
       {{RefillBuffer.valids_0_1_0},

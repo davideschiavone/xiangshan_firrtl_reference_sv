@@ -3,6 +3,6 @@
 `ifndef layers_TLToAXI4_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/ToAXI4.scala:96:9
   `define layers_TLToAXI4_Verification_Assert
   `include "layers-TLToAXI4-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/ToAXI4.scala:96:9
-  bind TLToAXI4 TLToAXI4_Verification_Assert verification_assert ();
+  bind TLToAXI4_reference TLToAXI4_Verification_Assert verification_assert ();
 `endif // not def layers_TLToAXI4_Verification_Assert
 `endif // BIANCO_DIFFTEST

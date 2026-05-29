@@ -4,6 +4,6 @@
   `define layers_DecodeStage_Verification_Assert
   `include "layers-DecodeStage-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeStage.scala:87:7
   `include "layers-DecodeUnitComp-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeStage.scala:87:7
-  bind DecodeStage DecodeStage_Verification_Assert verification_assert ();
+  bind DecodeStage_reference DecodeStage_Verification_Assert verification_assert ();
 `endif // not def layers_DecodeStage_Verification_Assert
 `endif // BIANCO_DIFFTEST

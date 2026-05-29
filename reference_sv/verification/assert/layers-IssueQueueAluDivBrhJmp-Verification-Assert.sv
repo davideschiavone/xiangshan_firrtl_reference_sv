@@ -7,6 +7,6 @@
   `include "layers-MultiWakeupQueue_1-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_1-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
-  bind IssueQueueAluDivBrhJmp IssueQueueAluDivBrhJmp_Verification_Assert verification_assert ();
+  bind IssueQueueAluDivBrhJmp_reference IssueQueueAluDivBrhJmp_Verification_Assert verification_assert ();
 `endif // not def layers_IssueQueueAluDivBrhJmp_Verification_Assert
 `endif // BIANCO_DIFFTEST

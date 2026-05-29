@@ -3,6 +3,6 @@
 `ifndef layers_SinkD_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkD.scala:27:7
   `define layers_SinkD_Verification_Assert
   `include "layers-SinkD-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SinkD.scala:27:7
-  bind SinkD SinkD_Verification_Assert verification_assert ();
+  bind SinkD_reference SinkD_Verification_Assert verification_assert ();
 `endif // not def layers_SinkD_Verification_Assert
 `endif // BIANCO_DIFFTEST

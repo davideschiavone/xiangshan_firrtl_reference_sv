@@ -4,6 +4,6 @@
   `define layers_Sc_Anon_7_Verification_Assert
   `include "layers-Sc_Anon_7-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/Sc.scala:88:16
   `include "layers-WriteBuffer_48-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/Sc.scala:88:16
-  bind Sc_Anon_7 Sc_Anon_7_Verification_Assert verification_assert ();
+  bind Sc_Anon_7_reference Sc_Anon_7_Verification_Assert verification_assert ();
 `endif // not def layers_Sc_Anon_7_Verification_Assert
 `endif // BIANCO_DIFFTEST

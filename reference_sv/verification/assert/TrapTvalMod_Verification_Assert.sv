@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module TrapTvalMod_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/TrapTvalMod.scala:52:26
+module TrapTvalMod_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/TrapTvalMod.scala:52:26
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/TrapTvalMod.scala:52:26
     always @(posedge TrapTvalMod.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/TrapTvalMod.scala:11:7, :52:26
       if (TrapTvalMod.io_clear & ~TrapTvalMod.reset & ~TrapTvalMod.valid_0) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/TrapTvalMod.scala:11:7, :12:14, :23:30, :52:26

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module StoreUnitS1_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewStoreUnit.scala:398:9
+module StoreUnitS1_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewStoreUnit.scala:398:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewStoreUnit.scala:356:9
     always @(posedge StoreUnitS1.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewStoreUnit.scala:262:7, :356:9
       if (~StoreUnitS1.reset & StoreUnitS1.io_pipeIn_valid & ~StoreUnitS1.io_tlbResp_valid) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewStoreUnit.scala:262:7, :266:14, :356:{9,25,28}, :1022:12

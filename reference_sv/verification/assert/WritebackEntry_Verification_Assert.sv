@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module WritebackEntry_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/WritebackQueue.scala:262:11
+module WritebackEntry_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/WritebackQueue.scala:262:11
   reg req_dirty;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/WritebackQueue.scala:180:16
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/WritebackQueue.scala:201:12
     always @(posedge WritebackEntry.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/WritebackQueue.scala:123:7, :201:12

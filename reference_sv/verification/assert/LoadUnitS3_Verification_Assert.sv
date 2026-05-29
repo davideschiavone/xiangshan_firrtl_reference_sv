@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module LoadUnitS3_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewLoadUnit.scala:1290:9
+module LoadUnitS3_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewLoadUnit.scala:1290:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewLoadUnit.scala:1289:9
     always @(posedge LoadUnitS3.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewLoadUnit.scala:1218:7, :1289:9
       if (~LoadUnitS3.reset

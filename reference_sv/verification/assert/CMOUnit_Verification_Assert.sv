@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module CMOUnit_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:369:9
+module CMOUnit_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:369:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:368:9
     always @(posedge CMOUnit.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:298:7, :368:9
       if (~CMOUnit.reset & (|CMOUnit.state_0) & CMOUnit.io_req_valid) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:298:7, :299:14, :308:22, :368:{9,18,29}

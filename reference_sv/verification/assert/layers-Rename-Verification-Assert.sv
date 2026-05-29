@@ -9,6 +9,6 @@
   `include "layers-StdFreeList_2-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:44:7
   `include "layers-StdFreeList_3-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:44:7
   `include "layers-RenameTableWrapper-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:44:7
-  bind Rename Rename_Verification_Assert verification_assert ();
+  bind Rename_reference Rename_Verification_Assert verification_assert ();
 `endif // not def layers_Rename_Verification_Assert
 `endif // BIANCO_DIFFTEST

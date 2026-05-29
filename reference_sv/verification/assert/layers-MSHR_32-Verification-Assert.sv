@@ -3,6 +3,6 @@
 `ifndef layers_MSHR_32_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/MSHR.scala:34:7
   `define layers_MSHR_32_Verification_Assert
   `include "layers-MSHR_32-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/MSHR.scala:34:7
-  bind MSHR_32 MSHR_32_Verification_Assert verification_assert ();
+  bind MSHR_32_reference MSHR_32_Verification_Assert verification_assert ();
 `endif // not def layers_MSHR_32_Verification_Assert
 `endif // BIANCO_DIFFTEST

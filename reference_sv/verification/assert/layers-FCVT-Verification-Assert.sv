@@ -3,6 +3,6 @@
 `ifndef layers_FCVT_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FCVT.scala:17:7
   `define layers_FCVT_Verification_Assert
   `include "layers-FCVT-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FCVT.scala:17:7
-  bind FCVT FCVT_Verification_Assert verification_assert ();
+  bind FCVT_reference FCVT_Verification_Assert verification_assert ();
 `endif // not def layers_FCVT_Verification_Assert
 `endif // BIANCO_DIFFTEST

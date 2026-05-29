@@ -31,7 +31,7 @@ module VSetRiWi_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/scala
 );
 
   wire [7:0] _vsetModule_io_out_vconfig_vl;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VSet.scala:20:36
-  VsetModule vsetModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VSet.scala:20:36
+  VsetModule_reference vsetModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VSet.scala:20:36
     .io_in_avl
       ((|(io_in_bits_ctrl_fuOpType[7:6])) ? io_in_bits_data_src_0 : {59'h0, io_in_bits_data_src_1[14:10]}),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnit.scala:711:13, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VSet.scala:25:26, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/package.scala:473:{39,46}
     .io_in_vtype_illegal          (io_in_bits_ctrl_fuOpType[6] & io_in_bits_data_src_1[63]),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VSet.scala:29:{39,128}, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/package.scala:471:39

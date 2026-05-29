@@ -3,6 +3,6 @@
 `ifndef layers_MEFreeList_Verification	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/freelist/MEFreeList.scala:27:7
   `define layers_MEFreeList_Verification
   `include "layers-SnapshotGenerator_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/freelist/MEFreeList.scala:27:7
-  bind MEFreeList MEFreeList_Verification verification ();
+  bind MEFreeList_reference MEFreeList_Verification verification ();
 `endif // not def layers_MEFreeList_Verification
 `endif // BIANCO_DIFFTEST

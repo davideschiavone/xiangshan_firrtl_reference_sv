@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module TageTable_3_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/TageTable.scala:133:11
+module TageTable_3_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/TageTable.scala:133:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/TageTable.scala:133:11
     always @(posedge TageTable_3.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/TageTable.scala:27:7, :133:11
       if (~TageTable_3.reset & TageTable_3.readValid_0 & TageTable_3.readValid_1) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/TageTable.scala:27:7, :120:27, :121:27, :133:{11,27}

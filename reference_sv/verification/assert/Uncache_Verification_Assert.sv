@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module Uncache_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/Uncache.scala:462:11
+module Uncache_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/Uncache.scala:462:11
   wire [12:0] _refill_done_r_beats1_decode_T = 13'h3F << Uncache.auto_client_out_d_bits_size;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/diplomacy/LazyModule.scala:365:18, home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/package.scala:235:71
   wire [2:0]  refill_done_r_beats1 =
     Uncache.auto_client_out_d_bits_opcode[0] ? ~(_refill_done_r_beats1_decode_T[5:3]) : 3'h0;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/diplomacy/LazyModule.scala:365:18, home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Edges.scala:106:36, :221:14, home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/package.scala:235:{46,71,76}

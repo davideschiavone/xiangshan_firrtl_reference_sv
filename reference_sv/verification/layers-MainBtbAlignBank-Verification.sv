@@ -5,6 +5,6 @@
   `include "layers-MainBtbInternalBank-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/mbtb/MainBtbAlignBank.scala:29:7
   `include "layers-MainBtbInternalBank_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/mbtb/MainBtbAlignBank.scala:29:7
   `include "layers-MainBtbReplacer-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/mbtb/MainBtbAlignBank.scala:29:7
-  bind MainBtbAlignBank MainBtbAlignBank_Verification verification ();
+  bind MainBtbAlignBank_reference MainBtbAlignBank_Verification verification ();
 `endif // not def layers_MainBtbAlignBank_Verification
 `endif // BIANCO_DIFFTEST

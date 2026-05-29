@@ -5,6 +5,6 @@
   `include "layers-LsqWrapper-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LSQWrapper.scala:67:7
   `include "layers-LoadQueue-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LSQWrapper.scala:67:7
   `include "layers-NewStoreQueue-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LSQWrapper.scala:67:7
-  bind LsqWrapper LsqWrapper_Verification_Assert verification_assert ();
+  bind LsqWrapper_reference LsqWrapper_Verification_Assert verification_assert ();
 `endif // not def layers_LsqWrapper_Verification_Assert
 `endif // BIANCO_DIFFTEST

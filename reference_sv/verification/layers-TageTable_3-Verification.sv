@@ -3,6 +3,6 @@
 `ifndef layers_TageTable_3_Verification	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/TageTable.scala:27:7
   `define layers_TageTable_3_Verification
   `include "layers-WriteBuffer_12-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/TageTable.scala:27:7
-  bind TageTable_3 TageTable_3_Verification verification ();
+  bind TageTable_3_reference TageTable_3_Verification verification ();
 `endif // not def layers_TageTable_3_Verification
 `endif // BIANCO_DIFFTEST

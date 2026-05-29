@@ -3,6 +3,6 @@
 `ifndef layers_CounterFilter_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/FDP.scala:61:7
   `define layers_CounterFilter_Verification_Assert
   `include "layers-CounterFilter-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/prefetch/FDP.scala:61:7
-  bind CounterFilter CounterFilter_Verification_Assert verification_assert ();
+  bind CounterFilter_reference CounterFilter_Verification_Assert verification_assert ();
 `endif // not def layers_CounterFilter_Verification_Assert
 `endif // BIANCO_DIFFTEST

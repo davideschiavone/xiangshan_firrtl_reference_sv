@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module TLCacheCork_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
+module TLCacheCork_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/CacheCork.scala:108:16
     always @(posedge TLCacheCork.clock) begin	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/CacheCork.scala:34:9, :108:16
       if (~TLCacheCork.reset

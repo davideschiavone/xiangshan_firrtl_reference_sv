@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module AheadBtbReplacer_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/abtb/AheadBtbReplacer.scala:90:13
+module AheadBtbReplacer_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/abtb/AheadBtbReplacer.scala:90:13
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/abtb/AheadBtbReplacer.scala:90:13
     always @(posedge AheadBtbReplacer.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/abtb/AheadBtbReplacer.scala:28:7, :90:13
       if (AheadBtbReplacer.io_writeValid & ~AheadBtbReplacer.reset & ~AheadBtbReplacer.replacerDiff_0) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/abtb/AheadBtbReplacer.scala:28:7, :29:26, :85:38, :90:13

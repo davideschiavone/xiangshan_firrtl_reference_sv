@@ -4,6 +4,6 @@
   `define layers_Ftq_Verification
   `include "layers-ResolveQueue-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/Ftq.scala:59:7
   `include "layers-CommitQueue-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/Ftq.scala:59:7
-  bind Ftq Ftq_Verification verification ();
+  bind Ftq_reference Ftq_Verification verification ();
 `endif // not def layers_Ftq_Verification
 `endif // BIANCO_DIFFTEST

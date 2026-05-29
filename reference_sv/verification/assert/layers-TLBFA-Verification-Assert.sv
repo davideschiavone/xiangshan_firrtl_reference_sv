@@ -3,6 +3,6 @@
 `ifndef layers_TLBFA_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/TLBStorage.scala:86:7
   `define layers_TLBFA_Verification_Assert
   `include "layers-TLBFA-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/TLBStorage.scala:86:7
-  bind TLBFA TLBFA_Verification_Assert verification_assert ();
+  bind TLBFA_reference TLBFA_Verification_Assert verification_assert ();
 `endif // not def layers_TLBFA_Verification_Assert
 `endif // BIANCO_DIFFTEST

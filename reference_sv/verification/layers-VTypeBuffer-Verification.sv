@@ -4,6 +4,6 @@
   `define layers_VTypeBuffer_Verification
   `include "layers-SnapshotGenerator_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/VTypeBuffer.scala:66:7
   `include "layers-SnapshotGenerator_2-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/VTypeBuffer.scala:66:7
-  bind VTypeBuffer VTypeBuffer_Verification verification ();
+  bind VTypeBuffer_reference VTypeBuffer_Verification verification ();
 `endif // not def layers_VTypeBuffer_Verification
 `endif // BIANCO_DIFFTEST

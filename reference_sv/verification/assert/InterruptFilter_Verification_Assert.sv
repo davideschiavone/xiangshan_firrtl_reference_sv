@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module InterruptFilter_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/InterruptFilter.scala:293:9
+module InterruptFilter_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/InterruptFilter.scala:293:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/InterruptFilter.scala:291:9
     wire [1:0] _GEN = {1'h0, InterruptFilter.Candidate2};	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/InterruptFilter.scala:285:114, :291:18
     wire [1:0] _GEN_0 = {1'h0, InterruptFilter.Candidate5};	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/InterruptFilter.scala:288:54, :292:18

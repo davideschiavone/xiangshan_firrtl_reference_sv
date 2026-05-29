@@ -3,6 +3,6 @@
 `ifndef layers_SBToTL_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/SBA.scala:270:9
   `define layers_SBToTL_Verification_Assert
   `include "layers-SBToTL-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/SBA.scala:270:9
-  bind SBToTL SBToTL_Verification_Assert verification_assert ();
+  bind SBToTL_reference SBToTL_Verification_Assert verification_assert ();
 `endif // not def layers_SBToTL_Verification_Assert
 `endif // BIANCO_DIFFTEST

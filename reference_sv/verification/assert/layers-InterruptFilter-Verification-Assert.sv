@@ -3,6 +3,6 @@
 `ifndef layers_InterruptFilter_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/InterruptFilter.scala:13:7
   `define layers_InterruptFilter_Verification_Assert
   `include "layers-InterruptFilter-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/InterruptFilter.scala:13:7
-  bind InterruptFilter InterruptFilter_Verification_Assert verification_assert ();
+  bind InterruptFilter_reference InterruptFilter_Verification_Assert verification_assert ();
 `endif // not def layers_InterruptFilter_Verification_Assert
 `endif // BIANCO_DIFFTEST

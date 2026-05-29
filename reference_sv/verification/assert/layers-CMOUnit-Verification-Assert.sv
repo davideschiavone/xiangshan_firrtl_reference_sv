@@ -3,6 +3,6 @@
 `ifndef layers_CMOUnit_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:298:7
   `define layers_CMOUnit_Verification_Assert
   `include "layers-CMOUnit-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:298:7
-  bind CMOUnit CMOUnit_Verification_Assert verification_assert ();
+  bind CMOUnit_reference CMOUnit_Verification_Assert verification_assert ();
 `endif // not def layers_CMOUnit_Verification_Assert
 `endif // BIANCO_DIFFTEST

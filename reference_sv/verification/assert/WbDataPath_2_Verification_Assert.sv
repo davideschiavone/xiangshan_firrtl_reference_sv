@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module WbDataPath_2_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:251:17
+module WbDataPath_2_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:251:17
   wire         _fpWbArbiter_io_in_8_ready;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:294:35
   wire         _fpWbArbiter_io_in_4_ready;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:294:35
   wire         _fpWbArbiter_io_in_0_ready;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:294:35
@@ -104,7 +104,7 @@ module WbDataPath_2_Verification_Assert();	// home/davide/gitdir/bianco/XiangSha
       intArbiterInputsWire_20_bits_r_toFpRf_valid <= WbDataPath_2.io_fromVfExu_0_0_bits_toFpRf_valid;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:113:14, :225:42
     end
   end // always @(posedge)
-  RealWBCollideChecker intWbArbiter (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:293:36
+  RealWBCollideChecker_reference intWbArbiter (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:293:36
     .io_in_10_ready      (_intWbArbiter_io_in_10_ready),
     .io_in_10_valid      (intWrite_REG & intArbiterInputsWire_20_bits_r_toIntRf_valid),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:224:28, :225:42, :308:33
     .io_in_10_bits_rfWen (intArbiterInputsWire_20_bits_r_toIntRf_valid),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:225:42
@@ -196,7 +196,7 @@ module WbDataPath_2_Verification_Assert();	// home/davide/gitdir/bianco/XiangSha
     .io_out_0_bits_pdest (/* unused */),
     .io_out_0_bits_data  (/* unused */)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:293:36
-  RealWBCollideChecker_1 fpWbArbiter (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:294:35
+  RealWBCollideChecker_1_reference fpWbArbiter (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:294:35
     .io_in_9_valid       (WbDataPath_2.io_fromVfExu_1_0_valid & WbDataPath_2.io_fromVfExu_1_0_bits_toFpRf_valid),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:113:14, :206:31, :320:33
     .io_in_9_bits_fpWen  (WbDataPath_2.io_fromVfExu_1_0_bits_toFpRf_valid),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:113:14
     .io_in_9_bits_pdest  (WbDataPath_2.io_fromVfExu_1_0_bits_pdest[5:0]),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/Bundles.scala:1568:19, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/WbArbiter.scala:113:14

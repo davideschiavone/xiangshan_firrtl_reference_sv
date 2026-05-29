@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module MSHR_32_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/MSHR.scala:1472:9
+module MSHR_32_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/MSHR.scala:1472:9
   reg REG;	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/MSHR.scala:67:12
   reg REG_1;	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/MSHR.scala:479:17
   reg REG_2;	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/MSHR.scala:954:19

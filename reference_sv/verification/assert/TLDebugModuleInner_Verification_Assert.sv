@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module TLDebugModuleInner_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/Debug.scala:1837:12
+module TLDebugModuleInner_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/Debug.scala:1837:12
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/Debug.scala:1498:15
     wire _GEN = TLDebugModuleInner._layer_probe & TLDebugModuleInner.ctrlStateReg_0 != 2'h1;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/Debug.scala:1724:27, :1734:44, :1789:{30,59}
     always @(posedge TLDebugModuleInner.clock) begin	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/Debug.scala:783:9, :1498:15

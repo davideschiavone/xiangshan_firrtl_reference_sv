@@ -3,6 +3,6 @@
 `ifndef layers_MSHR_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/MSHR.scala:47:7
   `define layers_MSHR_Verification_Assert
   `include "layers-MSHR-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/MSHR.scala:47:7
-  bind MSHR MSHR_Verification_Assert verification_assert ();
+  bind MSHR_reference MSHR_Verification_Assert verification_assert ();
 `endif // not def layers_MSHR_Verification_Assert
 `endif // BIANCO_DIFFTEST

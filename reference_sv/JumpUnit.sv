@@ -92,7 +92,7 @@ module JumpUnit_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/scala
     & (|(_jumpDataModule_io_target[63:50]));	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/Bundle.scala:657:{12,21,36,40,50,59,74}, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/JumpUnit.scala:15:38
   wire [1:0]  io_toFrontendBJUResolve_bits_attribute_branchType_0 =
     io_in_bits_ctrl_fuOpType == 9'h78 ? 2'h2 : {2{io_in_bits_ctrl_fuOpType == 9'h79}};	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/JumpUnit.scala:78:13, :79:13, src/main/scala/chisel3/util/Mux.scala:130:16
-  JumpDataModule jumpDataModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/JumpUnit.scala:15:38
+  JumpDataModule_reference jumpDataModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/JumpUnit.scala:15:38
     .io_src          (io_in_bits_data_src_0),
     .io_pc
       ({{14{(io_instrAddrTransType_sv39 | io_instrAddrTransType_sv48) & io_in_bits_data_pc[49]}}, io_in_bits_data_pc}),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/Bundle.scala:659:33, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/JumpUnit.scala:21:23, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/BitUtils.scala:96:20, :97:{41,46}, :104:41

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module SinkA_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkA.scala:37:9
+module SinkA_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkA.scala:37:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkA.scala:37:9
     always @(posedge SinkA.clock) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkA.scala:30:7, :37:9
       if (~SinkA.reset & SinkA.io_a_valid & (SinkA.io_a_bits_opcode == 4'h0 | SinkA.io_a_bits_opcode == 4'h1)) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkA.scala:30:7, :31:14, :37:{9,23,44,60}, :38:44

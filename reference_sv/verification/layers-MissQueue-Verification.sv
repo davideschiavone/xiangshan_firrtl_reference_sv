@@ -4,6 +4,6 @@
   `define layers_MissQueue_Verification
   `include "layers-MissEntry-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:1030:7
   `include "layers-CMOUnit-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:1030:7
-  bind MissQueue MissQueue_Verification verification ();
+  bind MissQueue_reference MissQueue_Verification verification ();
 `endif // not def layers_MissQueue_Verification
 `endif // BIANCO_DIFFTEST

@@ -9,7 +9,7 @@
     `define PRINTF_COND_ 1
   `endif // PRINTF_COND
 `endif // not def PRINTF_COND_
-module MSHR_32_Verification();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/MSHR.scala:1472:9
+module MSHR_32_Verification_reference();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/MSHR.scala:1472:9
 endmodule
 
 `endif // BIANCO_DIFFTEST

@@ -3,6 +3,6 @@
 `ifndef layers_RegCacheDataModule_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheDataModule.scala:39:7
   `define layers_RegCacheDataModule_Verification_Assert
   `include "layers-RegCacheDataModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCacheDataModule.scala:39:7
-  bind RegCacheDataModule RegCacheDataModule_Verification_Assert verification_assert ();
+  bind RegCacheDataModule_reference RegCacheDataModule_Verification_Assert verification_assert ();
 `endif // not def layers_RegCacheDataModule_Verification_Assert
 `endif // BIANCO_DIFFTEST

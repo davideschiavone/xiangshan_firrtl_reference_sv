@@ -6,6 +6,6 @@
   `include "layers-VSstatusModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:101:7
   `include "layers-TrapEntryVSEventModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:101:7
   `include "layers-InterruptFilter-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:101:7
-  bind NewCSR NewCSR_Verification verification ();
+  bind NewCSR_reference NewCSR_Verification verification ();
 `endif // not def layers_NewCSR_Verification
 `endif // BIANCO_DIFFTEST

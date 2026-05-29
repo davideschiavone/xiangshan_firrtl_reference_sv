@@ -11,6 +11,6 @@
   `include "layers-VCVT_8-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
   `include "layers-VMove-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
   `include "layers-Dispatcher_13-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
-  bind ExeUnitImp_13 ExeUnitImp_13_Verification verification ();
+  bind ExeUnitImp_13_reference ExeUnitImp_13_Verification verification ();
 `endif // not def layers_ExeUnitImp_13_Verification
 `endif // BIANCO_DIFFTEST

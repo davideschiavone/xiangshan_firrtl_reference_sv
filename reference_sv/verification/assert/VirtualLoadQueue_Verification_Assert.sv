@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module VirtualLoadQueue_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module VirtualLoadQueue_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/VirtualLoadQueue.scala:124:9
     wire [7:0]  validVLoadOffset_0 = VirtualLoadQueue.io_enq_needAlloc_0 ? VirtualLoadQueue.vLoadFlow_0 : 8'h0;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/VirtualLoadQueue.scala:40:14, :95:59, :112:95
     wire [7:0]  validVLoadOffset_1 = VirtualLoadQueue.io_enq_needAlloc_1 ? VirtualLoadQueue.vLoadFlow_1 : 8'h0;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/VirtualLoadQueue.scala:40:14, :95:59, :112:95

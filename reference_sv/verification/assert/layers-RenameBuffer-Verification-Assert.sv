@@ -4,6 +4,6 @@
   `define layers_RenameBuffer_Verification_Assert
   `include "layers-RenameBuffer-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rab.scala:34:7
   `include "layers-SnapshotGenerator-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rab.scala:34:7
-  bind RenameBuffer RenameBuffer_Verification_Assert verification_assert ();
+  bind RenameBuffer_reference RenameBuffer_Verification_Assert verification_assert ();
 `endif // not def layers_RenameBuffer_Verification_Assert
 `endif // BIANCO_DIFFTEST

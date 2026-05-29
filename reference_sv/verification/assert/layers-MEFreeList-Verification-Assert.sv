@@ -4,6 +4,6 @@
   `define layers_MEFreeList_Verification_Assert
   `include "layers-MEFreeList-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/freelist/MEFreeList.scala:27:7
   `include "layers-SnapshotGenerator_1-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/freelist/MEFreeList.scala:27:7
-  bind MEFreeList MEFreeList_Verification_Assert verification_assert ();
+  bind MEFreeList_reference MEFreeList_Verification_Assert verification_assert ();
 `endif // not def layers_MEFreeList_Verification_Assert
 `endif // BIANCO_DIFFTEST

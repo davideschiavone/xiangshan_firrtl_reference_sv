@@ -13,7 +13,7 @@ module BranchModule_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/s
     (io_func[3:1] == 3'h0 & (io_src_0 ^ io_src_1) == 64'h0 | io_func[3:1] == 3'h2
      & (io_src_0[63] ^ io_src_1[63] ^ ~(_subModule_io_sub[64])) | io_func[3:1] == 3'h4 & ~(_subModule_io_sub[64]))
     ^ io_func[0];	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Branch.scala:34:25, :38:{17,21}, :39:{21,32,38,49}, :40:22, :43:53, :47:72, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/package.scala:496:41, :497:42, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LookupTree.scala:24:{10,34}
-  SubModule subModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Branch.scala:34:25
+  SubModule_reference subModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Branch.scala:34:25
     .io_src_0 (io_src_0),
     .io_src_1 (io_src_1),
     .io_sub   (_subModule_io_sub)

@@ -3,6 +3,6 @@
 `ifndef layers_FMA_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FMA.scala:13:7
   `define layers_FMA_Verification_Assert
   `include "layers-FMA-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FMA.scala:13:7
-  bind FMA FMA_Verification_Assert verification_assert ();
+  bind FMA_reference FMA_Verification_Assert verification_assert ();
 `endif // not def layers_FMA_Verification_Assert
 `endif // BIANCO_DIFFTEST

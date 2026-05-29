@@ -3,6 +3,6 @@
 `ifndef layers_LLPTW_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/PageTableWalker.scala:711:7
   `define layers_LLPTW_Verification_Assert
   `include "layers-LLPTW-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/PageTableWalker.scala:711:7
-  bind LLPTW LLPTW_Verification_Assert verification_assert ();
+  bind LLPTW_reference LLPTW_Verification_Assert verification_assert ();
 `endif // not def layers_LLPTW_Verification_Assert
 `endif // BIANCO_DIFFTEST

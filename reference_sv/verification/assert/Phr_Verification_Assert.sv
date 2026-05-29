@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module Phr_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/phr/Phr.scala:278:13
+module Phr_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/phr/Phr.scala:278:13
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/phr/Phr.scala:278:13
     always @(posedge Phr.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/phr/Phr.scala:28:7, :278:13
       if (Phr.io_train_stageCtrl_s0_fire & ~Phr.reset & Phr.histFolded_diff_s0Folded_0) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/history/phr/Phr.scala:28:7, :40:21, :276:57, :278:13

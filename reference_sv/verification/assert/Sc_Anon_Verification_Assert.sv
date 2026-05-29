@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module Sc_Anon_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/ScTable.scala:85:11
+module Sc_Anon_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/ScTable.scala:85:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/ScTable.scala:85:11
     always @(posedge Sc_Anon.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/Sc.scala:67:16, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/ScTable.scala:85:11
       if (~Sc_Anon.reset & Sc_Anon.predictReadValid & Sc_Anon.trainReadValid) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/Sc.scala:67:16, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/ScTable.scala:81:52, :82:50, :85:{11,31}

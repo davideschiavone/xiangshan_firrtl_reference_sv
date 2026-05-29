@@ -3,6 +3,6 @@
 `ifndef layers_VCVT_8_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VCVT.scala:17:7
   `define layers_VCVT_8_Verification_Assert
   `include "layers-VCVT_8-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VCVT.scala:17:7
-  bind VCVT_8 VCVT_8_Verification_Assert verification_assert ();
+  bind VCVT_8_reference VCVT_8_Verification_Assert verification_assert ();
 `endif // not def layers_VCVT_8_Verification_Assert
 `endif // BIANCO_DIFFTEST

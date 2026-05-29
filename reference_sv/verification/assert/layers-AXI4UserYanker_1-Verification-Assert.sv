@@ -3,6 +3,6 @@
 `ifndef layers_AXI4UserYanker_1_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:33:9
   `define layers_AXI4UserYanker_1_Verification_Assert
   `include "layers-AXI4UserYanker_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/UserYanker.scala:33:9
-  bind AXI4UserYanker_1 AXI4UserYanker_1_Verification_Assert verification_assert ();
+  bind AXI4UserYanker_1_reference AXI4UserYanker_1_Verification_Assert verification_assert ();
 `endif // not def layers_AXI4UserYanker_1_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -5,6 +5,6 @@
   `include "layers-LoadQueueRAW-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueRAW.scala:32:7
   `include "layers-LqPAddrModule_1-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueRAW.scala:32:7
   `include "layers-LqMaskModule-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueRAW.scala:32:7
-  bind LoadQueueRAW LoadQueueRAW_Verification_Assert verification_assert ();
+  bind LoadQueueRAW_reference LoadQueueRAW_Verification_Assert verification_assert ();
 `endif // not def layers_LoadQueueRAW_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -3,6 +3,6 @@
 `ifndef layers_PTWFilter_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/Repeater.scala:422:7
   `define layers_PTWFilter_Verification_Assert
   `include "layers-PTWFilter-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/Repeater.scala:422:7
-  bind PTWFilter PTWFilter_Verification_Assert verification_assert ();
+  bind PTWFilter_reference PTWFilter_Verification_Assert verification_assert ();
 `endif // not def layers_PTWFilter_Verification_Assert
 `endif // BIANCO_DIFFTEST

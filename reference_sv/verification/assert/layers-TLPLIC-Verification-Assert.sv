@@ -3,6 +3,6 @@
 `ifndef layers_TLPLIC_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Plic.scala:127:9
   `define layers_TLPLIC_Verification_Assert
   `include "layers-TLPLIC-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Plic.scala:127:9
-  bind TLPLIC TLPLIC_Verification_Assert verification_assert ();
+  bind TLPLIC_reference TLPLIC_Verification_Assert verification_assert ();
 `endif // not def layers_TLPLIC_Verification_Assert
 `endif // BIANCO_DIFFTEST

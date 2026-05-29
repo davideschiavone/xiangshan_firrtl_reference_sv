@@ -15,14 +15,14 @@ module CryptoModule_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/s
     if (io_regEnable)	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:297:14
       funcReg <= io_func;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:305:26
   end // always @(posedge)
-  HashModule hashModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:307:26
+  HashModule_reference hashModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:307:26
     .clock        (clock),
     .io_src       (io_src_0),
     .io_func      (io_func),
     .io_regEnable (io_regEnable),
     .io_out       (_hashModule_io_out)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:307:26
-  BlockCipherModule blockCipherModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:312:33
+  BlockCipherModule_reference blockCipherModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:312:33
     .clock        (clock),
     .io_src_0     (io_src_0),
     .io_src_1     (io_src_1),

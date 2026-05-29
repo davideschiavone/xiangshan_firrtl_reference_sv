@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module AXI4Fragmenter_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/Fragmenter.scala:186:14
+module AXI4Fragmenter_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/Fragmenter.scala:186:14
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/Fragmenter.scala:177:14
     always @(posedge AXI4Fragmenter.clock) begin	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/Fragmenter.scala:33:9, :177:14
       if (~AXI4Fragmenter.reset & {~AXI4Fragmenter._w_counter_T, AXI4Fragmenter.w_todo} == 10'h0) begin	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/amba/axi4/Fragmenter.scala:33:9, :174:23, :177:{14,15,27,37}, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module Rename_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:848:13
+module Rename_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:848:13
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:848:13
     always @(posedge Rename.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:44:7, :848:13
       if (Rename.io_out_0_valid_0 & Rename.io_in_0_bits_rfWen & ~Rename.reset & Rename.io_in_0_bits_ldest == 6'h0) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:44:7, :60:14, :847:18, :848:{13,27}

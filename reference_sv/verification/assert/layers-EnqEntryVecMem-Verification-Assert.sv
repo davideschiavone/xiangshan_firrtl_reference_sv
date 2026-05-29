@@ -3,6 +3,6 @@
 `ifndef layers_EnqEntryVecMem_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/EnqEntry.scala:151:7
   `define layers_EnqEntryVecMem_Verification_Assert
   `include "layers-EnqEntryVecMem-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/EnqEntry.scala:151:7
-  bind EnqEntryVecMem EnqEntryVecMem_Verification_Assert verification_assert ();
+  bind EnqEntryVecMem_reference EnqEntryVecMem_Verification_Assert verification_assert ();
 `endif // not def layers_EnqEntryVecMem_Verification_Assert
 `endif // BIANCO_DIFFTEST

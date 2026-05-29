@@ -3,6 +3,6 @@
 `ifndef layers_MultiWakeupQueue_3_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/MultiWakeupQueue.scala:27:7
   `define layers_MultiWakeupQueue_3_Verification_Assert
   `include "layers-MultiWakeupQueue_3-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/MultiWakeupQueue.scala:27:7
-  bind MultiWakeupQueue_3 MultiWakeupQueue_3_Verification_Assert verification_assert ();
+  bind MultiWakeupQueue_3_reference MultiWakeupQueue_3_Verification_Assert verification_assert ();
 `endif // not def layers_MultiWakeupQueue_3_Verification_Assert
 `endif // BIANCO_DIFFTEST

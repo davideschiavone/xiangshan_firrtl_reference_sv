@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module MultiWakeupQueue_6_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/MultiWakeupQueue.scala:82:9
+module MultiWakeupQueue_6_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/MultiWakeupQueue.scala:82:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/MultiWakeupQueue.scala:82:9
     wire [1:0] _GEN =
       {1'h0, MultiWakeupQueue_6.allValidVec_0} + {1'h0, MultiWakeupQueue_6.allValidVec_1}

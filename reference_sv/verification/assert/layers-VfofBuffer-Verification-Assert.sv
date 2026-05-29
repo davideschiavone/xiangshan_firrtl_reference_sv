@@ -3,6 +3,6 @@
 `ifndef layers_VfofBuffer_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VfofBuffer.scala:39:7
   `define layers_VfofBuffer_Verification_Assert
   `include "layers-VfofBuffer-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VfofBuffer.scala:39:7
-  bind VfofBuffer VfofBuffer_Verification_Assert verification_assert ();
+  bind VfofBuffer_reference VfofBuffer_Verification_Assert verification_assert ();
 `endif // not def layers_VfofBuffer_Verification_Assert
 `endif // BIANCO_DIFFTEST

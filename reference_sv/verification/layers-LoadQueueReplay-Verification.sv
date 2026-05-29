@@ -3,6 +3,6 @@
 `ifndef layers_LoadQueueReplay_Verification	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueReplay.scala:168:7
   `define layers_LoadQueueReplay_Verification
   `include "layers-LqVAddrModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueReplay.scala:168:7
-  bind LoadQueueReplay LoadQueueReplay_Verification verification ();
+  bind LoadQueueReplay_reference LoadQueueReplay_Verification verification ();
 `endif // not def layers_LoadQueueReplay_Verification
 `endif // BIANCO_DIFFTEST

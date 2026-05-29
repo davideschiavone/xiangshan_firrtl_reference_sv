@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module DataSRAMBank_4_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:175:9
+module DataSRAMBank_4_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:175:9
   reg REG;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:175:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:175:9
     always @(posedge DataSRAMBank_4.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/data/BankedDataArray.scala:164:7, :175:9

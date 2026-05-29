@@ -5,6 +5,6 @@
   `include "layers-EntriesLdu-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_12-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_13-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
-  bind IssueQueueLdu IssueQueueLdu_Verification verification ();
+  bind IssueQueueLdu_reference IssueQueueLdu_Verification verification ();
 `endif // not def layers_IssueQueueLdu_Verification
 `endif // BIANCO_DIFFTEST

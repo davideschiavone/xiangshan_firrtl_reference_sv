@@ -3,6 +3,6 @@
 `ifndef layers_UnalignQueue_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:1350:17
   `define layers_UnalignQueue_Verification_Assert
   `include "layers-UnalignQueue-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:1350:17
-  bind UnalignQueue UnalignQueue_Verification_Assert verification_assert ();
+  bind UnalignQueue_reference UnalignQueue_Verification_Assert verification_assert ();
 `endif // not def layers_UnalignQueue_Verification_Assert
 `endif // BIANCO_DIFFTEST

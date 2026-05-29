@@ -3,6 +3,6 @@
 `ifndef layers_FusionDecoder_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/FusionDecoder.scala:552:7
   `define layers_FusionDecoder_Verification_Assert
   `include "layers-FusionDecoder-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/FusionDecoder.scala:552:7
-  bind FusionDecoder FusionDecoder_Verification_Assert verification_assert ();
+  bind FusionDecoder_reference FusionDecoder_Verification_Assert verification_assert ();
 `endif // not def layers_FusionDecoder_Verification_Assert
 `endif // BIANCO_DIFFTEST

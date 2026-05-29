@@ -104,14 +104,14 @@ module Bku_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xian
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:321:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  CountModule countModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:331:27
+  CountModule_reference countModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:331:27
     .clock        (clock),
     .io_src       (io_in_bits_data_src_0),
     .io_func      (io_in_bits_ctrl_fuOpType),
     .io_regEnable (miscModule_io_regEnable),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuncUnit.scala:261:77, :307:49
     .io_out       (_countModule_io_out)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:331:27
-  ClmulModule clmulModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:336:27
+  ClmulModule_reference clmulModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:336:27
     .clock        (clock),
     .io_src_0     (io_in_bits_data_src_0),
     .io_src_1     (io_in_bits_data_src_1),
@@ -119,7 +119,7 @@ module Bku_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xian
     .io_regEnable (miscModule_io_regEnable),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuncUnit.scala:261:77, :307:49
     .io_out       (_clmulModule_io_out)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:336:27
-  MiscModule miscModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:342:26
+  MiscModule_reference miscModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:342:26
     .clock        (clock),
     .io_src_0     (io_in_bits_data_src_0),
     .io_src_1     (io_in_bits_data_src_1),
@@ -127,7 +127,7 @@ module Bku_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xian
     .io_regEnable (miscModule_io_regEnable),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/FuncUnit.scala:261:77, :307:49
     .io_out       (_miscModule_io_out)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:342:26
-  CryptoModule cryptoModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:348:28
+  CryptoModule_reference cryptoModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/Bku.scala:348:28
     .clock        (clock),
     .io_src_0     (io_in_bits_data_src_0),
     .io_src_1     (io_in_bits_data_src_1),

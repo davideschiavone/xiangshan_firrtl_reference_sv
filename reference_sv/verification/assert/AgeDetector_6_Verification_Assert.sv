@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module AgeDetector_6_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/AgeDetector.scala:103:11
+module AgeDetector_6_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/AgeDetector.scala:103:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/AgeDetector.scala:103:11
     wire [2:0] _GEN =
       {1'h0, {1'h0, AgeDetector_6.sel_0} + {1'h0, AgeDetector_6.result_1}}

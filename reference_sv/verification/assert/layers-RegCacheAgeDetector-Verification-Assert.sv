@@ -3,6 +3,6 @@
 `ifndef layers_RegCacheAgeDetector_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/AgeDetector.scala:26:7
   `define layers_RegCacheAgeDetector_Verification_Assert
   `include "layers-RegCacheAgeDetector-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/AgeDetector.scala:26:7
-  bind RegCacheAgeDetector RegCacheAgeDetector_Verification_Assert verification_assert ();
+  bind RegCacheAgeDetector_reference RegCacheAgeDetector_Verification_Assert verification_assert ();
 `endif // not def layers_RegCacheAgeDetector_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -7,6 +7,6 @@
   `include "layers-CaptureChain-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/DebugTransport.scala:73:7
   `include "layers-JtagTapController-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/DebugTransport.scala:73:7
   `include "layers-JtagBypassChain-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/DebugTransport.scala:73:7
-  bind DebugTransportModuleJTAG DebugTransportModuleJTAG_Verification verification ();
+  bind DebugTransportModuleJTAG_reference DebugTransportModuleJTAG_Verification verification ();
 `endif // not def layers_DebugTransportModuleJTAG_Verification
 `endif // BIANCO_DIFFTEST

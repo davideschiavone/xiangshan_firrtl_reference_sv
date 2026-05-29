@@ -3,6 +3,6 @@
 `ifndef layers_Monitor_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/debug/Monitor.scala:41:7
   `define layers_Monitor_Verification_Assert
   `include "layers-Monitor-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/debug/Monitor.scala:41:7
-  bind Monitor Monitor_Verification_Assert verification_assert ();
+  bind Monitor_reference Monitor_Verification_Assert verification_assert ();
 `endif // not def layers_Monitor_Verification_Assert
 `endif // BIANCO_DIFFTEST

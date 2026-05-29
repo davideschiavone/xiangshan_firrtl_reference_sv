@@ -11,6 +11,6 @@
   `include "layers-MissQueue-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/DCacheWrapper.scala:886:7
   `include "layers-ProbeQueue-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/DCacheWrapper.scala:886:7
   `include "layers-WritebackQueue-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/DCacheWrapper.scala:886:7
-  bind DCache DCache_Verification_Assert verification_assert ();
+  bind DCache_reference DCache_Verification_Assert verification_assert ();
 `endif // not def layers_DCache_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module PTWFilter_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/Repeater.scala:593:11
+module PTWFilter_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/Repeater.scala:593:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/Repeater.scala:586:9
     wire _GEN = PTWFilter.counter_0 == 4'h0 & ~PTWFilter.reset;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/Repeater.scala:422:7, :438:24, :586:9, :588:17
     always @(posedge PTWFilter.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/Repeater.scala:422:7, :586:9

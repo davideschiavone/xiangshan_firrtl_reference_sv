@@ -89,7 +89,7 @@ module BranchUnit_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/sca
   assign io_out_bits_res_redirect_bits_backendIGPF_0 =
     io_instrAddrTransType_sv39x4 & (|(_addModule_io_target[63:41])) | io_instrAddrTransType_sv48x4
     & (|(_addModule_io_target[63:50]));	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/Bundle.scala:657:{12,21,36,40,50,59,74}, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/BranchUnit.scala:34:25
-  BranchModule dataModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/BranchUnit.scala:33:26
+  BranchModule_reference dataModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/BranchUnit.scala:33:26
     .io_src_0      (io_in_bits_data_src_0),
     .io_src_1      (io_in_bits_data_src_1),
     .io_func       (io_in_bits_ctrl_fuOpType),
@@ -97,7 +97,7 @@ module BranchUnit_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/sca
     .io_taken      (_dataModule_io_taken),
     .io_mispredict (_dataModule_io_mispredict)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/BranchUnit.scala:33:26
-  AddrAddModule addModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/BranchUnit.scala:34:25
+  AddrAddModule_reference addModule (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/BranchUnit.scala:34:25
     .io_pcExtend
       ({(io_instrAddrTransType_sv39 | io_instrAddrTransType_sv48) & io_in_bits_data_pc[49], io_in_bits_data_pc}),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/Bundle.scala:659:33, home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/BranchUnit.scala:40:21, home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/BitUtils.scala:96:20, :97:41, :104:41
     .io_taken        (_dataModule_io_taken),	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/BranchUnit.scala:33:26

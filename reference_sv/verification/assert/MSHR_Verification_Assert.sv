@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module MSHR_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/MSHR.scala:588:9
+module MSHR_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/MSHR.scala:588:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/MSHR.scala:113:9
     always @(posedge MSHR.clock) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/MSHR.scala:47:7, :113:9
       if (~MSHR.reset & MSHR.req_valid_0 & MSHR.req_prefetch & MSHR.dirResult_hit_0) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/Consts.scala:41:13, home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/MSHR.scala:47:7, :74:26, :76:26, :113:{9,22,38}

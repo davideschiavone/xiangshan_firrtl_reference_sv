@@ -5,6 +5,6 @@
   `include "layers-L2TLB-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:49:7
   `include "layers-PtwCache-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:49:7
   `include "layers-LLPTW-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:49:7
-  bind L2TLB L2TLB_Verification_Assert verification_assert ();
+  bind L2TLB_reference L2TLB_Verification_Assert verification_assert ();
 `endif // not def layers_L2TLB_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -23,7 +23,7 @@ module IndirectCSRPermitModule_reference(	// home/davide/gitdir/bianco/XiangShan
   wire _aiaPermitMod_io_out_indirectCSR_EX_VI;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:191:36
   wire _smcdelegPermitMod_io_out_indirectCSR_EX_II;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:190:41
   wire _smcdelegPermitMod_io_out_indirectCSR_EX_VI;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:190:41
-  IndirectSmcdelegPermitModule smcdelegPermitMod (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:190:41
+  IndirectSmcdelegPermitModule_reference smcdelegPermitMod (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:190:41
     .io_in_csrAccess_addr        (io_in_csrAccess_addr),
     .io_in_privState_PRVM        (io_in_privState_PRVM),
     .io_in_privState_V           (io_in_privState_V),
@@ -35,7 +35,7 @@ module IndirectCSRPermitModule_reference(	// home/davide/gitdir/bianco/XiangShan
     .io_out_indirectCSR_EX_II    (_smcdelegPermitMod_io_out_indirectCSR_EX_II),
     .io_out_indirectCSR_EX_VI    (_smcdelegPermitMod_io_out_indirectCSR_EX_VI)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:190:41
-  IndirectAIAPermitModule aiaPermitMod (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:191:36
+  IndirectAIAPermitModule_reference aiaPermitMod (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:191:36
     .io_in_csrAccess_addr         (io_in_csrAccess_addr),
     .io_in_privState_PRVM         (io_in_privState_PRVM),
     .io_in_privState_V            (io_in_privState_V),
@@ -46,7 +46,7 @@ module IndirectCSRPermitModule_reference(	// home/davide/gitdir/bianco/XiangShan
     .io_out_indirectCSR_EX_II     (_aiaPermitMod_io_out_indirectCSR_EX_II),
     .io_out_indirectCSR_EX_VI     (_aiaPermitMod_io_out_indirectCSR_EX_VI)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:191:36
-  IndirectIMSICPermitModule imsicPermitMod (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:192:38
+  IndirectIMSICPermitModule_reference imsicPermitMod (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:192:38
     .io_in_csrAccess_addr           (io_in_csrAccess_addr),
     .io_in_privState_PRVM           (io_in_privState_PRVM),
     .io_in_privState_V              (io_in_privState_V),
@@ -59,7 +59,7 @@ module IndirectCSRPermitModule_reference(	// home/davide/gitdir/bianco/XiangShan
     .io_out_indirectCSR_EX_II       (_imsicPermitMod_io_out_indirectCSR_EX_II),
     .io_out_indirectCSR_EX_VI       (_imsicPermitMod_io_out_indirectCSR_EX_VI)
   );	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:192:38
-  IndirectOtherPermitModule otherPermitMod (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:193:38
+  IndirectOtherPermitModule_reference otherPermitMod (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/IndirectCSRPermitModule.scala:193:38
     .io_in_csrAccess_addr     (io_in_csrAccess_addr),
     .io_in_privState_PRVM     (io_in_privState_PRVM),
     .io_in_privState_V        (io_in_privState_V),

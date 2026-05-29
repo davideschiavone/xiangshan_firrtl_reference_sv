@@ -8,6 +8,6 @@
   `include "layers-CaptureChain-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/DebugTransport.scala:73:7
   `include "layers-JtagTapController-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/DebugTransport.scala:73:7
   `include "layers-JtagBypassChain-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/DebugTransport.scala:73:7
-  bind DebugTransportModuleJTAG DebugTransportModuleJTAG_Verification_Assert verification_assert ();
+  bind DebugTransportModuleJTAG_reference DebugTransportModuleJTAG_Verification_Assert verification_assert ();
 `endif // not def layers_DebugTransportModuleJTAG_Verification_Assert
 `endif // BIANCO_DIFFTEST

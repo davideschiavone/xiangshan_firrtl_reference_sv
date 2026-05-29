@@ -3,6 +3,6 @@
 `ifndef layers_LqMaskModule_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueData.scala:210:7
   `define layers_LqMaskModule_Verification_Assert
   `include "layers-LqMaskModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueData.scala:210:7
-  bind LqMaskModule LqMaskModule_Verification_Assert verification_assert ();
+  bind LqMaskModule_reference LqMaskModule_Verification_Assert verification_assert ();
 `endif // not def layers_LqMaskModule_Verification_Assert
 `endif // BIANCO_DIFFTEST

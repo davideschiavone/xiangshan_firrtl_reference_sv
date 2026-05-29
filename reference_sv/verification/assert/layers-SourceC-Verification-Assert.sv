@@ -3,6 +3,6 @@
 `ifndef layers_SourceC_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/SourceC.scala:126:7
   `define layers_SourceC_Verification_Assert
   `include "layers-SourceC-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/tl2tl/SourceC.scala:126:7
-  bind SourceC SourceC_Verification_Assert verification_assert ();
+  bind SourceC_reference SourceC_Verification_Assert verification_assert ();
 `endif // not def layers_SourceC_Verification_Assert
 `endif // BIANCO_DIFFTEST

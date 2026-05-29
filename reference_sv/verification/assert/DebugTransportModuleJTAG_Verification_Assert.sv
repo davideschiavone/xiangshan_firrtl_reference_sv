@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module DebugTransportModuleJTAG_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagTap.scala:185:15
+module DebugTransportModuleJTAG_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagTap.scala:185:15
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/debug/DebugTransport.scala:203:9
     wire [31:0] _tapIO_T =
       {DebugTransportModuleJTAG.io_jtag_version,

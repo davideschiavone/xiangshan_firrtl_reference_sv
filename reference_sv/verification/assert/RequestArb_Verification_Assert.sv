@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module RequestArb_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestArb.scala:108:9
+module RequestArb_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestArb.scala:108:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestArb.scala:102:9
     always @(posedge RequestArb.clock) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/RequestArb.scala:29:7, :102:9
       if (~RequestArb.reset

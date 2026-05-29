@@ -5,6 +5,6 @@
   `include "layers-EntriesStdMoud-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_18-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
   `include "layers-AgeDetector_13-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/IssueQueue.scala:63:7
-  bind IssueQueueStdMoud IssueQueueStdMoud_Verification verification ();
+  bind IssueQueueStdMoud_reference IssueQueueStdMoud_Verification verification ();
 `endif // not def layers_IssueQueueStdMoud_Verification
 `endif // BIANCO_DIFFTEST

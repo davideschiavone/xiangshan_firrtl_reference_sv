@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module MissEntry_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/PerfCounterUtils.scala:314:12
+module MissEntry_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/PerfCounterUtils.scala:314:12
   reg        REG;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:475:18
   reg        should_refill_data_reg;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:517:36
   reg        REG_1;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MissQueue.scala:561:19

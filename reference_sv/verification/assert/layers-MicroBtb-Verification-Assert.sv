@@ -3,6 +3,6 @@
 `ifndef layers_MicroBtb_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ubtb/MicroBtb.scala:30:7
   `define layers_MicroBtb_Verification_Assert
   `include "layers-MicroBtb-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/ubtb/MicroBtb.scala:30:7
-  bind MicroBtb MicroBtb_Verification_Assert verification_assert ();
+  bind MicroBtb_reference MicroBtb_Verification_Assert verification_assert ();
 `endif // not def layers_MicroBtb_Verification_Assert
 `endif // BIANCO_DIFFTEST

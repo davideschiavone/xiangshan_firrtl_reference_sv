@@ -5,6 +5,6 @@
   `include "layers-EnqEntry_22-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_154-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
   `include "layers-OthersEntry_156-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/Entries.scala:21:7
-  bind EntriesStdMoud EntriesStdMoud_Verification verification ();
+  bind EntriesStdMoud_reference EntriesStdMoud_Verification verification ();
 `endif // not def layers_EntriesStdMoud_Verification
 `endif // BIANCO_DIFFTEST

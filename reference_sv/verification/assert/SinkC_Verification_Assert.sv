@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module SinkC_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkC.scala:113:15
+module SinkC_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkC.scala:113:15
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkC.scala:113:15
     always @(posedge SinkC.clock) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkC.scala:35:7, :113:15
       if (SinkC._layer_probe & SinkC.hasData & SinkC.r_counter_0 & ~SinkC.reset & ~SinkC.last) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkC.scala:35:7, :107:19, :108:20, :109:20, :113:15, home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Edges.scala:102:36, :229:27, :232:33

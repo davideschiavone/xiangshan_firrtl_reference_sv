@@ -3,6 +3,6 @@
 `ifndef layers_ProbeHelper_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/ProbeHelper.scala:10:7
   `define layers_ProbeHelper_Verification_Assert
   `include "layers-ProbeHelper-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/ProbeHelper.scala:10:7
-  bind ProbeHelper ProbeHelper_Verification_Assert verification_assert ();
+  bind ProbeHelper_reference ProbeHelper_Verification_Assert verification_assert ();
 `endif // not def layers_ProbeHelper_Verification_Assert
 `endif // BIANCO_DIFFTEST

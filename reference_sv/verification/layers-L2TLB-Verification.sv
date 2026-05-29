@@ -4,6 +4,6 @@
   `define layers_L2TLB_Verification
   `include "layers-PtwCache-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:49:7
   `include "layers-LLPTW-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/L2TLB.scala:49:7
-  bind L2TLB L2TLB_Verification verification ();
+  bind L2TLB_reference L2TLB_Verification verification ();
 `endif // not def layers_L2TLB_Verification
 `endif // BIANCO_DIFFTEST

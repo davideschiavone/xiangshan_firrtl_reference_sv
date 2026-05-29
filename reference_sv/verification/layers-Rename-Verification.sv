@@ -8,6 +8,6 @@
   `include "layers-StdFreeList_2-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:44:7
   `include "layers-StdFreeList_3-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:44:7
   `include "layers-RenameTableWrapper-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/Rename.scala:44:7
-  bind Rename Rename_Verification verification ();
+  bind Rename_reference Rename_Verification verification ();
 `endif // not def layers_Rename_Verification
 `endif // BIANCO_DIFFTEST

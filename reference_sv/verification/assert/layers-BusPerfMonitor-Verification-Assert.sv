@@ -3,6 +3,6 @@
 `ifndef layers_BusPerfMonitor_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/top/BusPerfMonitor.scala:32:7
   `define layers_BusPerfMonitor_Verification_Assert
   `include "layers-BusPerfMonitor-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/top/BusPerfMonitor.scala:32:7
-  bind BusPerfMonitor BusPerfMonitor_Verification_Assert verification_assert ();
+  bind BusPerfMonitor_reference BusPerfMonitor_Verification_Assert verification_assert ();
 `endif // not def layers_BusPerfMonitor_Verification_Assert
 `endif // BIANCO_DIFFTEST

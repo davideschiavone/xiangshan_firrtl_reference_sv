@@ -3,6 +3,6 @@
 `ifndef layers_PtwCache_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/PageTableCache.scala:204:7
   `define layers_PtwCache_Verification_Assert
   `include "layers-PtwCache-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/mmu/PageTableCache.scala:204:7
-  bind PtwCache PtwCache_Verification_Assert verification_assert ();
+  bind PtwCache_reference PtwCache_Verification_Assert verification_assert ();
 `endif // not def layers_PtwCache_Verification_Assert
 `endif // BIANCO_DIFFTEST

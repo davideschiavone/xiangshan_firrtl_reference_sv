@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module ProbeHelper_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/ProbeHelper.scala:63:35
+module ProbeHelper_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/ProbeHelper.scala:63:35
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/ProbeHelper.scala:63:35
     always @(posedge ProbeHelper.clock) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/ProbeHelper.scala:10:7, :63:35
       if (ProbeHelper.queue_io_enq_valid & ~ProbeHelper.reset & ~ProbeHelper.queue_io_enq_ready) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/ProbeHelper.scala:10:7, :19:21, :63:35

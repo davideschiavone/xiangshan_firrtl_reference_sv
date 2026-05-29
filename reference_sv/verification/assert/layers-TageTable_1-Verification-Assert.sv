@@ -4,6 +4,6 @@
   `define layers_TageTable_1_Verification_Assert
   `include "layers-TageTable_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/TageTable.scala:27:7
   `include "layers-WriteBuffer_12-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/TageTable.scala:27:7
-  bind TageTable_1 TageTable_1_Verification_Assert verification_assert ();
+  bind TageTable_1_reference TageTable_1_Verification_Assert verification_assert ();
 `endif // not def layers_TageTable_1_Verification_Assert
 `endif // BIANCO_DIFFTEST

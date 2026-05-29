@@ -3,6 +3,6 @@
 `ifndef layers_CustomL1Hint_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/CustomL1Hint.scala:47:7
   `define layers_CustomL1Hint_Verification_Assert
   `include "layers-CustomL1Hint-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/CustomL1Hint.scala:47:7
-  bind CustomL1Hint CustomL1Hint_Verification_Assert verification_assert ();
+  bind CustomL1Hint_reference CustomL1Hint_Verification_Assert verification_assert ();
 `endif // not def layers_CustomL1Hint_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -10,6 +10,6 @@
   `include "layers-Sc_Anon_5-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/Sc.scala:40:7
   `include "layers-Sc_Anon_6-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/Sc.scala:40:7
   `include "layers-Sc_Anon_7-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/sc/Sc.scala:40:7
-  bind Sc Sc_Verification verification ();
+  bind Sc_reference Sc_Verification verification ();
 `endif // not def layers_Sc_Verification
 `endif // BIANCO_DIFFTEST

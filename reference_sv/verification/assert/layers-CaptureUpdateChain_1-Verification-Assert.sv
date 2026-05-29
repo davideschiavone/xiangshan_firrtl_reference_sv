@@ -3,6 +3,6 @@
 `ifndef layers_CaptureUpdateChain_1_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagShifter.scala:136:7
   `define layers_CaptureUpdateChain_1_Verification_Assert
   `include "layers-CaptureUpdateChain_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagShifter.scala:136:7
-  bind CaptureUpdateChain_1 CaptureUpdateChain_1_Verification_Assert verification_assert ();
+  bind CaptureUpdateChain_1_reference CaptureUpdateChain_1_Verification_Assert verification_assert ();
 `endif // not def layers_CaptureUpdateChain_1_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module TLError_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
+module TLError_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
   reg r_counter;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Edges.scala:229:27
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Error.scala:31:12
     always @(posedge TLError.clock) begin	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/devices/tilelink/Error.scala:18:9, :31:12

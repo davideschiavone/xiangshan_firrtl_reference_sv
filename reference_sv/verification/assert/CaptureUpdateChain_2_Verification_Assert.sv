@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module CaptureUpdateChain_2_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagShifter.scala:183:9
+module CaptureUpdateChain_2_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagShifter.scala:183:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagShifter.scala:183:9
     always @(posedge CaptureUpdateChain_2.clock) begin	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/jtag/JtagShifter.scala:136:7, :183:9
       if (~CaptureUpdateChain_2.reset

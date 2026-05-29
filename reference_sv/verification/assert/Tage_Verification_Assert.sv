@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module Tage_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/Tage.scala:597:13
+module Tage_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/Tage.scala:597:13
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/Tage.scala:447:11
     wire       _GEN = Tage.t2_fire_0 & ~Tage.reset;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/Tage.scala:34:7, :292:36, :447:11
     wire [3:0] _GEN_0 =

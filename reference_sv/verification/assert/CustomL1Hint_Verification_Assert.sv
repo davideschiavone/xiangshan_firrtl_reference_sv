@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module CustomL1Hint_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/CustomL1Hint.scala:111:9
+module CustomL1Hint_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/CustomL1Hint.scala:111:9
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/CustomL1Hint.scala:110:9
     always @(posedge CustomL1Hint.clock) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/CustomL1Hint.scala:47:7, :110:9
       if (~CustomL1Hint.reset & ~CustomL1Hint.hint_s1Queue_io_enq_ready) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/CustomL1Hint.scala:47:7, :103:28, :110:9

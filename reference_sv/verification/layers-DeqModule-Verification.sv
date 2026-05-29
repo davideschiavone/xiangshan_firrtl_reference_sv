@@ -3,6 +3,6 @@
 `ifndef layers_DeqModule_Verification	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:774:17
   `define layers_DeqModule_Verification
   `include "layers-EnterSbufferQueue-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/NewStoreQueue.scala:774:17
-  bind DeqModule DeqModule_Verification verification ();
+  bind DeqModule_reference DeqModule_Verification verification ();
 `endif // not def layers_DeqModule_Verification
 `endif // BIANCO_DIFFTEST

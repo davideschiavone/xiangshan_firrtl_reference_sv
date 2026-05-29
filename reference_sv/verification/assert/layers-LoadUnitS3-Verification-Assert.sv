@@ -3,6 +3,6 @@
 `ifndef layers_LoadUnitS3_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewLoadUnit.scala:1218:7
   `define layers_LoadUnitS3_Verification_Assert
   `include "layers-LoadUnitS3-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/pipeline/NewLoadUnit.scala:1218:7
-  bind LoadUnitS3 LoadUnitS3_Verification_Assert verification_assert ();
+  bind LoadUnitS3_reference LoadUnitS3_Verification_Assert verification_assert ();
 `endif // not def layers_LoadUnitS3_Verification_Assert
 `endif // BIANCO_DIFFTEST

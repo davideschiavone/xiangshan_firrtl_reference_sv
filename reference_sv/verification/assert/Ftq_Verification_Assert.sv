@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module Ftq_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module Ftq_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   reg  [3:0] perfQueue_0_bpuPerf_s1Prediction_cfiPosition;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/Ftq.scala:119:30
   reg  [3:0] perfQueue_0_bpuPerf_s3Prediction_cfiPosition;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/Ftq.scala:119:30
   reg        perfQueue_0_bpuPerf_mbtbMeta_entries_0_0_rawHit;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/Ftq.scala:119:30

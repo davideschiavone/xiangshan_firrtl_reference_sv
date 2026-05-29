@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module LsqWrapper_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LSQWrapper.scala:307:11
+module LsqWrapper_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LSQWrapper.scala:307:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LSQWrapper.scala:304:9
     always @(posedge LsqWrapper.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LSQWrapper.scala:67:7, :304:9
       if (~LsqWrapper.reset & LsqWrapper.loadQueue_io_uncache_resp_valid

@@ -3,6 +3,6 @@
 `ifndef layers_MSHRAlloc_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/MSHRAlloc.scala:40:7
   `define layers_MSHRAlloc_Verification_Assert
   `include "layers-MSHRAlloc-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/MSHRAlloc.scala:40:7
-  bind MSHRAlloc MSHRAlloc_Verification_Assert verification_assert ();
+  bind MSHRAlloc_reference MSHRAlloc_Verification_Assert verification_assert ();
 `endif // not def layers_MSHRAlloc_Verification_Assert
 `endif // BIANCO_DIFFTEST

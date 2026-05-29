@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module IDPool_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/IDPool.scala:52:14
+module IDPool_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/IDPool.scala:52:14
   reg REG;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/IDPool.scala:51:36
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/IDPool.scala:44:10
     wire [7:0] _GEN = (IDPool.bitmap_0 & IDPool._bitmap1_T) >> IDPool.io_free_bits;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/util/IDPool.scala:12:14, :18:23, :27:27, :44:{38,47}

@@ -14,6 +14,6 @@
   `include "layers-RequestBuffer_2-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/Slice.scala:32:7
   `include "layers-ProbeHelper-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/Slice.scala:32:7
   `include "layers-Directory_2-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/Slice.scala:32:7
-  bind Slice_2 Slice_2_Verification_Assert verification_assert ();
+  bind Slice_2_reference Slice_2_Verification_Assert verification_assert ();
 `endif // not def layers_Slice_2_Verification_Assert
 `endif // BIANCO_DIFFTEST

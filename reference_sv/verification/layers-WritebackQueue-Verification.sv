@@ -4,6 +4,6 @@
   `define layers_WritebackQueue_Verification
   `include "layers-WritebackEntry-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/WritebackQueue.scala:311:7
   `include "layers-WritebackEntry_3-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/WritebackQueue.scala:311:7
-  bind WritebackQueue WritebackQueue_Verification verification ();
+  bind WritebackQueue_reference WritebackQueue_Verification verification ();
 `endif // not def layers_WritebackQueue_Verification
 `endif // BIANCO_DIFFTEST

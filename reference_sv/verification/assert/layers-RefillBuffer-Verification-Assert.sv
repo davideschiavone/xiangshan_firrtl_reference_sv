@@ -3,6 +3,6 @@
 `ifndef layers_RefillBuffer_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/RefillBuffer.scala:28:7
   `define layers_RefillBuffer_Verification_Assert
   `include "layers-RefillBuffer-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/RefillBuffer.scala:28:7
-  bind RefillBuffer RefillBuffer_Verification_Assert verification_assert ();
+  bind RefillBuffer_reference RefillBuffer_Verification_Assert verification_assert ();
 `endif // not def layers_RefillBuffer_Verification_Assert
 `endif // BIANCO_DIFFTEST

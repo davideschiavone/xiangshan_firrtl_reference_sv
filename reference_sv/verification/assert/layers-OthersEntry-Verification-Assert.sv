@@ -3,6 +3,6 @@
 `ifndef layers_OthersEntry_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/OthersEntry.scala:27:7
   `define layers_OthersEntry_Verification_Assert
   `include "layers-OthersEntry-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/OthersEntry.scala:27:7
-  bind OthersEntry OthersEntry_Verification_Assert verification_assert ();
+  bind OthersEntry_reference OthersEntry_Verification_Assert verification_assert ();
 `endif // not def layers_OthersEntry_Verification_Assert
 `endif // BIANCO_DIFFTEST

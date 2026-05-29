@@ -3,6 +3,6 @@
 `ifndef layers_ResolveQueue_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/ResolveQueue.scala:28:7
   `define layers_ResolveQueue_Verification_Assert
   `include "layers-ResolveQueue-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ftq/ResolveQueue.scala:28:7
-  bind ResolveQueue ResolveQueue_Verification_Assert verification_assert ();
+  bind ResolveQueue_reference ResolveQueue_Verification_Assert verification_assert ();
 `endif // not def layers_ResolveQueue_Verification_Assert
 `endif // BIANCO_DIFFTEST

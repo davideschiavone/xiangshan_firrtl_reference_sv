@@ -3,6 +3,6 @@
 `ifndef layers_SinkA_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkA.scala:30:7
   `define layers_SinkA_Verification_Assert
   `include "layers-SinkA-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SinkA.scala:30:7
-  bind SinkA SinkA_Verification_Assert verification_assert ();
+  bind SinkA_reference SinkA_Verification_Assert verification_assert ();
 `endif // not def layers_SinkA_Verification_Assert
 `endif // BIANCO_DIFFTEST

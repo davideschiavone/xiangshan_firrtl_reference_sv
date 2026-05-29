@@ -3,6 +3,6 @@
 `ifndef layers_TLXbar_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Xbar.scala:71:9
   `define layers_TLXbar_Verification_Assert
   `include "layers-TLXbar-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Xbar.scala:71:9
-  bind TLXbar TLXbar_Verification_Assert verification_assert ();
+  bind TLXbar_reference TLXbar_Verification_Assert verification_assert ();
 `endif // not def layers_TLXbar_Verification_Assert
 `endif // BIANCO_DIFFTEST

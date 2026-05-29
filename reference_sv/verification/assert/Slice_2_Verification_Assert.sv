@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module Slice_2_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
+module Slice_2_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:79:14
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:77:13
     always @(posedge Slice_2.clock) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/Slice.scala:32:7, home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:77:13
       if (~Slice_2.reset & ~(~Slice_2.winner_0 | ~Slice_2.winner_1)) begin	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/Slice.scala:32:7, home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/tilelink/Arbiter.scala:71:69, :77:{13,56,59,62}

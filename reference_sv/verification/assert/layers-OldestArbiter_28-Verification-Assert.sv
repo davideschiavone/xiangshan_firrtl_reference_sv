@@ -3,6 +3,6 @@
 `ifndef layers_OldestArbiter_28_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/RFReadArbiter.scala:47:7
   `define layers_OldestArbiter_28_Verification_Assert
   `include "layers-OldestArbiter_28-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/datapath/RFReadArbiter.scala:47:7
-  bind OldestArbiter_28 OldestArbiter_28_Verification_Assert verification_assert ();
+  bind OldestArbiter_28_reference OldestArbiter_28_Verification_Assert verification_assert ();
 `endif // not def layers_OldestArbiter_28_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -3,6 +3,6 @@
 `ifndef layers_SourceA_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SourceA.scala:30:7
   `define layers_SourceA_Verification_Assert
   `include "layers-SourceA-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/SourceA.scala:30:7
-  bind SourceA SourceA_Verification_Assert verification_assert ();
+  bind SourceA_reference SourceA_Verification_Assert verification_assert ();
 `endif // not def layers_SourceA_Verification_Assert
 `endif // BIANCO_DIFFTEST

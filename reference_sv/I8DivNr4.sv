@@ -103,7 +103,7 @@ module I8DivNr4_reference(	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/ma
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/I8DivNr4.scala:7:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  IterBlockI8Nr4 iter_b (	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/I8DivNr4.scala:142:22
+  IterBlockI8Nr4_reference iter_b (	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/I8DivNr4.scala:142:22
     .io_d_cons_0  (const_d_reg_0[8:0]),	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/I8DivNr4.scala:138:30, :143:20
     .io_d_cons_1  (const_d_reg_1[8:0]),	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/I8DivNr4.scala:138:30, :143:20
     .io_d_cons_2  (const_d_reg_2[8:0]),	// home/davide/gitdir/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorIdiv/I8DivNr4.scala:138:30, :143:20

@@ -6,6 +6,6 @@
   `include "layers-RegCacheDataModule_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:28:7
   `include "layers-RegCacheAgeDetector-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:28:7
   `include "layers-RegCacheAgeDetector_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regcache/RegCache.scala:28:7
-  bind RegCache RegCache_Verification verification ();
+  bind RegCache_reference RegCache_Verification verification ();
 `endif // not def layers_RegCache_Verification
 `endif // BIANCO_DIFFTEST

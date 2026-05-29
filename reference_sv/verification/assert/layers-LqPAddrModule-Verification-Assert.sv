@@ -3,6 +3,6 @@
 `ifndef layers_LqPAddrModule_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueData.scala:136:7
   `define layers_LqPAddrModule_Verification_Assert
   `include "layers-LqPAddrModule-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueData.scala:136:7
-  bind LqPAddrModule LqPAddrModule_Verification_Assert verification_assert ();
+  bind LqPAddrModule_reference LqPAddrModule_Verification_Assert verification_assert ();
 `endif // not def layers_LqPAddrModule_Verification_Assert
 `endif // BIANCO_DIFFTEST

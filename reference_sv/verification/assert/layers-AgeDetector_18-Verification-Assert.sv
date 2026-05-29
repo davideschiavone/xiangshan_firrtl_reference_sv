@@ -3,6 +3,6 @@
 `ifndef layers_AgeDetector_18_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/AgeDetector.scala:26:7
   `define layers_AgeDetector_18_Verification_Assert
   `include "layers-AgeDetector_18-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/issue/AgeDetector.scala:26:7
-  bind AgeDetector_18 AgeDetector_18_Verification_Assert verification_assert ();
+  bind AgeDetector_18_reference AgeDetector_18_Verification_Assert verification_assert ();
 `endif // not def layers_AgeDetector_18_Verification_Assert
 `endif // BIANCO_DIFFTEST

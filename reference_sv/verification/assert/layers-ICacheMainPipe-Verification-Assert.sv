@@ -3,6 +3,6 @@
 `ifndef layers_ICacheMainPipe_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICacheMainPipe.scala:36:7
   `define layers_ICacheMainPipe_Verification_Assert
   `include "layers-ICacheMainPipe-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICacheMainPipe.scala:36:7
-  bind ICacheMainPipe ICacheMainPipe_Verification_Assert verification_assert ();
+  bind ICacheMainPipe_reference ICacheMainPipe_Verification_Assert verification_assert ();
 `endif // not def layers_ICacheMainPipe_Verification_Assert
 `endif // BIANCO_DIFFTEST

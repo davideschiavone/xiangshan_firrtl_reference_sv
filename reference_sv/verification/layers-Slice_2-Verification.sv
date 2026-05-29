@@ -13,6 +13,6 @@
   `include "layers-RequestBuffer_2-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/Slice.scala:32:7
   `include "layers-ProbeHelper-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/Slice.scala:32:7
   `include "layers-Directory_2-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/Slice.scala:32:7
-  bind Slice_2 Slice_2_Verification verification ();
+  bind Slice_2_reference Slice_2_Verification verification ();
 `endif // not def layers_Slice_2_Verification
 `endif // BIANCO_DIFFTEST

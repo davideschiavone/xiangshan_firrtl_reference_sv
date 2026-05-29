@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module ICacheMainPipe_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/Bundles.scala:225:11
+module ICacheMainPipe_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/Bundles.scala:225:11
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICacheMainPipe.scala:138:11
     always @(posedge ICacheMainPipe.clock) begin	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICacheMainPipe.scala:36:7, :138:11
       if (ICacheMainPipe.s0_fire & ~ICacheMainPipe.reset

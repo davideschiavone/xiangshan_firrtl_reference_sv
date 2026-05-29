@@ -5,6 +5,6 @@
   `include "layers-RenameBuffer-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:59:7
   `include "layers-VTypeBuffer-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:59:7
   `include "layers-SnapshotGenerator_3-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:59:7
-  bind Rob Rob_Verification verification ();
+  bind Rob_reference Rob_Verification verification ();
 `endif // not def layers_Rob_Verification
 `endif // BIANCO_DIFFTEST

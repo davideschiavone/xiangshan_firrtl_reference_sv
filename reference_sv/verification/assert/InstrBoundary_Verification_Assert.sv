@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module InstrBoundary_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
+module InstrBoundary_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/utility/src/main/scala/utility/LogUtils.scala:132:17
     wire boundDiff_1 = InstrBoundary.io_req_firstInstrIsHalfRvi | InstrBoundary.io_req_maybeRvc_0;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/InstrBoundary.scala:44:31, :64:68
     wire boundDiff_2 = ~boundDiff_1 | InstrBoundary.io_req_maybeRvc_1;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/InstrBoundary.scala:44:31, :64:{51,68}

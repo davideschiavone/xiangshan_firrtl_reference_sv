@@ -111,7 +111,7 @@ module FCMP_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xia
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FCMP.scala:13:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  FloatCompare fcmp (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FCMP.scala:20:28
+  FloatCompare_reference fcmp (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/FCMP.scala:20:28
     .io_src0     (io_in_bits_data_src_0),
     .io_src1     (io_in_bits_data_src_1),
     .io_fpFormat (io_in_bits_ctrl_fpu_fmt),

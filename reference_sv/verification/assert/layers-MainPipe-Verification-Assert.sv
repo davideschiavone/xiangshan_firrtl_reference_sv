@@ -3,6 +3,6 @@
 `ifndef layers_MainPipe_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MainPipe.scala:120:7
   `define layers_MainPipe_Verification_Assert
   `include "layers-MainPipe-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/cache/dcache/mainpipe/MainPipe.scala:120:7
-  bind MainPipe MainPipe_Verification_Assert verification_assert ();
+  bind MainPipe_reference MainPipe_Verification_Assert verification_assert ();
 `endif // not def layers_MainPipe_Verification_Assert
 `endif // BIANCO_DIFFTEST

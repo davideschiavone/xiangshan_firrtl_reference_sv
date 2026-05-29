@@ -3,6 +3,6 @@
 `ifndef layers_I2F_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/I2F.scala:16:7
   `define layers_I2F_Verification_Assert
   `include "layers-I2F-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/I2F.scala:16:7
-  bind I2F I2F_Verification_Assert verification_assert ();
+  bind I2F_reference I2F_Verification_Assert verification_assert ();
 `endif // not def layers_I2F_Verification_Assert
 `endif // BIANCO_DIFFTEST

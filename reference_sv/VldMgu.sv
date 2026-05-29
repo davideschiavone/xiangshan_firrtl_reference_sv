@@ -16,7 +16,7 @@ module VldMgu_reference(	// home/davide/gitdir/bianco/XiangShan/src/main/scala/x
 
   wire [15:0] _maskTailGen_io_out_activeEn;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/Mgu.scala:48:35
   wire [15:0] _maskTailGen_io_out_agnosticEn;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/Mgu.scala:48:35
-  ByteMaskTailGen maskTailGen (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/Mgu.scala:48:35
+  ByteMaskTailGen_reference maskTailGen (	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/vector/Mgu.scala:48:35
     .io_in_begin       (io_in_info_vstart),
     .io_in_end         (io_in_info_vl),
     .io_in_vma         (io_in_info_ma),

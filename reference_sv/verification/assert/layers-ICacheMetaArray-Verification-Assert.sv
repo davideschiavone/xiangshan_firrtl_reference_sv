@@ -3,6 +3,6 @@
 `ifndef layers_ICacheMetaArray_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICacheMetaArray.scala:24:7
   `define layers_ICacheMetaArray_Verification_Assert
   `include "layers-ICacheMetaArray-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/icache/ICacheMetaArray.scala:24:7
-  bind ICacheMetaArray ICacheMetaArray_Verification_Assert verification_assert ();
+  bind ICacheMetaArray_reference ICacheMetaArray_Verification_Assert verification_assert ();
 `endif // not def layers_ICacheMetaArray_Verification_Assert
 `endif // BIANCO_DIFFTEST

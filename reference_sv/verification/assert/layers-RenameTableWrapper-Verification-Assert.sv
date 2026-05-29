@@ -8,6 +8,6 @@
   `include "layers-RenameTable_2-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/RenameTable.scala:211:7
   `include "layers-RenameTable_3-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/RenameTable.scala:211:7
   `include "layers-RenameTable_4-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/rename/RenameTable.scala:211:7
-  bind RenameTableWrapper RenameTableWrapper_Verification_Assert verification_assert ();
+  bind RenameTableWrapper_reference RenameTableWrapper_Verification_Assert verification_assert ();
 `endif // not def layers_RenameTableWrapper_Verification_Assert
 `endif // BIANCO_DIFFTEST

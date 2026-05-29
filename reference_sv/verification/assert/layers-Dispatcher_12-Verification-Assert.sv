@@ -3,6 +3,6 @@
 `ifndef layers_Dispatcher_12_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:465:7
   `define layers_Dispatcher_12_Verification_Assert
   `include "layers-Dispatcher_12-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:465:7
-  bind Dispatcher_12 Dispatcher_12_Verification_Assert verification_assert ();
+  bind Dispatcher_12_reference Dispatcher_12_Verification_Assert verification_assert ();
 `endif // not def layers_Dispatcher_12_Verification_Assert
 `endif // BIANCO_DIFFTEST

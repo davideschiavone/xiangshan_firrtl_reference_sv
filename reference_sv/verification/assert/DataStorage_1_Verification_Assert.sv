@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module DataStorage_1_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/DataStorage.scala:130:9
+module DataStorage_1_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/DataStorage.scala:130:9
   reg          REG;	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/DataStorage.scala:124:28
   reg          REG_1;	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/DataStorage.scala:127:19
   wire [11:0]  _GEN =

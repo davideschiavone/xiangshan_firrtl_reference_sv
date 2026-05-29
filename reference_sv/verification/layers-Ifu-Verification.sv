@@ -5,6 +5,6 @@
   `include "layers-PreDecode-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/Ifu.scala:49:7
   `include "layers-InstrBoundary-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/Ifu.scala:49:7
   `include "layers-IfuUncacheUnit-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/ifu/Ifu.scala:49:7
-  bind Ifu Ifu_Verification verification ();
+  bind Ifu_reference Ifu_Verification verification ();
 `endif // not def layers_Ifu_Verification
 `endif // BIANCO_DIFFTEST

@@ -3,6 +3,6 @@
 `ifndef layers_VIMacU_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala:45:7
   `define layers_VIMacU_Verification_Assert
   `include "layers-VIMacU-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/wrapper/VIMacU.scala:45:7
-  bind VIMacU VIMacU_Verification_Assert verification_assert ();
+  bind VIMacU_reference VIMacU_Verification_Assert verification_assert ();
 `endif // not def layers_VIMacU_Verification_Assert
 `endif // BIANCO_DIFFTEST

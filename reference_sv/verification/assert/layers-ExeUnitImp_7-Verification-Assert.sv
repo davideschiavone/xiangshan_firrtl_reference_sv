@@ -4,6 +4,6 @@
   `define layers_ExeUnitImp_7_Verification_Assert
   `include "layers-ExeUnitImp_7-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
   `include "layers-Dispatcher_7-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/exu/ExeUnit.scala:55:7
-  bind ExeUnitImp_7 ExeUnitImp_7_Verification_Assert verification_assert ();
+  bind ExeUnitImp_7_reference ExeUnitImp_7_Verification_Assert verification_assert ();
 `endif // not def layers_ExeUnitImp_7_Verification_Assert
 `endif // BIANCO_DIFFTEST

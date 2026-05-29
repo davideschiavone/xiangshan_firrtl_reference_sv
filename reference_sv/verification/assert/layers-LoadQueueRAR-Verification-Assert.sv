@@ -4,6 +4,6 @@
   `define layers_LoadQueueRAR_Verification_Assert
   `include "layers-LoadQueueRAR-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueRAR.scala:29:7
   `include "layers-LqPAddrModule-Verification-Assert.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/mem/lsqueue/LoadQueueRAR.scala:29:7
-  bind LoadQueueRAR LoadQueueRAR_Verification_Assert verification_assert ();
+  bind LoadQueueRAR_reference LoadQueueRAR_Verification_Assert verification_assert ();
 `endif // not def layers_LoadQueueRAR_Verification_Assert
 `endif // BIANCO_DIFFTEST

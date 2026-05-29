@@ -3,6 +3,6 @@
 `ifndef layers_V0RegFilePart1_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regfile/Regfile.scala:67:7
   `define layers_V0RegFilePart1_Verification_Assert
   `include "layers-V0RegFilePart1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/regfile/Regfile.scala:67:7
-  bind V0RegFilePart1 V0RegFilePart1_Verification_Assert verification_assert ();
+  bind V0RegFilePart1_reference V0RegFilePart1_Verification_Assert verification_assert ();
 `endif // not def layers_V0RegFilePart1_Verification_Assert
 `endif // BIANCO_DIFFTEST

@@ -3,6 +3,6 @@
 `ifndef layers_TrapTvalMod_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/TrapTvalMod.scala:11:7
   `define layers_TrapTvalMod_Verification_Assert
   `include "layers-TrapTvalMod-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/TrapTvalMod.scala:11:7
-  bind TrapTvalMod TrapTvalMod_Verification_Assert verification_assert ();
+  bind TrapTvalMod_reference TrapTvalMod_Verification_Assert verification_assert ();
 `endif // not def layers_TrapTvalMod_Verification_Assert
 `endif // BIANCO_DIFFTEST

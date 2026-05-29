@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module MSHRBuffer_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/MSHRBuffer.scala:52:13
+module MSHRBuffer_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/MSHRBuffer.scala:52:13
   `ifndef SYNTHESIS	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/MSHRBuffer.scala:52:13
     always @(posedge MSHRBuffer.clock) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/MSHRBuffer.scala:40:7, :52:13
       if (~MSHRBuffer.reset & (&({1'h0, MSHRBuffer._w_beatSel_T} + {1'h0, MSHRBuffer._w_beatSel_T_1}))) begin	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/MSHRBuffer.scala:40:7, :51:48, :52:{13,22,29}

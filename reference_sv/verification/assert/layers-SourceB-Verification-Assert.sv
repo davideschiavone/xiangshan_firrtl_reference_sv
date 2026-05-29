@@ -3,6 +3,6 @@
 `ifndef layers_SourceB_Verification_Assert	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SourceB.scala:43:7
   `define layers_SourceB_Verification_Assert
   `include "layers-SourceB-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/XSCache/src/main/scala/coupledL2/SourceB.scala:43:7
-  bind SourceB SourceB_Verification_Assert verification_assert ();
+  bind SourceB_reference SourceB_Verification_Assert verification_assert ();
 `endif // not def layers_SourceB_Verification_Assert
 `endif // BIANCO_DIFFTEST

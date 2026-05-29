@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module SinkC_2_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/SinkC.scala:141:11
+module SinkC_2_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/SinkC.scala:141:11
   reg [15:0] beatValsTimer_0;	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/SinkC.scala:26:30
   reg [15:0] beatValsTimer_1;	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/SinkC.scala:26:30
   reg [15:0] beatValsTimer_2;	// home/davide/gitdir/bianco/XiangShan/huancun/src/main/scala/huancun/noninclusive/SinkC.scala:26:30

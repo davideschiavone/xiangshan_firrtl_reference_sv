@@ -6,6 +6,6 @@
   `include "layers-TageTable_1-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/Tage.scala:34:7
   `include "layers-TageTable_2-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/Tage.scala:34:7
   `include "layers-TageTable_3-Verification.sv"	// home/davide/gitdir/bianco/XiangShan/src/main/scala/xiangshan/frontend/bpu/tage/Tage.scala:34:7
-  bind Tage Tage_Verification verification ();
+  bind Tage_reference Tage_Verification verification ();
 `endif // not def layers_Tage_Verification
 `endif // BIANCO_DIFFTEST

@@ -18,7 +18,7 @@
     `define ASSERT_VERBOSE_COND_ 1
   `endif // ASSERT_VERBOSE_COND
 `endif // not def ASSERT_VERBOSE_COND_
-module BusPerfMonitor_2_Verification_Assert();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/top/BusPerfMonitor.scala:145:17
+module BusPerfMonitor_2_Verification_Assert_reference();	// home/davide/gitdir/bianco/XiangShan/src/main/scala/top/BusPerfMonitor.scala:145:17
   wire        _resolveRecord_T = BusPerfMonitor_2.auto_in_d_ready & BusPerfMonitor_2.auto_out_d_valid;	// home/davide/gitdir/bianco/XiangShan/rocket-chip/src/main/scala/diplomacy/LazyModule.scala:365:18, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
   reg         latencyRecord_0_valid;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/top/BusPerfMonitor.scala:119:32
   reg         latencyRecord_1_valid;	// home/davide/gitdir/bianco/XiangShan/src/main/scala/top/BusPerfMonitor.scala:119:32
