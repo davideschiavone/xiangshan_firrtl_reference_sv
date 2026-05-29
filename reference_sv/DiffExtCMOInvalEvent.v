@@ -4,7 +4,7 @@
 `include "DifftestMacros.svh"
 `endif // DIFFTEST
 `endif // SYNTHESIS
-module DiffExtCMOInvalEvent(
+module DiffExtCMOInvalEvent_reference(
   input         clock,
   input         enable,
   input         io_valid,

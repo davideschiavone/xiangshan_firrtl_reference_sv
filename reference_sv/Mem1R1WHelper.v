@@ -2,7 +2,7 @@
 `ifdef SYNTHESIS
   `define DISABLE_DIFFTEST_RAM_DPIC
 `endif
-module Mem1R1WHelper #(
+module Mem1R1WHelper_reference #(
   parameter RAM_SIZE
 )(
   input clock,

@@ -4,7 +4,7 @@
 `include "DifftestMacros.svh"
 `endif // DIFFTEST
 `endif // SYNTHESIS
-module DiffExtTrapEvent(
+module DiffExtTrapEvent_reference(
   input         clock,
   input         enable,
   input         io_hasTrap,

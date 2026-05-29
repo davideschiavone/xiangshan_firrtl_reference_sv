@@ -4,7 +4,7 @@ import "DPI-C" function void sd_setaddr(input int addr);
 import "DPI-C" function void sd_read(output int data);
 `endif // SYNTHESIS
 
-module SDCardHelper (
+module SDCardHelper_reference (
   input clock,
   input io_setAddr,
   input [31:0] io_addr,

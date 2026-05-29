@@ -4,7 +4,7 @@
 `include "DifftestMacros.svh"
 `endif // DIFFTEST
 `endif // SYNTHESIS
-module DiffExtMhpmeventOverflowEvent(
+module DiffExtMhpmeventOverflowEvent_reference(
   input         clock,
   input         enable,
   input         io_valid,

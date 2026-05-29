@@ -4,7 +4,7 @@
 `include "DifftestMacros.svh"
 `endif // DIFFTEST
 `endif // SYNTHESIS
-module DiffExtArchEvent(
+module DiffExtArchEvent_reference(
   input         clock,
   input         enable,
   input         io_valid,

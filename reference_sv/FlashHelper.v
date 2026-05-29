@@ -10,7 +10,7 @@ import "DPI-C" function void flash_read
 );
 `endif // DISABLE_DIFFTEST_FLASH_DPIC
 
-module FlashHelper (
+module FlashHelper_reference (
   input clock,
   input r_en,
   input [31:0] r_addr,

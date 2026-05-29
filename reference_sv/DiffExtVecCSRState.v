@@ -4,7 +4,7 @@
 `include "DifftestMacros.svh"
 `endif // DIFFTEST
 `endif // SYNTHESIS
-module DiffExtVecCSRState(
+module DiffExtVecCSRState_reference(
   input         clock,
   input         enable,
   input  [63:0] io_vstart,

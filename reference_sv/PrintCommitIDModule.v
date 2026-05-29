@@ -1,5 +1,5 @@
 
-module PrintCommitIDModule(
+module PrintCommitIDModule_reference(
   input [5:0] hartID,
   input [39:0] commitID,
   input dirty
