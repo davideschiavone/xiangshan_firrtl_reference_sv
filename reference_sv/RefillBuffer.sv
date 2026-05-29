@@ -184,7 +184,7 @@ module RefillBuffer_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/RefillBuffer.scala:28:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  buffer_7x514 buffer_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/RefillBuffer.scala:34:19
+  buffer_7x514_reference buffer_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/RefillBuffer.scala:34:19
     .R0_addr (io_r_id[2:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/RefillBuffer.scala:44:26
     .R0_en   (1'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/RefillBuffer.scala:28:7
     .R0_clk  (clock),

@@ -35,7 +35,7 @@ module VIMac64bStage2_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
   wire [151:0] _wallace3to2CompStage2_io_cout34to2NonFixP;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:69:37
   wire [151:0] _wallace3to2CompStage2_io_sum34to2FixP;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:69:37
   wire [151:0] _wallace3to2CompStage2_io_cout34to2FixP;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:69:37
-  wallace3to2CompressorStage2 wallace3to2CompStage2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:69:37
+  wallace3to2CompressorStage2_reference wallace3to2CompStage2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:69:37
     .io_compStage1Results_0  (io_in_compStage1ResultsS1_0),
     .io_compStage1Results_1  (io_in_compStage1ResultsS1_1),
     .io_compStage1Results_2  (io_in_compStage1ResultsS1_2),
@@ -50,12 +50,12 @@ module VIMac64bStage2_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
     .io_sum34to2FixP         (_wallace3to2CompStage2_io_sum34to2FixP),
     .io_cout34to2FixP        (_wallace3to2CompStage2_io_cout34to2FixP)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:69:37
-  fullAdder152b finalSumAdderNonFixP (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:82:36
+  fullAdder152b_reference finalSumAdderNonFixP (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:82:36
     .io_sum34to2  (_wallace3to2CompStage2_io_sum34to2NonFixP),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:69:37
     .io_cout34to2 (_wallace3to2CompStage2_io_cout34to2NonFixP),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:69:37
     .io_sumFinal  (io_out_sumFinalNonFixPS2)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:82:36
-  fullAdder152b finalSumAdderFixP (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:87:33
+  fullAdder152b_reference finalSumAdderFixP (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:87:33
     .io_sum34to2  (_wallace3to2CompStage2_io_sum34to2FixP),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:69:37
     .io_cout34to2 (_wallace3to2CompStage2_io_cout34to2FixP),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage2.scala:69:37
     .io_sumFinal  (io_out_sumFinalFixPS2)

@@ -583,7 +583,7 @@ module VSSplitImp_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/sr
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VSplit.scala:550:27
   wire         splitBuffer_io_out_valid_probe /* #hw<innerSym@sym_1> */;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VSplit.scala:550:27
   assign splitBuffer_io_out_valid_probe = _splitBuffer_io_out_valid;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VSplit.scala:550:27
-  skidBufferConnect VSSplitSkidBuffer (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VecCommon.scala:914:24
+  skidBufferConnect_reference VSSplitSkidBuffer (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/mem/vector/VecCommon.scala:914:24
     .clock                                                (clock),
     .reset                                                (reset),
     .io_in_ready                                          (_VSSplitSkidBuffer_io_in_ready),

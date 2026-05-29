@@ -81,7 +81,7 @@ module SRAMTemplate_290_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SRAMTemplate.scala:203:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  sram_array_1p128x16m16s1h0l1b_l2_repl array (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:233:25
+  sram_array_1p128x16m16s1h0l1b_l2_repl_reference array (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:233:25
     .mbist_dft_ram_bypass   (io_broadcast_ram_bypass),
     .mbist_dft_ram_bp_clken (io_broadcast_ram_bp_clken),
     .RW0_clk                (clock),

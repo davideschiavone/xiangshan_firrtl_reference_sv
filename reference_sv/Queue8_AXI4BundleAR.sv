@@ -50,7 +50,7 @@ module Queue8_AXI4BundleAR_reference(	// src/main/scala/chisel3/util/Queue.scala
         maybe_full <= do_enq;	// src/main/scala/chisel3/util/Queue.scala:76:27, src/main/scala/chisel3/util/ReadyValidIO.scala:48:35
     end
   end // always @(posedge)
-  ram_8x87 ram_ext (	// src/main/scala/chisel3/util/Queue.scala:73:91
+  ram_8x87_reference ram_ext (	// src/main/scala/chisel3/util/Queue.scala:73:91
     .R0_addr (deq_ptr_value),	// src/main/scala/chisel3/util/Counter.scala:61:40
     .R0_en   (1'h1),	// src/main/scala/chisel3/util/Queue.scala:60:7
     .R0_clk  (clock),

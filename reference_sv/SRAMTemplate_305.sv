@@ -11,7 +11,7 @@ module SRAMTemplate_305_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
 
   wire realRen;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:126:38
   assign realRen = io_r_req_valid & ~io_w_req_valid;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:126:{38,41}
-  array_0_8192x64 array_0_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:113:26
+  array_0_8192x64_reference array_0_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:113:26
     .RW0_addr  (io_w_req_valid ? io_w_req_bits_setIdx : io_r_req_bits_setIdx),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:113:26
     .RW0_en    (realRen | io_w_req_valid),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:113:26, :126:38
     .RW0_clk   (clock),

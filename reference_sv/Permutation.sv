@@ -2283,12 +2283,12 @@ module Permutation_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/y
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorPerm/Permutation.scala:81:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  slideupVs2VdTable vslideupOffset (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorPerm/Permutation.scala:408:30
+  slideupVs2VdTable_reference vslideupOffset (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorPerm/Permutation.scala:408:30
     .src          (_GEN_39),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorPerm/Permutation.scala:409:22
     .outOffsetVs2 (_vslideupOffset_outOffsetVs2),
     .outOffsetVd  (_vslideupOffset_outOffsetVd)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorPerm/Permutation.scala:408:30
-  slidednVs2VdTable vslidednOffset (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorPerm/Permutation.scala:413:30
+  slidednVs2VdTable_reference vslidednOffset (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorPerm/Permutation.scala:413:30
     .src          (_GEN_39),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorPerm/Permutation.scala:409:22
     .outOffsetVs2 (_vslidednOffset_outOffsetVs2),
     .outOffsetVd  (_vslidednOffset_outOffsetVd),

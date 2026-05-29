@@ -43,7 +43,7 @@ module SRAMTemplate_317_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:100:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  array_0_1024x7 array_0_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:113:26
+  array_0_1024x7_reference array_0_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:113:26
     .RW0_addr  (wen ? setIdx : io_r_req_bits_setIdx),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:113:26, :125:52, :128:19
     .RW0_en    (realRen | wen),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/utils/SRAMTemplate.scala:113:26, :125:52, :126:38
     .RW0_clk   (clock),

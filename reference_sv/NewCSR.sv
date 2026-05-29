@@ -10608,14 +10608,14 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .robCommit_vtype_bits_VLMUL (vtype_robCommit_vtype_next_bits_r_VLMUL)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/BitUtils.scala:33:27
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/Unprivileged.scala:120:21
   assign diffVecCSRState_vcsr_vtype = _vtype_rdata;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/difftest/src/main/scala/Gateway.scala:177:26, home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/Unprivileged.scala:120:21
-  cycleModule cycle (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/Unprivileged.scala:132:21
+  cycleModule_reference cycle (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/Unprivileged.scala:132:21
     .clock              (clock),
     .rdata              (_cycle_rdata),
     .mHPM_cycle         (_mcycle_rdata),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:341:22
     .debugModeStopCount (debugModeStopCount),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:284:35
     .unprivCountUpdate  (unprivCountUpdate)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/NewCSR.scala:285:48
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/Unprivileged.scala:132:21
-  timeModule time_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/Unprivileged.scala:144:20
+  timeModule_reference time_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/Unprivileged.scala:144:20
     .clock             (clock),
     .reset             (reset),
     .rdata             (_time_rdata),
@@ -10646,7 +10646,7 @@ module NewCSR_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/ma
     .stime             (_time_stime),
     .vstime            (_time_vstime)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/Unprivileged.scala:144:20
-  instretModule instret (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/Unprivileged.scala:170:23
+  instretModule_reference instret (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/Unprivileged.scala:170:23
     .clock              (clock),
     .rdata              (_instret_rdata),
     .mHPM_instret       (_minstret_rdata),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/fu/NewCSR/MachineLevel.scala:355:24

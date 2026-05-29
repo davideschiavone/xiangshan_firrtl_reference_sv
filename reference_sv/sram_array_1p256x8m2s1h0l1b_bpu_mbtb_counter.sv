@@ -19,7 +19,7 @@ module sram_array_1p256x8m2s1h0l1b_bpu_mbtb_counter_reference(	// home/davide/gi
   assign array_RW0_rdata_MPORT_wmask_1 = RW0_wmode & RW0_wmask[1];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
   assign array_RW0_rdata_MPORT_wmask_2 = RW0_wmode & RW0_wmask[2];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
   assign array_RW0_rdata_MPORT_wmask_3 = RW0_wmode & RW0_wmask[3];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
-  array_256x8 array_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:110:28
+  array_256x8_reference array_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:110:28
     .RW0_addr  (RW0_addr),
     .RW0_en    (RW0_en),
     .RW0_clk   (RW0_clk),

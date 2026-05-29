@@ -301,7 +301,7 @@ module VIMac64bStage1_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
   wire         sewIs8 = io_in_srcType_0[1:0] == 2'h0;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/VAluBundles.scala:114:53, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:49:38
   wire         sewIs16 = io_in_srcType_0[1:0] == 2'h1;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/VAluBundles.scala:114:53, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:49:38
   wire         sewIs32 = io_in_srcType_0[1:0] == 2'h2;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/VAluBundles.scala:114:53, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:49:38
-  vs1Booth vs1BoothEncode (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:71:30
+  vs1Booth_reference vs1BoothEncode (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:71:30
     .io_sewIs8          (sewIs8),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/VAluBundles.scala:114:53
     .io_sewIs32         (sewIs32),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/VAluBundles.scala:114:53
     .io_sewIs64         (&(io_in_srcType_0[1:0])),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/VAluBundles.scala:114:53, home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:49:38
@@ -435,7 +435,7 @@ module VIMac64bStage1_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
     .io_nonZero_30      (_vs1BoothEncode_io_nonZero_30),
     .io_nonZero_31      (_vs1BoothEncode_io_nonZero_31)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:71:30
-  vs2SgnGenerator vs2SignGen (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:85:26
+  vs2SgnGenerator_reference vs2SignGen (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:85:26
     .io_vs2_is_signed (io_in_srcType_0[2]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:46:39
     .io_sewIs8        (sewIs8),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/VAluBundles.scala:114:53
     .io_sewIs16       (sewIs16),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/VAluBundles.scala:114:53
@@ -451,7 +451,7 @@ module VIMac64bStage1_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
     .io_sgnVs2_6      (_vs2SignGen_io_sgnVs2_6),
     .io_sgnVs2_7      (_vs2SignGen_io_sgnVs2_7)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:85:26
-  partProdSgnAndCarryBitGen ppSgnAndCBGen (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:98:29
+  partProdSgnAndCarryBitGen_reference ppSgnAndCBGen (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:98:29
     .io_isSub           (io_in_isSub),
     .io_sgnVs2_0        (_vs2SignGen_io_sgnVs2_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:85:26
     .io_sgnVs2_1        (_vs2SignGen_io_sgnVs2_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:85:26
@@ -622,7 +622,7 @@ module VIMac64bStage1_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
     .io_partProdCin_30  (_ppSgnAndCBGen_io_partProdCin_30),
     .io_partProdCin_31  (_ppSgnAndCBGen_io_partProdCin_31)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:98:29
-  partProdGenerator partProdGen (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:115:27
+  partProdGenerator_reference partProdGen (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:115:27
     .io_partProdCin_0   (_ppSgnAndCBGen_io_partProdCin_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:98:29
     .io_partProdCin_1   (_ppSgnAndCBGen_io_partProdCin_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:98:29
     .io_partProdCin_2   (_ppSgnAndCBGen_io_partProdCin_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:98:29
@@ -789,7 +789,7 @@ module VIMac64bStage1_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
     .io_partProd_30     (_partProdGen_io_partProd_30),
     .io_partProd_31     (_partProdGen_io_partProd_31)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:115:27
-  wallaceTreeGenerator wallaceTreeGen (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:133:30
+  wallaceTreeGenerator_reference wallaceTreeGen (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:133:30
     .io_partProd_0           (_partProdGen_io_partProd_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:115:27
     .io_partProd_1           (_partProdGen_io_partProd_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:115:27
     .io_partProd_2           (_partProdGen_io_partProd_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:115:27
@@ -902,7 +902,7 @@ module VIMac64bStage1_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
     .io_wallaceLine34NonFixP (io_out_wallaceLine34NonFixPS1),
     .io_wallaceLine34FixP    (io_out_wallaceLine34FixPS1)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:133:30
-  wallace3to2CompressorStage1 wallace3to2CompStage1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:155:37
+  wallace3to2CompressorStage1_reference wallace3to2CompStage1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:155:37
     .io_wallaceTree_0       (_wallaceTreeGen_io_wallaceTree_0),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:133:30
     .io_wallaceTree_1       (_wallaceTreeGen_io_wallaceTree_1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:133:30
     .io_wallaceTree_2       (_wallaceTreeGen_io_wallaceTree_2),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vectorIMAC/VIMac64bStage1.scala:133:30

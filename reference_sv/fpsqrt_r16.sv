@@ -290,7 +290,7 @@ module fpsqrt_r16_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yu
     .io_out_data   (_u_lzc_0_lzc_io_out_data),
     .io_out_isZero (_u_lzc_0_lzc_io_out_isZero)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/util/Lzc.scala:10:21
-  r4_qds_cg u_r4_qds_cg_iter_init_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:454:39
+  r4_qds_cg_reference u_r4_qds_cg_iter_init_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:454:39
     .a0_i      (rt_iter_init_0[4]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:324:99, :325:101, :450:35
     .a2_i      (rt_iter_init_0[2]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:324:99, :325:101, :451:35
     .a3_i      (rt_iter_init_0[1]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:324:99, :325:101, :452:35
@@ -300,7 +300,7 @@ module fpsqrt_r16_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yu
     .m_pos_1_o (_u_r4_qds_cg_iter_init_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_iter_init_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:454:39
-  fpsqrt_r16_block u_fpsqrt_r16_block (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:479:34
+  fpsqrt_r16_block_reference u_fpsqrt_r16_block (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:479:34
     .fp_fmt_i                              (fp_fmt_q),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:87:21
     .f_r_s_i                               (f_r_s_q),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:148:20
     .f_r_c_i                               (f_r_c_q),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/fqrt/fpsqrt_r16.scala:151:20

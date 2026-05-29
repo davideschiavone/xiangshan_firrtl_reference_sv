@@ -30,7 +30,7 @@ module FloatDivider_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/
   wire [63:0] _u_vector_float_sqrt_r16_fpsqrt_res_o;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:31:39
   wire [4:0]  _u_vector_float_sqrt_r16_fflags_o;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:31:39
   wire        _u_vector_float_sqrt_r16_outValidAhead3Cycle;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:31:39
-  fpsqrt_r16 u_vector_float_sqrt_r16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:31:39
+  fpsqrt_r16_reference u_vector_float_sqrt_r16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:31:39
     .clock                (clock),
     .reset                (reset),
     .start_valid_i        (io_is_sqrt_i & io_start_valid_i),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:32:54

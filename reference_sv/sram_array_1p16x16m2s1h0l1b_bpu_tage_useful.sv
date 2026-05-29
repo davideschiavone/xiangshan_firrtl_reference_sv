@@ -27,7 +27,7 @@ module sram_array_1p16x16m2s1h0l1b_bpu_tage_useful_reference(	// home/davide/git
   assign array_RW0_rdata_MPORT_wmask_5 = RW0_wmode & RW0_wmask[5];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
   assign array_RW0_rdata_MPORT_wmask_6 = RW0_wmode & RW0_wmask[6];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
   assign array_RW0_rdata_MPORT_wmask_7 = RW0_wmode & RW0_wmask[7];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
-  array_16x16 array_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:110:28
+  array_16x16_reference array_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:110:28
     .RW0_addr  (RW0_addr),
     .RW0_en    (RW0_en),
     .RW0_clk   (RW0_clk),

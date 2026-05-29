@@ -11,7 +11,7 @@ module TrueDualPortSRAM_1_reference(	// home/davide/gitdir/bianco_ci/bianco/Xian
   output [15:0] io_b_rdata	// home/davide/gitdir/bianco_ci/bianco/XiangShan/ChiselIOPMP/src/main/scala/IopmpChecker.scala:145:14
 );
 
-  mem_31x16 mem_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/ChiselIOPMP/src/main/scala/IopmpChecker.scala:160:24
+  mem_31x16_reference mem_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/ChiselIOPMP/src/main/scala/IopmpChecker.scala:160:24
     .R0_addr (io_b_addr),
     .R0_en   (io_b_en),
     .R0_clk  (clock),

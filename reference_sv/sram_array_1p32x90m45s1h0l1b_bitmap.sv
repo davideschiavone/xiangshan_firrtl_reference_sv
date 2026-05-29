@@ -15,7 +15,7 @@ module sram_array_1p32x90m45s1h0l1b_bitmap_reference(	// home/davide/gitdir/bian
   wire array_RW0_rdata_MPORT_wmask_0;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37
   assign array_RW0_rdata_MPORT_wmask_0 = RW0_wmode & RW0_wmask[0];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
   assign array_RW0_rdata_MPORT_wmask_1 = RW0_wmode & RW0_wmask[1];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
-  array_32x90 array_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:110:28
+  array_32x90_reference array_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:110:28
     .RW0_addr  (RW0_addr),
     .RW0_en    (RW0_en),
     .RW0_clk   (RW0_clk),

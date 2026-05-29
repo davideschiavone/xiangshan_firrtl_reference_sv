@@ -83,7 +83,7 @@ module sram_array_1p128x36m1s1h0l1b_bpu_ittage_bank0_reference(	// home/davide/g
   assign array_RW0_rdata_MPORT_wmask_33 = RW0_wmode & RW0_wmask[33];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
   assign array_RW0_rdata_MPORT_wmask_34 = RW0_wmode & RW0_wmask[34];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
   assign array_RW0_rdata_MPORT_wmask_35 = RW0_wmode & RW0_wmask[35];	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:111:37, :114:21
-  array_128x36 array_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:110:28
+  array_128x36_reference array_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:110:28
     .RW0_addr  (RW0_addr),
     .RW0_en    (RW0_en),
     .RW0_clk   (RW0_clk),

@@ -10,7 +10,7 @@ module sram_array_1p128x16m16s1h0l1b_l2_repl_reference(	// home/davide/gitdir/bi
   output [15:0] RW0_rdata /* #hw<innerSym@__sram_array_1p128x16m16s1h0l1b_l2_repl__DONTTOUCH__8__RW0_rdata> */	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:60:12
 );
 
-  array_128x16 array_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:120:28
+  array_128x16_reference array_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:120:28
     .RW0_addr  (RW0_addr),
     .RW0_en    (RW0_en),
     .RW0_clk   (RW0_clk),

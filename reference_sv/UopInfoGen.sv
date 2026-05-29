@@ -114,11 +114,11 @@ module UopInfoGen_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/sr
      {7'h1},
      {7'h1},
      {7'h1}};	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala:91:30, :103:40, :114:33, :132:73, :137:{33,41,46,56}, :138:8, :141:53, :148:46, :161:{8,18,30}, :170:17, :171:{8,15}, :197:70, :201:35, :224:49, :227:50, :230:54, :233:36, :234:{36,48,59,100}, :237:59
-  strdiedLSNumOfUopTable stridedLSTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala:90:30
+  strdiedLSNumOfUopTable_reference stridedLSTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala:90:30
     .src ({simple_emul, io_in_preInfo_nf}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala:121:47, :191:28
     .out (_stridedLSTable_out)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala:90:30
-  indexedLSNumOfUopTable indexedLSTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala:91:30
+  indexedLSNumOfUopTable_reference indexedLSTable (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/UopInfoGen.scala:91:30
     .src
       ({simple_emul,
         _numOfUopVcompress_T_4 ? 2'h3 : _numOfUopWX_T_4 ? 2'h2 : {1'h0, _numOfUopWX_T_2},

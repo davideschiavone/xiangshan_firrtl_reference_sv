@@ -41952,37 +41952,37 @@ module DecodeUnitComp_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSha
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:108:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  indexedLSUopTable_1 indexedLSRegOffset_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
+  indexedLSUopTable_1_reference indexedLSRegOffset_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
     .src          (_GEN_5062),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:149:32, :210:23
     .outOffsetVs2 (_indexedLSRegOffset_1_outOffsetVs2),
     .outOffsetVd  (_indexedLSRegOffset_1_outOffsetVd)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
-  indexedLSUopTable_2 indexedLSRegOffset_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
+  indexedLSUopTable_2_reference indexedLSRegOffset_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
     .src          (_GEN_5062),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:149:32, :210:23
     .outOffsetVs2 (_indexedLSRegOffset_2_outOffsetVs2),
     .outOffsetVd  (_indexedLSRegOffset_2_outOffsetVd)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
-  indexedLSUopTable_3 indexedLSRegOffset_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
+  indexedLSUopTable_3_reference indexedLSRegOffset_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
     .src          (_GEN_5062),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:149:32, :210:23
     .outOffsetVs2 (_indexedLSRegOffset_3_outOffsetVs2),
     .outOffsetVd  (_indexedLSRegOffset_3_outOffsetVd)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
-  indexedLSUopTable_4 indexedLSRegOffset_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
+  indexedLSUopTable_4_reference indexedLSRegOffset_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
     .src          (_GEN_5062),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:149:32, :210:23
     .outOffsetVs2 (_indexedLSRegOffset_4_outOffsetVs2),
     .outOffsetVd  (_indexedLSRegOffset_4_outOffsetVd)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
-  indexedLSUopTable_5 indexedLSRegOffset_5 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
+  indexedLSUopTable_5_reference indexedLSRegOffset_5 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
     .src          (_GEN_5062),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:149:32, :210:23
     .outOffsetVs2 (_indexedLSRegOffset_5_outOffsetVs2),
     .outOffsetVd  (_indexedLSRegOffset_5_outOffsetVd)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
-  indexedLSUopTable_6 indexedLSRegOffset_6 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
+  indexedLSUopTable_6_reference indexedLSRegOffset_6 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
     .src          (_GEN_5062),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:149:32, :210:23
     .outOffsetVs2 (_indexedLSRegOffset_6_outOffsetVs2),
     .outOffsetVd  (_indexedLSRegOffset_6_outOffsetVd)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
-  indexedLSUopTable_7 indexedLSRegOffset_7 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
+  indexedLSUopTable_7_reference indexedLSRegOffset_7 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:148:63
     .src          (_GEN_5062),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/decode/DecodeUnitComp.scala:149:32, :210:23
     .outOffsetVs2 (_indexedLSRegOffset_7_outOffsetVs2),
     .outOffsetVd  (_indexedLSRegOffset_7_outOffsetVd)

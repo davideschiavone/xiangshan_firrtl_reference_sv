@@ -96,7 +96,7 @@ module SRAMTemplate_100_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .dft_cgen      (io_broadcast_cgen),
     .out_clock     (_rcg_out_clock)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SRAMTemplate.scala:249:43
-  sram_array_1p128x17m17s1h0l1b_bpu_tage_entry array (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:233:25
+  sram_array_1p128x17m17s1h0l1b_bpu_tage_entry_reference array (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SramProto.scala:233:25
     .mbist_dft_ram_bypass   (io_broadcast_ram_bypass),
     .mbist_dft_ram_bp_clken (io_broadcast_ram_bp_clken),
     .RW0_clk                (_rcg_out_clock),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/utility/src/main/scala/utility/sram/SRAMTemplate.scala:249:43

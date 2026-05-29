@@ -452,7 +452,7 @@ module FloatDividerR64_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSh
     .io_lshift_result       (_U_Left_Shift_opb_f64_0_io_lshift_result),
     .io_lzd_result          (_U_Left_Shift_opb_f64_0_io_lzd_result)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:405:38
-  fpdiv_r64_block u_r64_block_vector (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:764:34
+  fpdiv_r64_block_reference u_r64_block_vector (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:764:34
     .io_f_r_s_i                             (f_r_s_q_72bit),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:570:26
     .io_f_r_c_i                             (f_r_c_q_72bit),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:571:26
     .io_divisor_i                           (frac_divisor_q_60bit),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/fpu/FloatDivider.scala:413:33

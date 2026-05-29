@@ -857,7 +857,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_out_sum (_csa_4to2_sew8_4_io_out_sum),
     .io_out_car (_csa_4to2_sew8_4_io_out_car)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:499:29
-  compare_3to1 compare_3to1_sew64 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:512:34
+  compare_3to1_reference compare_3to1_sew64 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:512:34
     .io_a      (vs12m_bits_reg_s1[63:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :258:36
     .io_b      (vs12m_bits_reg_s1[127:64]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :256:36
     .io_c      (vs1_zero_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:266:34
@@ -865,7 +865,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_d      (_compare_3to1_sew64_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:512:34
-  compare_3to1_1 compare_3to1_sew32 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:525:34
+  compare_3to1_1_reference compare_3to1_sew32 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:525:34
     .io_a      (vs12m_bits_reg_s1[31:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :398:48
     .io_b      (vs12m_bits_reg_s1[63:32]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :399:48
     .io_c      (vs12m_bits_reg_s1[95:64]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :400:48
@@ -873,21 +873,21 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_d      (_compare_3to1_sew32_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:525:34
-  compare_2to1 compare0_2to1_sew32 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:533:35
+  compare_2to1_reference compare0_2to1_sew32 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:533:35
     .io_a      (vs12m_bits_reg_s1[127:96]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :403:37
     .io_b      (vs1_zero_reg_s1[31:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:266:34, :403:64
     .io_max    (isVredmax_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:82:35
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_c      (_compare0_2to1_sew32_io_c)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:533:35
-  compare_2to1 compare1_2to1_sew32 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:541:35
+  compare_2to1_reference compare1_2to1_sew32 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:541:35
     .io_a      (vd_reg[31:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :412:38
     .io_b      (vd_reg[63:32]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :412:21
     .io_max    (isVredmax_reg),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:320:32
     .io_signed (signed_reg),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:316:29
     .io_c      (_compare1_2to1_sew32_io_c)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:541:35
-  compare_3to1_2 compare_3to1_sew16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:555:36
+  compare_3to1_2_reference compare_3to1_sew16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:555:36
     .io_a      (vs12m_bits_reg_s1[15:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :260:74, :556:45
     .io_b      (vs12m_bits_reg_s1[31:16]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :260:74, :557:45
     .io_c      (vs12m_bits_reg_s1[47:32]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :260:74, :558:45
@@ -895,7 +895,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_d      (_compare_3to1_sew16_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:555:36
-  compare_3to1_2 compare_3to1_sew16_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:555:36
+  compare_3to1_2_reference compare_3to1_sew16_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:555:36
     .io_a      (vs12m_bits_reg_s1[63:48]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :260:74, :556:45
     .io_b      (vs12m_bits_reg_s1[79:64]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :260:74, :557:45
     .io_c      (vs12m_bits_reg_s1[95:80]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :260:74, :558:45
@@ -903,7 +903,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_d      (_compare_3to1_sew16_1_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:555:36
-  compare_3to1_2 compare_3to1_sew16_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:555:36
+  compare_3to1_2_reference compare_3to1_sew16_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:555:36
     .io_a      (vs12m_bits_reg_s1[111:96]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :260:74, :556:45
     .io_b      (vs12m_bits_reg_s1[127:112]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :260:74, :557:45
     .io_c      (vs1_zero_reg_s1[15:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:266:34, :423:38
@@ -911,7 +911,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_d      (_compare_3to1_sew16_2_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:555:36
-  compare_3to1_2 compare1_3to1_sew16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:564:35
+  compare_3to1_2_reference compare1_3to1_sew16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:564:35
     .io_a      (vd_reg[15:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :453:38
     .io_b      (vd_reg[31:16]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :453:21
     .io_c      (vd_reg[47:32]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :567:37
@@ -919,7 +919,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:316:29
     .io_d      (_compare1_3to1_sew16_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:564:35
-  compare_3to1_6 compare_3to1_sew8 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
+  compare_3to1_6_reference compare_3to1_sew8 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
     .io_a      (vs12m_bits_reg_s1[7:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :581:48
     .io_b      (vs12m_bits_reg_s1[15:8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :582:48
     .io_c      (vs12m_bits_reg_s1[23:16]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :583:48
@@ -927,7 +927,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_d      (_compare_3to1_sew8_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
-  compare_3to1_6 compare_3to1_sew8_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
+  compare_3to1_6_reference compare_3to1_sew8_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
     .io_a      (vs12m_bits_reg_s1[31:24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :581:48
     .io_b      (vs12m_bits_reg_s1[39:32]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :582:48
     .io_c      (vs12m_bits_reg_s1[47:40]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :583:48
@@ -935,7 +935,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_d      (_compare_3to1_sew8_1_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
-  compare_3to1_6 compare_3to1_sew8_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
+  compare_3to1_6_reference compare_3to1_sew8_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
     .io_a      (vs12m_bits_reg_s1[55:48]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :581:48
     .io_b      (vs12m_bits_reg_s1[63:56]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :582:48
     .io_c      (vs12m_bits_reg_s1[71:64]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :583:48
@@ -943,7 +943,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_d      (_compare_3to1_sew8_2_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
-  compare_3to1_6 compare_3to1_sew8_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
+  compare_3to1_6_reference compare_3to1_sew8_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
     .io_a      (vs12m_bits_reg_s1[79:72]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :581:48
     .io_b      (vs12m_bits_reg_s1[87:80]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :582:48
     .io_c      (vs12m_bits_reg_s1[95:88]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :583:48
@@ -951,7 +951,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_d      (_compare_3to1_sew8_3_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
-  compare_3to1_6 compare_3to1_sew8_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
+  compare_3to1_6_reference compare_3to1_sew8_4 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
     .io_a      (vs12m_bits_reg_s1[103:96]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :581:48
     .io_b      (vs12m_bits_reg_s1[111:104]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :582:48
     .io_c      (vs12m_bits_reg_s1[119:112]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :583:48
@@ -959,14 +959,14 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_d      (_compare_3to1_sew8_4_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:580:35
-  compare_2to1_2 compare0_2to1_sew8 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:589:34
+  compare_2to1_2_reference compare0_2to1_sew8 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:589:34
     .io_a      (vs12m_bits_reg_s1[127:120]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:178:36, :590:47
     .io_b      (vs1_zero_reg_s1[7:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:266:34, :467:37
     .io_max    (isVredmax_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:82:35
     .io_signed (signed_reg_s1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:74:32
     .io_c      (_compare0_2to1_sew8_io_c)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:589:34
-  compare_3to1_6 compare_3to1_sew8_5 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:597:35
+  compare_3to1_6_reference compare_3to1_sew8_5 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:597:35
     .io_a      (vd_reg[7:0]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :507:36
     .io_b      (vd_reg[15:8]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :507:20
     .io_c      (vd_reg[23:16]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :600:37
@@ -974,7 +974,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:316:29
     .io_d      (_compare_3to1_sew8_5_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:597:35
-  compare_3to1_6 compare_3to1_sew8_6 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:597:35
+  compare_3to1_6_reference compare_3to1_sew8_6 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:597:35
     .io_a      (vd_reg[31:24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :598:37
     .io_b      (vd_reg[39:32]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :599:37
     .io_c      (vd_reg[47:40]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:314:23, :600:37
@@ -982,7 +982,7 @@ module Reduction_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yun
     .io_signed (signed_reg),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:316:29
     .io_d      (_compare_3to1_sew8_6_io_d)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:597:35
-  compare_2to1_2 compare1_2to1_sew8 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:606:34
+  compare_2to1_2_reference compare1_2to1_sew8 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:606:34
     .io_a      (_compare_3to1_sew8_6_io_d),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:597:35
     .io_b      (_compare_3to1_sew8_5_io_d),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:597:35
     .io_max    (isVredmax_reg),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorALU/Reduction.scala:320:32

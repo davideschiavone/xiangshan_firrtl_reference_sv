@@ -405,7 +405,7 @@ module RequestBuffer_2_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangSh
       `FIRRTL_AFTER_INITIAL	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/RequestBuffer.scala:8:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  buffer_4x117 buffer_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/RequestBuffer.scala:16:19
+  buffer_4x117_reference buffer_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/RequestBuffer.scala:16:19
     .R0_addr (2'h3),
     .R0_en   (1'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/huancun/src/main/scala/huancun/RequestBuffer.scala:8:7
     .R0_clk  (clock),

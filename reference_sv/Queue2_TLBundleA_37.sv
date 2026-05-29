@@ -65,7 +65,7 @@ module Queue2_TLBundleA_37_reference(	// src/main/scala/chisel3/util/Queue.scala
       `FIRRTL_AFTER_INITIAL	// src/main/scala/chisel3/util/Queue.scala:60:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  ram_2x356 ram_ext (	// src/main/scala/chisel3/util/Queue.scala:73:91
+  ram_2x356_reference ram_ext (	// src/main/scala/chisel3/util/Queue.scala:73:91
     .R0_addr (deq_ptr_value),	// src/main/scala/chisel3/util/Counter.scala:61:40
     .R0_en   (1'h1),	// src/main/scala/chisel3/util/Queue.scala:60:7
     .R0_clk  (clock),

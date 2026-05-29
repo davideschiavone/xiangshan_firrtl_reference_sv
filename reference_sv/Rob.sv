@@ -94084,7 +94084,7 @@ module Rob_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/
     .io_out_7_flag                 (enqPtrVec_7_flag),
     .io_out_7_value                (enqPtrVec_7_value)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:906:31
-  dt_48x1 dt_eliminatedMove_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1577:32
+  dt_48x1_reference dt_eliminatedMove_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1577:32
     .R0_addr (deqPtrVec_7_value),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:177:23
     .R0_en   (1'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:59:7
     .R0_clk  (clock),
@@ -94150,7 +94150,7 @@ module Rob_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/
     .W7_clk  (clock),
     .W7_data (io_enq_req_0_bits_isMove)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1577:32
-  dt_48x1 dt_isRVC_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1578:23
+  dt_48x1_reference dt_isRVC_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1578:23
     .R0_addr (deqPtrVec_7_value),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:177:23
     .R0_en   (1'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:59:7
     .R0_clk  (clock),
@@ -94216,7 +94216,7 @@ module Rob_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/
     .W7_clk  (clock),
     .W7_data (io_enq_req_0_bits_isRVC)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1578:23
-  dt_pcTransType_48x2 dt_pcTransType_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1579:61
+  dt_pcTransType_48x2_reference dt_pcTransType_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1579:61
     .R0_addr (deqPtrVec_7_value),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:177:23
     .R0_en   (1'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:59:7
     .R0_clk  (clock),
@@ -94282,7 +94282,7 @@ module Rob_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/
     .W7_clk  (clock),
     .W7_data (_GEN_1537)	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1579:61
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1579:61
-  dt_48x1 dt_isXSTrap_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1660:26
+  dt_48x1_reference dt_isXSTrap_ext (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:1660:26
     .R0_addr (deqPtrVec_7_value),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:177:23
     .R0_en   (1'h1),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/src/main/scala/xiangshan/backend/rob/Rob.scala:59:7
     .R0_clk  (clock),

@@ -1503,7 +1503,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
        fp_fmt_i[0] | _nxt_f_r_c_pre_spec_s1_1_0_T_10[11],
        _nxt_f_r_c_pre_spec_s1_1_0_T_10[10:0],
        1'h1};	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:423:17, :482:8, :1532:37, :1533:39, :1534:39, :1535:39, :1557:30, :1570:95, :1571:102, :1575:32, :1576:31, :1577:{8,61}, :1578:31, :1585:95, :1586:102, :1590:32, :1591:31, :1592:{8,61}, :1593:31, :1603:95, :1604:102, :1608:32, :1609:31, :1610:{8,61}, :1611:31, :1618:95, :1619:102, :1623:32, :1624:31, :1625:{8,61}, :1626:31, :2398:31, :2531:31, :2765:{12,44,70}, :2766:{14,46,72}, :2767:{14,46,72}, :2768:{14,46,72}, :2769:{14,46}
-  r4_qds u_r4_qds_s0_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:369:29
+  r4_qds_reference u_r4_qds_s0_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:369:29
     .rem_i     (nr_f_r_7b_for_nxt_cycle_s0_qds_0_i),
     .m_neg_1_i ({2'h0, m_neg_1_for_nxt_cycle_s0_qds_0_i}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:365:22
     .m_neg_0_i ({3'h0, m_neg_0_for_nxt_cycle_s0_qds_0_i}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:366:22
@@ -1511,7 +1511,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_2_i ({2'h3, m_pos_2_for_nxt_cycle_s0_qds_0_i, 1'h0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:368:22
     .rt_dig_o  (_u_r4_qds_s0_0_rt_dig_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:369:29
-  r4_qds u_r4_qds_s0_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:381:29
+  r4_qds_reference u_r4_qds_s0_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:381:29
     .rem_i     (nr_f_r_7b_for_nxt_cycle_s0_qds_1_i),
     .m_neg_1_i ({2'h0, m_neg_1_for_nxt_cycle_s0_qds_1_i}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:377:22
     .m_neg_0_i ({3'h0, m_neg_0_for_nxt_cycle_s0_qds_1_i}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:378:22
@@ -1519,7 +1519,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_2_i ({2'h3, m_pos_2_for_nxt_cycle_s0_qds_1_i, 1'h0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:380:22
     .rt_dig_o  (_u_r4_qds_s0_1_rt_dig_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:381:29
-  r4_qds u_r4_qds_s0_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:393:29
+  r4_qds_reference u_r4_qds_s0_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:393:29
     .rem_i     (nr_f_r_7b_for_nxt_cycle_s0_qds_2_i),
     .m_neg_1_i ({2'h0, m_neg_1_for_nxt_cycle_s0_qds_2_i}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:389:22
     .m_neg_0_i ({3'h0, m_neg_0_for_nxt_cycle_s0_qds_2_i}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:390:22
@@ -1527,7 +1527,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_2_i ({2'h3, m_pos_2_for_nxt_cycle_s0_qds_2_i, 1'h0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:392:22
     .rt_dig_o  (_u_r4_qds_s0_2_rt_dig_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:393:29
-  r4_qds u_r4_qds_s0_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:405:29
+  r4_qds_reference u_r4_qds_s0_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:405:29
     .rem_i     (nr_f_r_7b_for_nxt_cycle_s0_qds_3_i),
     .m_neg_1_i ({2'h0, m_neg_1_for_nxt_cycle_s0_qds_3_i}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:401:22
     .m_neg_0_i ({3'h0, m_neg_0_for_nxt_cycle_s0_qds_3_i}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:402:22
@@ -1535,7 +1535,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_2_i ({2'h3, m_pos_2_for_nxt_cycle_s0_qds_3_i, 1'h0}),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:404:22
     .rt_dig_o  (_u_r4_qds_s0_3_rt_dig_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:405:29
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_2_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:770:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_2_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:770:43
     .a0_i      (nxt_rt_spec_s0_0_4[54]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:761:34, :766:41
     .a2_i      (nxt_rt_spec_s0_0_4[52]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:761:34, :767:41
     .a3_i      (nxt_rt_spec_s0_0_4[51]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:761:34, :768:41
@@ -1545,7 +1545,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_2_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_2_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:770:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:784:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:784:43
     .a0_i      (nxt_rt_spec_s0_0_3[54]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:762:34, :780:41
     .a2_i      (nxt_rt_spec_s0_0_3[52]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:762:34, :781:41
     .a3_i      (nxt_rt_spec_s0_0_3[51]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:762:34, :782:41
@@ -1555,7 +1555,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_1_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_1_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:784:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_0_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:798:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_0_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:798:43
     .a0_i      (~(rt_i[55])),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:413:{15,20}
     .a2_i      (rt_i[54]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:413:30, :795:41
     .a3_i      (rt_i[53]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:413:30, :796:41
@@ -1565,7 +1565,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_0_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_0_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:798:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_pos_1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:812:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_pos_1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:812:43
     .a0_i      (nxt_rt_spec_s0_0_1[54]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:764:31, :808:41
     .a2_i      (nxt_rt_spec_s0_0_1[52]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:764:31, :809:41
     .a3_i      (nxt_rt_spec_s0_0_1[51]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:764:31, :810:41
@@ -1575,7 +1575,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_pos_1_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_pos_1_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:812:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_pos_2_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:826:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_pos_2_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:826:43
     .a0_i      (nxt_rt_spec_s0_0_0[54]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:765:31, :822:41
     .a2_i      (nxt_rt_spec_s0_0_0[52]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:765:31, :823:41
     .a3_i      (nxt_rt_spec_s0_0_0[51]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:765:31, :824:41
@@ -1585,7 +1585,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_pos_2_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_pos_2_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:826:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:845:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:845:43
     .a0_i      (nxt_rt_spec_s0_1_4[26]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:836:34, :841:41
     .a2_i      (nxt_rt_spec_s0_1_4[24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:836:34, :842:41
     .a3_i      (nxt_rt_spec_s0_1_4[23]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:836:34, :843:41
@@ -1595,7 +1595,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_2_1_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_2_1_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:845:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:859:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:859:43
     .a0_i      (nxt_rt_spec_s0_1_3[26]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:837:34, :855:41
     .a2_i      (nxt_rt_spec_s0_1_3[24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:837:34, :856:41
     .a3_i      (nxt_rt_spec_s0_1_3[23]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:837:34, :857:41
@@ -1605,7 +1605,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_1_1_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_1_1_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:859:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_0_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:873:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_0_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:873:43
     .a0_i      (~(rt_i[27])),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:415:{15,20}
     .a2_i      (rt_i[26]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:415:30, :870:41
     .a3_i      (rt_i[25]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:415:30, :871:41
@@ -1615,7 +1615,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_0_1_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_0_1_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:873:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_pos_1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:887:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_pos_1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:887:43
     .a0_i      (nxt_rt_spec_s0_1_1[26]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:839:31, :883:41
     .a2_i      (nxt_rt_spec_s0_1_1[24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:839:31, :884:41
     .a3_i      (nxt_rt_spec_s0_1_1[23]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:839:31, :885:41
@@ -1625,7 +1625,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_pos_1_1_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_pos_1_1_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:887:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_pos_2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:901:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_pos_2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:901:43
     .a0_i      (nxt_rt_spec_s0_1_0[26]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:840:31, :897:41
     .a2_i      (nxt_rt_spec_s0_1_0[24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:840:31, :898:41
     .a3_i      (nxt_rt_spec_s0_1_0[23]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:840:31, :899:41
@@ -1635,7 +1635,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_pos_2_1_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_pos_2_1_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:901:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:920:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:920:43
     .a0_i      (nxt_rt_spec_s0_2_4[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:911:34, :916:41
     .a2_i      (nxt_rt_spec_s0_2_4[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:911:34, :917:41
     .a3_i      (nxt_rt_spec_s0_2_4[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:911:34, :918:41
@@ -1645,7 +1645,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_2_2_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_2_2_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:920:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_1_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:934:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_1_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:934:43
     .a0_i      (nxt_rt_spec_s0_2_3[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:912:34, :930:41
     .a2_i      (nxt_rt_spec_s0_2_3[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:912:34, :931:41
     .a3_i      (nxt_rt_spec_s0_2_3[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:912:34, :932:41
@@ -1655,7 +1655,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_1_2_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_1_2_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:934:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_0_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:948:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_0_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:948:43
     .a0_i      (~(rt_i[41])),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:417:{15,20}
     .a2_i      (rt_i[40]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:417:30, :945:41
     .a3_i      (rt_i[39]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:417:30, :946:41
@@ -1665,7 +1665,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_0_2_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_0_2_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:948:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_pos_1_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:962:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_pos_1_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:962:43
     .a0_i      (nxt_rt_spec_s0_2_1[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:914:31, :958:41
     .a2_i      (nxt_rt_spec_s0_2_1[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:914:31, :959:41
     .a3_i      (nxt_rt_spec_s0_2_1[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:914:31, :960:41
@@ -1675,7 +1675,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_pos_1_2_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_pos_1_2_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:962:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_pos_2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:976:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_pos_2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:976:43
     .a0_i      (nxt_rt_spec_s0_2_0[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:915:31, :972:41
     .a2_i      (nxt_rt_spec_s0_2_0[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:915:31, :973:41
     .a3_i      (nxt_rt_spec_s0_2_0[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:915:31, :974:41
@@ -1685,7 +1685,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_pos_2_2_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_pos_2_2_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:976:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:995:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:995:43
     .a0_i      (nxt_rt_spec_s0_3_4[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:986:34, :991:41
     .a2_i      (nxt_rt_spec_s0_3_4[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:986:34, :992:41
     .a3_i      (nxt_rt_spec_s0_3_4[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:986:34, :993:41
@@ -1695,7 +1695,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_2_3_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_2_3_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:995:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1009:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1009:43
     .a0_i      (nxt_rt_spec_s0_3_3[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:987:34, :1005:41
     .a2_i      (nxt_rt_spec_s0_3_3[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:987:34, :1006:41
     .a3_i      (nxt_rt_spec_s0_3_3[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:987:34, :1007:41
@@ -1705,7 +1705,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_1_3_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_1_3_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1009:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_neg_0_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1023:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_neg_0_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1023:43
     .a0_i      (~(rt_i[13])),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:419:{15,20}
     .a2_i      (rt_i[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:419:30, :1020:41
     .a3_i      (rt_i[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:419:30, :1021:41
@@ -1715,7 +1715,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_neg_0_3_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_neg_0_3_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1023:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_pos_1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1037:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_pos_1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1037:43
     .a0_i      (nxt_rt_spec_s0_3_1[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:989:31, :1033:41
     .a2_i      (nxt_rt_spec_s0_3_1[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:989:31, :1034:41
     .a3_i      (nxt_rt_spec_s0_3_1[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:989:31, :1035:41
@@ -1725,7 +1725,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_pos_1_3_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_pos_1_3_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1037:43
-  r4_qds_cg u_r4_qds_cg_spec_s0_pos_2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1051:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s0_pos_2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1051:43
     .a0_i      (nxt_rt_spec_s0_3_0[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:990:31, :1047:41
     .a2_i      (nxt_rt_spec_s0_3_0[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:990:31, :1048:41
     .a3_i      (nxt_rt_spec_s0_3_0[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:990:31, :1049:41
@@ -1735,7 +1735,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s0_pos_2_3_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s0_pos_2_3_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1051:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_2_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2076:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_2_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2076:43
     .a0_i      (nxt_rt_spec_s1_0_4[54]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2067:41, :2072:41
     .a2_i      (nxt_rt_spec_s1_0_4[52]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2067:41, :2073:41
     .a3_i      (nxt_rt_spec_s1_0_4[51]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2067:41, :2074:41
@@ -1745,7 +1745,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_2_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_2_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2076:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2090:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2090:43
     .a0_i      (nxt_rt_spec_s1_0_3[54]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2068:41, :2086:41
     .a2_i      (nxt_rt_spec_s1_0_3[52]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2068:41, :2087:41
     .a3_i      (nxt_rt_spec_s1_0_3[51]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2068:41, :2088:41
@@ -1755,7 +1755,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_1_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_1_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2090:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_0_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2104:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_0_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2104:43
     .a0_i      (nxt_rt_0_0[54]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1339:69, :1340:71, :1341:71, :1342:71, :2100:41
     .a2_i      (nxt_rt_0_0[52]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1339:69, :1340:71, :1341:71, :1342:71, :2101:41
     .a3_i      (nxt_rt_0_0[51]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1339:69, :1340:71, :1341:71, :1342:71, :2102:41
@@ -1765,7 +1765,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_0_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_0_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2104:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_pos_1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2118:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_pos_1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2118:43
     .a0_i      (nxt_rt_0_0[54]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:354:18, :1339:69, :1340:71, :1341:71, :1342:71, :2070:38, :2114:41
     .a2_i      (_GEN_43[52]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:354:18, :2070:38, :2115:41
     .a3_i      (_GEN_43[51]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:354:18, :2070:38, :2116:41
@@ -1775,7 +1775,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_pos_1_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_pos_1_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2118:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_pos_2_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2132:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_pos_2_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2132:43
     .a0_i      (nxt_rt_spec_s1_0_0[54]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2071:38, :2128:41
     .a2_i      (nxt_rt_spec_s1_0_0[52]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2071:38, :2129:41
     .a3_i      (nxt_rt_spec_s1_0_0[51]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2071:38, :2130:41
@@ -1785,7 +1785,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_pos_2_0_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_pos_2_0_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2132:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2151:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2151:43
     .a0_i      (nxt_rt_spec_s1_1_4[26]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2142:41, :2147:41
     .a2_i      (nxt_rt_spec_s1_1_4[24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2142:41, :2148:41
     .a3_i      (nxt_rt_spec_s1_1_4[23]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2142:41, :2149:41
@@ -1795,7 +1795,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_2_1_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_2_1_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2151:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2165:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2165:43
     .a0_i      (nxt_rt_spec_s1_1_3[26]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2143:41, :2161:41
     .a2_i      (nxt_rt_spec_s1_1_3[24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2143:41, :2162:41
     .a3_i      (nxt_rt_spec_s1_1_3[23]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2143:41, :2163:41
@@ -1805,7 +1805,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_1_1_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_1_1_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2165:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_0_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2179:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_0_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2179:43
     .a0_i      (nxt_rt_1_0[26]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1351:69, :1352:71, :1353:71, :1354:71, :2175:41
     .a2_i      (nxt_rt_1_0[24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1351:69, :1352:71, :1353:71, :1354:71, :2176:41
     .a3_i      (nxt_rt_1_0[23]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1351:69, :1352:71, :1353:71, :1354:71, :2177:41
@@ -1815,7 +1815,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_0_1_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_0_1_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2179:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_pos_1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2193:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_pos_1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2193:43
     .a0_i      (nxt_rt_spec_s1_1_1[26]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2145:38, :2189:41
     .a2_i      (nxt_rt_spec_s1_1_1[24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2145:38, :2190:41
     .a3_i      (nxt_rt_spec_s1_1_1[23]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2145:38, :2191:41
@@ -1825,7 +1825,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_pos_1_1_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_pos_1_1_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2193:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_pos_2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2207:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_pos_2_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2207:43
     .a0_i      (nxt_rt_spec_s1_1_0[26]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2146:38, :2203:41
     .a2_i      (nxt_rt_spec_s1_1_0[24]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2146:38, :2204:41
     .a3_i      (nxt_rt_spec_s1_1_0[23]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2146:38, :2205:41
@@ -1835,7 +1835,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_pos_2_1_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_pos_2_1_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2207:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2226:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2226:43
     .a0_i      (nxt_rt_spec_s1_2_4[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2217:41, :2222:41
     .a2_i      (nxt_rt_spec_s1_2_4[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2217:41, :2223:41
     .a3_i      (nxt_rt_spec_s1_2_4[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2217:41, :2224:41
@@ -1845,7 +1845,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_2_2_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_2_2_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2226:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_1_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2240:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_1_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2240:43
     .a0_i      (nxt_rt_spec_s1_2_3[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2218:41, :2236:41
     .a2_i      (nxt_rt_spec_s1_2_3[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2218:41, :2237:41
     .a3_i      (nxt_rt_spec_s1_2_3[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2218:41, :2238:41
@@ -1855,7 +1855,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_1_2_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_1_2_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2240:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_0_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2254:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_0_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2254:43
     .a0_i      (nxt_rt_2_0[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1387:69, :1388:71, :1389:71, :1390:71, :2250:41
     .a2_i      (nxt_rt_2_0[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1387:69, :1388:71, :1389:71, :1390:71, :2251:41
     .a3_i      (nxt_rt_2_0[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1387:69, :1388:71, :1389:71, :1390:71, :2252:41
@@ -1865,7 +1865,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_0_2_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_0_2_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2254:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_pos_1_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2268:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_pos_1_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2268:43
     .a0_i      (nxt_rt_spec_s1_2_1[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2220:38, :2264:41
     .a2_i      (nxt_rt_spec_s1_2_1[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2220:38, :2265:41
     .a3_i      (nxt_rt_spec_s1_2_1[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2220:38, :2266:41
@@ -1875,7 +1875,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_pos_1_2_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_pos_1_2_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2268:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_pos_2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2282:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_pos_2_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2282:43
     .a0_i      (nxt_rt_spec_s1_2_0[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2221:38, :2278:41
     .a2_i      (nxt_rt_spec_s1_2_0[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2221:38, :2279:41
     .a3_i      (nxt_rt_spec_s1_2_0[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2221:38, :2280:41
@@ -1885,7 +1885,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_pos_2_2_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_pos_2_2_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2282:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2301:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2301:43
     .a0_i      (nxt_rt_spec_s1_3_4[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2292:41, :2297:41
     .a2_i      (nxt_rt_spec_s1_3_4[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2292:41, :2298:41
     .a3_i      (nxt_rt_spec_s1_3_4[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2292:41, :2299:41
@@ -1895,7 +1895,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_2_3_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_2_3_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2301:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2315:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2315:43
     .a0_i      (nxt_rt_spec_s1_3_3[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2293:41, :2311:41
     .a2_i      (nxt_rt_spec_s1_3_3[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2293:41, :2312:41
     .a3_i      (nxt_rt_spec_s1_3_3[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2293:41, :2313:41
@@ -1905,7 +1905,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_1_3_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_1_3_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2315:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_neg_0_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2329:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_neg_0_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2329:43
     .a0_i      (nxt_rt_3_0[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1399:69, :1400:71, :1401:71, :1402:71, :2325:41
     .a2_i      (nxt_rt_3_0[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1399:69, :1400:71, :1401:71, :1402:71, :2326:41
     .a3_i      (nxt_rt_3_0[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:1399:69, :1400:71, :1401:71, :1402:71, :2327:41
@@ -1915,7 +1915,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_neg_0_3_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_neg_0_3_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2329:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_pos_1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2343:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_pos_1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2343:43
     .a0_i      (nxt_rt_spec_s1_3_1[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2295:38, :2339:41
     .a2_i      (nxt_rt_spec_s1_3_1[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2295:38, :2340:41
     .a3_i      (nxt_rt_spec_s1_3_1[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2295:38, :2341:41
@@ -1925,7 +1925,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_pos_1_3_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_pos_1_3_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2343:43
-  r4_qds_cg u_r4_qds_cg_spec_s1_pos_2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2357:43
+  r4_qds_cg_reference u_r4_qds_cg_spec_s1_pos_2_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2357:43
     .a0_i      (nxt_rt_spec_s1_3_0[14]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2296:38, :2353:41
     .a2_i      (nxt_rt_spec_s1_3_0[12]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2296:38, :2354:41
     .a3_i      (nxt_rt_spec_s1_3_0[11]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2296:38, :2355:41
@@ -1935,7 +1935,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .m_pos_1_o (_u_r4_qds_cg_spec_s1_pos_2_3_m_pos_1_o),
     .m_pos_2_o (_u_r4_qds_cg_spec_s1_pos_2_3_m_pos_2_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2357:43
-  r4_qds_spec u_r4_qds_s1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2369:31
+  r4_qds_spec_reference u_r4_qds_s1_0 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2369:31
     .rem_i                     (nr_f_r_9b_for_nxt_cycle_s1_qds_0_i),
     .sqrt_csa_val_neg_2_msbs_i (sqrt_csa_val_neg_2_0_0[55:47]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:445:74, :741:96
     .sqrt_csa_val_neg_1_msbs_i (sqrt_csa_val_neg_1_0_0[55:47]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:446:74, :742:96
@@ -1964,7 +1964,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .prev_rt_dig_i             (_u_r4_qds_s0_0_rt_dig_o),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:369:29
     .rt_dig_o                  (_u_r4_qds_s1_0_rt_dig_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2369:31
-  r4_qds_spec u_r4_qds_s1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2398:31
+  r4_qds_spec_reference u_r4_qds_s1_1 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2398:31
     .rem_i                     (nr_f_r_9b_for_nxt_cycle_s1_qds_1_i),
     .sqrt_csa_val_neg_2_msbs_i (sqrt_csa_val_neg_2_1_0[27:19]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:541:74, :746:96
     .sqrt_csa_val_neg_1_msbs_i (sqrt_csa_val_neg_1_1_0[27:19]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:542:74, :747:96
@@ -1993,7 +1993,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .prev_rt_dig_i             (_u_r4_qds_s0_1_rt_dig_o),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:381:29
     .rt_dig_o                  (_u_r4_qds_s1_1_rt_dig_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2398:31
-  r4_qds_spec u_r4_qds_s1_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2427:31
+  r4_qds_spec_reference u_r4_qds_s1_2 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2427:31
     .rem_i                     (nr_f_r_9b_for_nxt_cycle_s1_qds_2_i),
     .sqrt_csa_val_neg_2_msbs_i (sqrt_csa_val_neg_2_2_0[15:7]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:625:63, :751:96
     .sqrt_csa_val_neg_1_msbs_i (sqrt_csa_val_neg_1_2_0[15:7]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:626:63, :752:96
@@ -2022,7 +2022,7 @@ module fpsqrt_r16_block_reference(	// home/davide/gitdir/bianco_ci/bianco/XiangS
     .prev_rt_dig_i             (_u_r4_qds_s0_2_rt_dig_o),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:393:29
     .rt_dig_o                  (_u_r4_qds_s1_2_rt_dig_o)
   );	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2427:31
-  r4_qds_spec u_r4_qds_s1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2456:31
+  r4_qds_spec_reference u_r4_qds_s1_3 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:2456:31
     .rem_i                     (nr_f_r_9b_for_nxt_cycle_s1_qds_3_i),
     .sqrt_csa_val_neg_2_msbs_i (sqrt_csa_val_neg_2_3_0[15:7]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:683:63, :756:96
     .sqrt_csa_val_neg_1_msbs_i (sqrt_csa_val_neg_1_3_0[15:7]),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/vfsqrt/fpsqrt_r16_block.scala:684:63, :757:96

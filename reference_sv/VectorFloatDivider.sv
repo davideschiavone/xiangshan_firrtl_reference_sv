@@ -24,7 +24,7 @@ module VectorFloatDivider_reference(	// home/davide/gitdir/bianco_ci/bianco/Xian
   wire        _u_vector_float_sqrt_r16_finish_valid_o;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:33:39
   wire [63:0] _u_vector_float_sqrt_r16_fpsqrt_res_o;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:33:39
   wire [19:0] _u_vector_float_sqrt_r16_fflags_o;	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:33:39
-  fpsqrt_vector_r16 u_vector_float_sqrt_r16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:33:39
+  fpsqrt_vector_r16_reference u_vector_float_sqrt_r16 (	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:33:39
     .clock          (clock),
     .reset          (reset),
     .start_valid_i  (io_is_sqrt_i & io_start_valid_i),	// home/davide/gitdir/bianco_ci/bianco/XiangShan/yunsuan/src/main/scala/yunsuan/vector/VectorFloatDivider.scala:34:54
