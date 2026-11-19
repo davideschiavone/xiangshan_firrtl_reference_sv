@@ -30,3 +30,4 @@ import "DPI-C" function void v_difftest_CriticalErrorEvent (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

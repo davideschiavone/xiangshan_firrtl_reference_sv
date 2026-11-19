@@ -96,3 +96,4 @@ import "DPI-C" function void v_difftest_InstrCommit (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

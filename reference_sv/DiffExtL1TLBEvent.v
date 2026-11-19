@@ -42,3 +42,4 @@ import "DPI-C" function void v_difftest_L1TLBEvent (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

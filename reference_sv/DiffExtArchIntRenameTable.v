@@ -91,3 +91,4 @@ import "DPI-C" function void v_difftest_ArchIntRenameTable (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

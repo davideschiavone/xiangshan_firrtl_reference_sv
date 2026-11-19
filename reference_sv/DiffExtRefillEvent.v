@@ -50,3 +50,4 @@ import "DPI-C" function void v_difftest_RefillEvent (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

@@ -8,6 +8,7 @@ module DiffExtArchEvent(
   input         clock,
   input         enable,
   input         io_valid,
+  input         io_isLatter,
   input  [31:0] io_interrupt,
   input  [31:0] io_exception,
   input  [63:0] io_exceptionPC,
@@ -24,6 +25,7 @@ module DiffExtArchEvent(
 `ifndef CONFIG_DIFFTEST_FPGA
 
 import "DPI-C" function void v_difftest_ArchEvent (
+  input       bit io_isLatter,
   input       int io_interrupt,
   input       int io_exception,
   input   longint io_exceptionPC,
@@ -38,9 +40,10 @@ import "DPI-C" function void v_difftest_ArchEvent (
 
   always @(posedge clock) begin
     if (enable)
-      v_difftest_ArchEvent (io_interrupt, io_exception, io_exceptionPC, io_exceptionInst, io_hasNMI, io_virtualInterruptIsHvictlInject, io_irToHS, io_irToVS, io_coreid);
+      v_difftest_ArchEvent (io_isLatter, io_interrupt, io_exception, io_exceptionPC, io_exceptionInst, io_hasNMI, io_virtualInterruptIsHvictlInject, io_irToHS, io_irToVS, io_coreid);
   end
 `endif // CONFIG_DIFFTEST_FPGA
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

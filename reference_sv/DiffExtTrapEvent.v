@@ -39,3 +39,4 @@ import "DPI-C" function void v_difftest_TrapEvent (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

@@ -46,3 +46,4 @@ import "DPI-C" function void v_difftest_AtomicEvent (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+
