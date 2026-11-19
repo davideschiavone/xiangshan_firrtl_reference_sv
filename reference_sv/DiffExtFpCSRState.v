@@ -29,3 +29,4 @@ import "DPI-C" function void v_difftest_FpCSRState (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

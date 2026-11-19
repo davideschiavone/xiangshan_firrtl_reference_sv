@@ -162,3 +162,4 @@ import "DPI-C" function void v_difftest_SbufferEvent (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

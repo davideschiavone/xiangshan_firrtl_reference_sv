@@ -48,3 +48,4 @@ import "DPI-C" function void v_difftest_NonRegInterruptPendingEvent (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

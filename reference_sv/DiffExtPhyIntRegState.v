@@ -155,3 +155,4 @@ import "DPI-C" function void v_difftest_PhyIntRegState (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

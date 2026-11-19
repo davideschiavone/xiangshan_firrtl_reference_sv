@@ -30,3 +30,4 @@ import "DPI-C" function void v_difftest_MhpmeventOverflowEvent (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

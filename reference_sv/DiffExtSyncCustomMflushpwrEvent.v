@@ -30,3 +30,4 @@ import "DPI-C" function void v_difftest_SyncCustomMflushpwrEvent (
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+

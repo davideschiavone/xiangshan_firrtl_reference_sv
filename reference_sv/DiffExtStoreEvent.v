@@ -16,6 +16,8 @@ module DiffExtStoreEvent(
   input         io_vecNeedSplit,
   input  [ 7:0] io_eew,
   input  [15:0] io_offset,
+  input  [ 7:0] io_storeOffset,
+  input         io_preCommit,
   input  [63:0] io_pc,
   input  [ 9:0] io_robidx,
   input  [ 7:0] io_coreid,
@@ -35,6 +37,8 @@ import "DPI-C" function void v_difftest_StoreEvent (
   input       bit io_vecNeedSplit,
   input      byte io_eew,
   input  shortint io_offset,
+  input      byte io_storeOffset,
+  input       bit io_preCommit,
   input   longint io_pc,
   input  shortint io_robidx,
   input      byte io_coreid,
@@ -44,9 +48,10 @@ import "DPI-C" function void v_difftest_StoreEvent (
 
   always @(posedge clock) begin
     if (enable)
-      v_difftest_StoreEvent (io_addr, io_data, io_highData, io_mask, io_wLine, io_vecNeedSplit, io_eew, io_offset, io_pc, io_robidx, io_coreid, io_index);
+      v_difftest_StoreEvent (io_addr, io_data, io_highData, io_mask, io_wLine, io_vecNeedSplit, io_eew, io_offset, io_storeOffset, io_preCommit, io_pc, io_robidx, io_coreid, io_index);
   end
 `endif // CONFIG_DIFFTEST_FPGA
 `endif // DIFFTEST
 `endif // SYNTHESIS
 endmodule
+
